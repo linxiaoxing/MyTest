@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B01D2E2E6C2E0CA12FB90B66 /* Pods_TodayNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BCE3F3DE37AFA851701F24B /* Pods_TodayNews.framework */; };
 		D1EC0AE1228CD5D800A3C47E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0AE0228CD5D800A3C47E /* AppDelegate.swift */; };
 		D1EC0AE3228CD5D800A3C47E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0AE2228CD5D800A3C47E /* ViewController.swift */; };
 		D1EC0AE6228CD5D800A3C47E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1EC0AE4228CD5D800A3C47E /* Main.storyboard */; };
@@ -14,6 +15,13 @@
 		D1EC0AEB228CD5DC00A3C47E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1EC0AE9228CD5DC00A3C47E /* LaunchScreen.storyboard */; };
 		D1EC0AF6228CD5DD00A3C47E /* TodayNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0AF5228CD5DD00A3C47E /* TodayNewsTests.swift */; };
 		D1EC0B01228CD5DD00A3C47E /* TodayNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0B00228CD5DD00A3C47E /* TodayNewsUITests.swift */; };
+		D1EC0B0F228CD6BD00A3C47E /* YMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0B0E228CD6BD00A3C47E /* YMTabBarController.swift */; };
+		D1EC0B11228CD6FA00A3C47E /* YMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0B10228CD6FA00A3C47E /* YMBaseViewController.swift */; };
+		D1EC0B13228CD72600A3C47E /* YMHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0B12228CD72600A3C47E /* YMHomeViewController.swift */; };
+		D1EC0B15228CD74500A3C47E /* YMMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0B14228CD74500A3C47E /* YMMineViewController.swift */; };
+		D1EC0B17228CD77200A3C47E /* YMNewCareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0B16228CD77200A3C47E /* YMNewCareViewController.swift */; };
+		D1EC0B19228CD7C100A3C47E /* YMVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0B18228CD7C100A3C47E /* YMVideoViewController.swift */; };
+		D1EC0B1B228CDAEA00A3C47E /* YMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0B1A228CDAEA00A3C47E /* YMNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8BCE3F3DE37AFA851701F24B /* Pods_TodayNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodayNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E5AD36BC72EF5B129B8600 /* Pods-TodayNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNews.debug.xcconfig"; path = "Target Support Files/Pods-TodayNews/Pods-TodayNews.debug.xcconfig"; sourceTree = "<group>"; };
 		D1EC0ADD228CD5D800A3C47E /* TodayNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1EC0AE0228CD5D800A3C47E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1EC0AE2228CD5D800A3C47E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,14 @@
 		D1EC0AFC228CD5DD00A3C47E /* TodayNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodayNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1EC0B00228CD5DD00A3C47E /* TodayNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayNewsUITests.swift; sourceTree = "<group>"; };
 		D1EC0B02228CD5DD00A3C47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1EC0B0E228CD6BD00A3C47E /* YMTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMTabBarController.swift; sourceTree = "<group>"; };
+		D1EC0B10228CD6FA00A3C47E /* YMBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBaseViewController.swift; sourceTree = "<group>"; };
+		D1EC0B12228CD72600A3C47E /* YMHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMHomeViewController.swift; sourceTree = "<group>"; };
+		D1EC0B14228CD74500A3C47E /* YMMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMMineViewController.swift; sourceTree = "<group>"; };
+		D1EC0B16228CD77200A3C47E /* YMNewCareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMNewCareViewController.swift; sourceTree = "<group>"; };
+		D1EC0B18228CD7C100A3C47E /* YMVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMVideoViewController.swift; sourceTree = "<group>"; };
+		D1EC0B1A228CDAEA00A3C47E /* YMNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMNavigationController.swift; sourceTree = "<group>"; };
+		FF2100FC8B7AE4199733F376 /* Pods-TodayNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNews.release.xcconfig"; path = "Target Support Files/Pods-TodayNews/Pods-TodayNews.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B01D2E2E6C2E0CA12FB90B66 /* Pods_TodayNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +93,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		742493954B96B0E92CA2D295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BCE3F3DE37AFA851701F24B /* Pods_TodayNews.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA85540BBF0FB5957D005E11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7E5AD36BC72EF5B129B8600 /* Pods-TodayNews.debug.xcconfig */,
+				FF2100FC8B7AE4199733F376 /* Pods-TodayNews.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D1EC0AD4228CD5D800A3C47E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +118,8 @@
 				D1EC0AF4228CD5DD00A3C47E /* TodayNewsTests */,
 				D1EC0AFF228CD5DD00A3C47E /* TodayNewsUITests */,
 				D1EC0ADE228CD5D800A3C47E /* Products */,
+				BA85540BBF0FB5957D005E11 /* Pods */,
+				742493954B96B0E92CA2D295 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +139,13 @@
 				D1EC0AE0228CD5D800A3C47E /* AppDelegate.swift */,
 				D1EC0AE2228CD5D800A3C47E /* ViewController.swift */,
 				D1EC0AE4228CD5D800A3C47E /* Main.storyboard */,
+				D1EC0B0E228CD6BD00A3C47E /* YMTabBarController.swift */,
+				D1EC0B1A228CDAEA00A3C47E /* YMNavigationController.swift */,
+				D1EC0B10228CD6FA00A3C47E /* YMBaseViewController.swift */,
+				D1EC0B12228CD72600A3C47E /* YMHomeViewController.swift */,
+				D1EC0B14228CD74500A3C47E /* YMMineViewController.swift */,
+				D1EC0B16228CD77200A3C47E /* YMNewCareViewController.swift */,
+				D1EC0B18228CD7C100A3C47E /* YMVideoViewController.swift */,
 				D1EC0AE7228CD5DC00A3C47E /* Assets.xcassets */,
 				D1EC0AE9228CD5DC00A3C47E /* LaunchScreen.storyboard */,
 				D1EC0AEC228CD5DC00A3C47E /* Info.plist */,
@@ -132,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1EC0B05228CD5DD00A3C47E /* Build configuration list for PBXNativeTarget "TodayNews" */;
 			buildPhases = (
+				62B7723ABFE88487DADF69BF /* [CP] Check Pods Manifest.lock */,
 				D1EC0AD9228CD5D800A3C47E /* Sources */,
 				D1EC0ADA228CD5D800A3C47E /* Frameworks */,
 				D1EC0ADB228CD5D800A3C47E /* Resources */,
+				4FE4B1D73BC43E1BD0B27D77 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,12 +299,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4FE4B1D73BC43E1BD0B27D77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodayNews/Pods-TodayNews-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TodayNews/Pods-TodayNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62B7723ABFE88487DADF69BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodayNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D1EC0AD9228CD5D800A3C47E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1EC0B17228CD77200A3C47E /* YMNewCareViewController.swift in Sources */,
+				D1EC0B13228CD72600A3C47E /* YMHomeViewController.swift in Sources */,
+				D1EC0B19228CD7C100A3C47E /* YMVideoViewController.swift in Sources */,
 				D1EC0AE3228CD5D800A3C47E /* ViewController.swift in Sources */,
+				D1EC0B11228CD6FA00A3C47E /* YMBaseViewController.swift in Sources */,
+				D1EC0B15228CD74500A3C47E /* YMMineViewController.swift in Sources */,
+				D1EC0B0F228CD6BD00A3C47E /* YMTabBarController.swift in Sources */,
+				D1EC0B1B228CDAEA00A3C47E /* YMNavigationController.swift in Sources */,
 				D1EC0AE1228CD5D800A3C47E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +542,7 @@
 		};
 		D1EC0B06228CD5DD00A3C47E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7E5AD36BC72EF5B129B8600 /* Pods-TodayNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +561,7 @@
 		};
 		D1EC0B07228CD5DD00A3C47E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2100FC8B7AE4199733F376 /* Pods-TodayNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
