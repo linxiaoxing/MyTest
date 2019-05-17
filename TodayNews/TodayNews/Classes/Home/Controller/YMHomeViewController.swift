@@ -13,7 +13,12 @@ class YMHomeViewController: YMBaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
+        setupUI()
+    }
+    
+    private func setupUI() {
+        view.backgroundColor = YMGlobalColor()
+        navigationController?.navigationBar.barTintColor = YMColor(210, g: 63, b: 66, a: 1.0)
     }
     
     override func didReceiveMemoryWarning() {
