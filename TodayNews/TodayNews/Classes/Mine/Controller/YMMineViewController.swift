@@ -81,6 +81,9 @@ extension YMMineViewController: YMMineHeaderViewDelegae, YMMineHeaderBottomViewD
     
     func headerBottomView(_ bottomView: YMMineHeaderBottomView, collectionButton: YMVerticalButton) {
         print(#function)
+        let collectionVC = YMCollectionViewController()
+        collectionVC.title = "收藏"
+        navigationController?.pushViewController(collectionVC, animated: true)
     }
     
     func headerBottomView(_ bottomView: YMMineHeaderBottomView, nightButton: YMVerticalButton) {
@@ -88,7 +91,9 @@ extension YMMineViewController: YMMineHeaderViewDelegae, YMMineHeaderBottomViewD
     }
     
     func headerBottomView(_ bottomView: YMMineHeaderBottomView, settingButton: YMVerticalButton) {
-        print(#function)
+        let settingVC = YMSettingViewController()
+        settingVC.title = "设置"
+        navigationController?.pushViewController(settingVC, animated: true)
     }
     
     // MARK: - UITableViewDataSource

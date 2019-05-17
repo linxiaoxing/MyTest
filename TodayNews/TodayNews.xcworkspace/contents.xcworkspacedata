@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/hayashishoukyou/Desktop/MyTest/TodayNews/TodayNews/Classes/Mine/Model/YMSettingModel.swift">
+   </FileRef>
+   <FileRef
       location = "group:TodayNews.xcodeproj">
    </FileRef>
    <FileRef
