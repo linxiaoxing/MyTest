@@ -49,6 +49,8 @@ class YMMineViewController: UITableViewController {
     private lazy var noLoginHeaderView: YMMineNoLoginHeaderView = {
         let noLoginHeaderView = YMMineNoLoginHeaderView.noLoginHeaderView()
         noLoginHeaderView.frame = CGRect(x: 0, y: 20, width: SCREENW, height: 278)
+        noLoginHeaderView.bottomView.delegate = self
+        noLoginHeaderView.delegate = self
         return noLoginHeaderView
     }()
     /// 懒加载，创建 headerView
@@ -85,7 +87,27 @@ extension YMMineViewController {
     }
 }
 
-extension YMMineViewController: YMMineHeaderViewDelegae, YMMineHeaderBottomViewDelegate {
+extension YMMineViewController: YMMineHeaderViewDelegae, YMMineHeaderBottomViewDelegate, YMMineNoLoginHeaderViewDelegate {
+    func noLoginHeaderView(_ headerView: YMMineNoLoginHeaderView, mobileLoginButtonClick: UIButton) {
+        print(#function)
+    }
+    
+    func noLoginHeaderView(_ headerView: YMMineNoLoginHeaderView, wechatLoginButtonClick: UIButton) {
+        print(#function)
+    }
+    
+    func noLoginHeaderView(_ headerView: YMMineNoLoginHeaderView, qqLoginButtonClick: UIButton) {
+        print(#function)
+    }
+    
+    func noLoginHeaderView(_ headerView: YMMineNoLoginHeaderView, weiboLoginButtonClick: UIButton) {
+        print(#function)
+    }
+    
+    func noLoginHeaderView(_ headerView: YMMineNoLoginHeaderView, moreLoginButtonClick: UIButton) {
+        print(#function)
+    }
+    
     
     func headerView(_ headerView: YMMineHeaderView, headPhotoBbutton: YMMineHeaderIconButton) {
         print(#function)
