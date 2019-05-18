@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B01D2E2E6C2E0CA12FB90B66 /* Pods_TodayNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BCE3F3DE37AFA851701F24B /* Pods_TodayNews.framework */; };
+		D1DF3F5F22901F65002074C2 /* YMAccountManageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F5E22901F65002074C2 /* YMAccountManageController.swift */; };
+		D1DF3F61229024F8002074C2 /* YMMineNoLoginHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1DF3F60229024F8002074C2 /* YMMineNoLoginHeaderView.xib */; };
+		D1DF3F63229025B1002074C2 /* YMMineNoLoginHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F62229025B1002074C2 /* YMMineNoLoginHeaderView.swift */; };
+		D1DF3F65229025F6002074C2 /* YMAutoPlayVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F64229025F6002074C2 /* YMAutoPlayVideoController.swift */; };
+		D1DF3F672290277C002074C2 /* YMHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F662290277C002074C2 /* YMHelpViewController.swift */; };
+		D1DF3F69229028D8002074C2 /* YMHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1DF3F68229028D8002074C2 /* YMHelpViewController.xib */; };
 		D1EC0AE1228CD5D800A3C47E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0AE0228CD5D800A3C47E /* AppDelegate.swift */; };
 		D1EC0AE6228CD5D800A3C47E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1EC0AE4228CD5D800A3C47E /* Main.storyboard */; };
 		D1EC0AE8228CD5DC00A3C47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1EC0AE7228CD5DC00A3C47E /* Assets.xcassets */; };
@@ -59,6 +65,12 @@
 /* Begin PBXFileReference section */
 		8BCE3F3DE37AFA851701F24B /* Pods_TodayNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodayNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7E5AD36BC72EF5B129B8600 /* Pods-TodayNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNews.debug.xcconfig"; path = "Target Support Files/Pods-TodayNews/Pods-TodayNews.debug.xcconfig"; sourceTree = "<group>"; };
+		D1DF3F5E22901F65002074C2 /* YMAccountManageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMAccountManageController.swift; sourceTree = "<group>"; };
+		D1DF3F60229024F8002074C2 /* YMMineNoLoginHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMMineNoLoginHeaderView.xib; sourceTree = "<group>"; };
+		D1DF3F62229025B1002074C2 /* YMMineNoLoginHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMMineNoLoginHeaderView.swift; sourceTree = "<group>"; };
+		D1DF3F64229025F6002074C2 /* YMAutoPlayVideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMAutoPlayVideoController.swift; sourceTree = "<group>"; };
+		D1DF3F662290277C002074C2 /* YMHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMHelpViewController.swift; sourceTree = "<group>"; };
+		D1DF3F68229028D8002074C2 /* YMHelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMHelpViewController.xib; sourceTree = "<group>"; };
 		D1EC0ADD228CD5D800A3C47E /* TodayNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1EC0AE0228CD5D800A3C47E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1EC0AE5228CD5D800A3C47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -281,6 +293,10 @@
 			isa = PBXGroup;
 			children = (
 				D1EC0B14228CD74500A3C47E /* YMMineViewController.swift */,
+				D1DF3F5E22901F65002074C2 /* YMAccountManageController.swift */,
+				D1DF3F64229025F6002074C2 /* YMAutoPlayVideoController.swift */,
+				D1DF3F662290277C002074C2 /* YMHelpViewController.swift */,
+				D1DF3F68229028D8002074C2 /* YMHelpViewController.xib */,
 				D1EC0B48228F767B00A3C47E /* YMSettingViewController.swift */,
 				D1EC0B4A228F7D2800A3C47E /* YMCollectionViewController.swift */,
 			);
@@ -299,9 +315,11 @@
 		D1EC0B27228E141800A3C47E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D1DF3F60229024F8002074C2 /* YMMineNoLoginHeaderView.xib */,
 				D1EC0B34228E2B2500A3C47E /* YMMineCell.xib */,
 				D1EC0B36228E2C0600A3C47E /* YMMineCell.swift */,
 				D1EC0B3A228E2F3C00A3C47E /* YMMineHeaderView.swift */,
+				D1DF3F62229025B1002074C2 /* YMMineNoLoginHeaderView.swift */,
 				D1EC0B44228F73EF00A3C47E /* YMSettingCell.swift */,
 				D1EC0B42228F73BC00A3C47E /* YMSettingCell.xib */,
 				D1EC0B40228F5FD400A3C47E /* YMMineHeaderIconButton.swift */,
@@ -454,8 +472,10 @@
 				D1EC0B43228F73BC00A3C47E /* YMSettingCell.xib in Resources */,
 				D1EC0B35228E2B2500A3C47E /* YMMineCell.xib in Resources */,
 				D1EC0B31228E1BBC00A3C47E /* YMMineCellPlist.plist in Resources */,
+				D1DF3F61229024F8002074C2 /* YMMineNoLoginHeaderView.xib in Resources */,
 				D1EC0AE6228CD5D800A3C47E /* Main.storyboard in Resources */,
 				D1EC0B4D228F7DE500A3C47E /* YMSettingPlist.plist in Resources */,
+				D1DF3F69229028D8002074C2 /* YMHelpViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +562,7 @@
 				D1EC0B39228E2C5800A3C47E /* YMMineCellModel.swift in Sources */,
 				D1EC0B17228CD77200A3C47E /* YMNewCareViewController.swift in Sources */,
 				D1EC0B49228F767B00A3C47E /* YMSettingViewController.swift in Sources */,
+				D1DF3F672290277C002074C2 /* YMHelpViewController.swift in Sources */,
 				D1EC0B45228F73F000A3C47E /* YMSettingCell.swift in Sources */,
 				D1EC0B2D228E161700A3C47E /* YMConst.swift in Sources */,
 				D1EC0B13228CD72600A3C47E /* YMHomeViewController.swift in Sources */,
@@ -550,7 +571,10 @@
 				D1EC0B3F228E2FAE00A3C47E /* YMVerticalButton.swift in Sources */,
 				D1EC0B19228CD7C100A3C47E /* YMVideoViewController.swift in Sources */,
 				D1EC0B11228CD6FA00A3C47E /* YMBaseViewController.swift in Sources */,
+				D1DF3F5F22901F65002074C2 /* YMAccountManageController.swift in Sources */,
 				D1EC0B15228CD74500A3C47E /* YMMineViewController.swift in Sources */,
+				D1DF3F63229025B1002074C2 /* YMMineNoLoginHeaderView.swift in Sources */,
+				D1DF3F65229025F6002074C2 /* YMAutoPlayVideoController.swift in Sources */,
 				D1EC0B0F228CD6BD00A3C47E /* YMTabBarController.swift in Sources */,
 				D1EC0B47228F754600A3C47E /* YMSettingModel.swift in Sources */,
 				D1EC0B1B228CDAEA00A3C47E /* YMNavigationController.swift in Sources */,
