@@ -31,14 +31,26 @@ class YMMineViewController: UITableViewController {
         view.backgroundColor = YMGlobalColor()
         let nib = UINib(nibName: "YMMineCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: mineCellID)
-        tableView.tableHeaderView = headerView
+        //tableView.tableHeaderView = headerView
         let footerView = UIView()
         footerView.height = kMargin
         tableView.tableFooterView = footerView
         tableView.rowHeight = kMineCellH
         tableView.separatorStyle = .none
+        
+        if UserDefaults.standard.bool(forKey: isLogin) {
+            tableView.tableHeaderView = headerView
+        } else {
+            tableView.tableHeaderView = noLoginHeaderView
+        }
     }
     
+    /// 懒加载，创建 未登录 headerView
+    private lazy var noLoginHeaderView: YMMineNoLoginHeaderView = {
+        let noLoginHeaderView = YMMineNoLoginHeaderView.noLoginHeaderView()
+        noLoginHeaderView.frame = CGRect(x: 0, y: 20, width: SCREENW, height: 278)
+        return noLoginHeaderView
+    }()
     /// 懒加载，创建 headerView
     private lazy var headerView: YMMineHeaderView = {
         let headerView = YMMineHeaderView.headerView()
