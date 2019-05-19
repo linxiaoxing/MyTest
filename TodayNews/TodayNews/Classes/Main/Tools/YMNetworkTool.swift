@@ -84,4 +84,28 @@ class YMNetworkTool: NSObject {
             }
         })
     }
+    
+     /// 关心界面 -> 搜索关心类别和内容
+    func loadSearchResult(keyword: String, finished: @escaping(_ keywords: [YMKeyword]) -> ()) {
+        let url = BASE_URL + "2/article/search_sug/?keyword=\(keyword)"
+        Alamofire
+            .request(url, method: .get)
+            .responseJSON { (response) in
+                guard response.result.isSuccess else {
+                    SVProgressHUD.showError(withStatus: "加载失败...")
+                    return
+                }
+                if let value = response.result.value {
+                    let json = JSON(value)
+                    if let datas = json["data"].arrayObject {
+                        var keywords = [YMKeyword]()
+                        for data in datas {
+                            let keyword = YMKeyword(dict: data  as! [String: AnyObject])
+                            keywords.append(keyword)
+                        }
+                        finished(keywords)
+                    }
+                }
+        }
+    }
 }

@@ -73,7 +73,7 @@ extension YMNewCareViewController {
     }
     
     @objc func searchBBItemClick() {
-        let searchVC = YMNewCareSearchController()
+        let searchVC = YMNewCareSearchViewController()
         navigationController?.pushViewController(searchVC, animated: true)
     }
 }
