@@ -40,6 +40,7 @@
 		D1DF3F9C22910369002074C2 /* YMSearchContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F9B22910369002074C2 /* YMSearchContentViewController.swift */; };
 		D1DF3F9E22911CF1002074C2 /* YMNewCareSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1DF3F9D22911CF0002074C2 /* YMNewCareSearchViewController.xib */; };
 		D1DF3FA022911D01002074C2 /* YMNewCareSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F9F22911D01002074C2 /* YMNewCareSearchViewController.swift */; };
+		D1DF3FA222915337002074C2 /* YMConcernDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3FA122915337002074C2 /* YMConcernDetailController.swift */; };
 		D1EC0AE1228CD5D800A3C47E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0AE0228CD5D800A3C47E /* AppDelegate.swift */; };
 		D1EC0AE6228CD5D800A3C47E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1EC0AE4228CD5D800A3C47E /* Main.storyboard */; };
 		D1EC0AE8228CD5DC00A3C47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1EC0AE7228CD5DC00A3C47E /* Assets.xcassets */; };
@@ -122,6 +123,7 @@
 		D1DF3F9B22910369002074C2 /* YMSearchContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMSearchContentViewController.swift; sourceTree = "<group>"; };
 		D1DF3F9D22911CF0002074C2 /* YMNewCareSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMNewCareSearchViewController.xib; sourceTree = "<group>"; };
 		D1DF3F9F22911D01002074C2 /* YMNewCareSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMNewCareSearchViewController.swift; sourceTree = "<group>"; };
+		D1DF3FA122915337002074C2 /* YMConcernDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMConcernDetailController.swift; sourceTree = "<group>"; };
 		D1EC0ADD228CD5D800A3C47E /* TodayNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1EC0AE0228CD5D800A3C47E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1EC0AE5228CD5D800A3C47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -434,6 +436,7 @@
 			children = (
 				D1EC0B16228CD77200A3C47E /* YMNewCareViewController.swift */,
 				D1DF3F932290F944002074C2 /* YMNewCareSearchController.xib */,
+				D1DF3FA122915337002074C2 /* YMConcernDetailController.swift */,
 				D1DF3F9B22910369002074C2 /* YMSearchContentViewController.swift */,
 				D1DF3F9D22911CF0002074C2 /* YMNewCareSearchViewController.xib */,
 				D1DF3F802290C26E002074C2 /* YMNewCareSearchController.swift */,
@@ -698,6 +701,7 @@
 				D1EC0B37228E2C0600A3C47E /* YMMineCell.swift in Sources */,
 				D1DF3F9C22910369002074C2 /* YMSearchContentViewController.swift in Sources */,
 				D1DF3F7D2290C07D002074C2 /* YMNewCareTopCell.swift in Sources */,
+				D1DF3FA222915337002074C2 /* YMConcernDetailController.swift in Sources */,
 				D1EC0B4B228F7D2800A3C47E /* YMCollectionViewController.swift in Sources */,
 				D1DF3F962291008E002074C2 /* YMKeyword.swift in Sources */,
 				D1EC0B2F228E193800A3C47E /* UIView+Extension.swift in Sources */,

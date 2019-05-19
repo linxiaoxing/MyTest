@@ -105,3 +105,8 @@ let isIPhone5 = SCREENH == 568 ? true : false
 let isIPhone6 = SCREENH == 667 ? true : false
 /// iPhone 6P
 let isIPhone6P = SCREENH == 736 ? true : false
+
+/// iid 未登录用户 id，我觉得只要安装了今日头条就会生成一个 iid
+/// 可以在自己的手机上安装一个今日头条，然后通过 charles 抓取一下这个 iid，
+/// 替换成自己的，再进行测试
+let IID = 5034850950

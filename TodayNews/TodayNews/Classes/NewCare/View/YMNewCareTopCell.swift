@@ -7,8 +7,17 @@
 //
 
 import UIKit
+import Kingfisher
 
 class YMNewCareTopCell: UITableViewCell {
+    
+    var concern: YMConcern? {
+        didSet {
+            let url = concern!.avatar_url!
+            titleImageView.kf.setImage(with: ImageResource(downloadURL:URL(string: url)!))
+            titleLabel.text = concern!.name
+        }
+    }
     
     @IBOutlet weak var titleImageView: UIImageView!
     
