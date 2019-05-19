@@ -138,7 +138,7 @@ class YMNetworkTool: NSObject {
     
     /// 首页
     /// 获取首页顶部标题内容
-    func loadHomeTitlesData(finished:@escaping(_ topTitles: [YMVideoTopTitle])->()) {
+    func loadHomeTitlesData(finished:@escaping(_ topTitles: [YMTopic])->()) {
         let url = BASE_URL + "article/category/get_subscribed/v1/?iid=\(IID)"
         Alamofire
             .request(url, method: .get)
@@ -151,9 +151,9 @@ class YMNetworkTool: NSObject {
                     let json = JSON(value)
                     let dataDict = json["data"].dictionary
                     if let data = dataDict!["data"]!.arrayObject {
-                        var titles = [YMVideoTopTitle]()
+                        var titles = [YMTopic]()
                         for dict in data {
-                            let title = YMVideoTopTitle(dict: dict as! [String: AnyObject])
+                            let title = YMTopic(dict: dict as! [String: AnyObject])
                             titles.append(title)
                             print(title.name)
                         }
@@ -166,7 +166,7 @@ class YMNetworkTool: NSObject {
     /// 视频
     /// 获取视频顶部标题内容
     func loadVideoTitlesData(finished: @escaping([YMVideoTopTitle]) -> ()) {
-         let url = BASE_URL + "video_api/get_category/v1/"
+         let url = BASE_URL + "video_api/get_category/v1/?iid=\(IID)&aid=13"
         Alamofire
             .request(url, method: .get)
             .responseJSON { (response) in
@@ -180,8 +180,33 @@ class YMNetworkTool: NSObject {
                         var titles = [YMVideoTopTitle]()
                         for dict in data {
                             let title = YMVideoTopTitle(dict: dict as! [String: AnyObject])
+                            titles.append(title)
                         }
-                        finished(topTitles: titles)
+                        finished(titles)
+                    }
+                 }
+        }
+    }
+    
+    /// 首页 -> 添加标题，获取推荐标题内容
+    func loadRecommendTopic(finished:@escaping(_ recommendTopics: [YMTopic]) -> ()) {
+        let url = "https://lf.snssdk.com/article/category/get_extra/v1/?iid=\(IID)&aid=13"
+        Alamofire
+            .request(url, method: .get)
+            .responseJSON { (response) in
+                guard response.result.isSuccess else {
+                    SVProgressHUD.showError(withStatus: "加载失败...")
+                    return
+                }
+                if let value = response.result.value {
+                    let json = JSON(value)
+                    if let data = json["data"].arrayObject {
+                        var topics = [YMTopic]()
+                        for dict in data {
+                            let title = YMTopic(dict: dict as! [String: AnyObject])
+                            topics.append(title)
+                        }
+                        finished(topics)
                     }
                 }
         }

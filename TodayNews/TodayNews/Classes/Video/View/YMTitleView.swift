@@ -17,6 +17,9 @@ protocol YMTitleViewDelegate: NSObjectProtocol {
 
 class YMTitleView: UIView {
     
+    /// 顶部标题数组
+    var titles = [YMVideoTopTitle]()
+    
     weak var delegate: YMTitleViewDelegate?
     
     class func titleView() -> YMTitleView {
@@ -27,6 +30,11 @@ class YMTitleView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupUI()
+        YMNetworkTool.shareNetworkTool.loadVideoTitlesData { (topTitles) in
+            self.setupUI()
+            self.titles = topTitles
+            self.titleCollectionView.reloadData()
+        }
     }
     
     private func setupUI() {
@@ -78,13 +86,14 @@ class YMTitleView: UIView {
 extension YMTitleView: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: videoCollectionViewCellID, for: indexPath) as! YMVideoCollectionViewCell
-        cell.titleLabel.text = "推荐"
+        let topTitle = titles[indexPath.item]
+        cell.titleLabel.text = topTitle.name
         return cell
     }
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return titles.count
     }
     
     private func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {

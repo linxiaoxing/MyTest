@@ -49,7 +49,7 @@ enum YMOtherLoginButtonType: Int {
 }
 
 /// 服务器地址
-let BASE_URL = ""
+let BASE_URL = "https://www.toutiao.com/"
 
 /// 第一次启动
 let YMFirstLaunch = "firstLaunch"
