@@ -29,6 +29,11 @@
 		D1DF3F852290C64D002074C2 /* YMNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F842290C64D002074C2 /* YMNetworkTool.swift */; };
 		D1DF3F872290DB30002074C2 /* YMVideoSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F862290DB30002074C2 /* YMVideoSearchController.swift */; };
 		D1DF3F8A2290E411002074C2 /* YMTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F892290E411002074C2 /* YMTitleView.swift */; };
+		D1DF3F8D2290F537002074C2 /* YMNewCareContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1DF3F8B2290F537002074C2 /* YMNewCareContentCell.xib */; };
+		D1DF3F8E2290F537002074C2 /* YMNewCareCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1DF3F8C2290F537002074C2 /* YMNewCareCategoryCell.xib */; };
+		D1DF3F902290F569002074C2 /* YMNewCareCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F8F2290F569002074C2 /* YMNewCareCategoryCell.swift */; };
+		D1DF3F922290F8AD002074C2 /* YMNewCareContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F912290F8AD002074C2 /* YMNewCareContentCell.swift */; };
+		D1DF3F942290F944002074C2 /* YMNewCareSearchController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1DF3F932290F944002074C2 /* YMNewCareSearchController.xib */; };
 		D1EC0AE1228CD5D800A3C47E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0AE0228CD5D800A3C47E /* AppDelegate.swift */; };
 		D1EC0AE6228CD5D800A3C47E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1EC0AE4228CD5D800A3C47E /* Main.storyboard */; };
 		D1EC0AE8228CD5DC00A3C47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1EC0AE7228CD5DC00A3C47E /* Assets.xcassets */; };
@@ -100,6 +105,11 @@
 		D1DF3F842290C64D002074C2 /* YMNetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMNetworkTool.swift; sourceTree = "<group>"; };
 		D1DF3F862290DB30002074C2 /* YMVideoSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMVideoSearchController.swift; sourceTree = "<group>"; };
 		D1DF3F892290E411002074C2 /* YMTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMTitleView.swift; sourceTree = "<group>"; };
+		D1DF3F8B2290F537002074C2 /* YMNewCareContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMNewCareContentCell.xib; sourceTree = "<group>"; };
+		D1DF3F8C2290F537002074C2 /* YMNewCareCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMNewCareCategoryCell.xib; sourceTree = "<group>"; };
+		D1DF3F8F2290F569002074C2 /* YMNewCareCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMNewCareCategoryCell.swift; sourceTree = "<group>"; };
+		D1DF3F912290F8AD002074C2 /* YMNewCareContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMNewCareContentCell.swift; sourceTree = "<group>"; };
+		D1DF3F932290F944002074C2 /* YMNewCareSearchController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = YMNewCareSearchController.xib; path = TodayNews/Classes/NewCare/View/YMNewCareSearchController.xib; sourceTree = SOURCE_ROOT; };
 		D1EC0ADD228CD5D800A3C47E /* TodayNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1EC0AE0228CD5D800A3C47E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1EC0AE5228CD5D800A3C47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -193,6 +203,10 @@
 			children = (
 				D1DF3F732290BE0B002074C2 /* YMNewCareBottomCell.xib */,
 				D1DF3F782290BE5F002074C2 /* YMNewCareBottomCell.swift */,
+				D1DF3F8C2290F537002074C2 /* YMNewCareCategoryCell.xib */,
+				D1DF3F8F2290F569002074C2 /* YMNewCareCategoryCell.swift */,
+				D1DF3F912290F8AD002074C2 /* YMNewCareContentCell.swift */,
+				D1DF3F8B2290F537002074C2 /* YMNewCareContentCell.xib */,
 				D1DF3F7E2290C0E2002074C2 /* YMCareheaderView.swift */,
 				D1DF3F7A2290C03F002074C2 /* YMNewCareNoLoginCell.swift */,
 				D1DF3F742290BE0B002074C2 /* YMNewCareNoLoginCell.xib */,
@@ -404,6 +418,7 @@
 			isa = PBXGroup;
 			children = (
 				D1EC0B16228CD77200A3C47E /* YMNewCareViewController.swift */,
+				D1DF3F932290F944002074C2 /* YMNewCareSearchController.xib */,
 				D1DF3F802290C26E002074C2 /* YMNewCareSearchController.swift */,
 			);
 			path = Controller;
@@ -536,12 +551,15 @@
 				D1DF3F762290BE0B002074C2 /* YMNewCareBottomCell.xib in Resources */,
 				D1DF3F6D2290B69B002074C2 /* YMSettingHeaderView.xib in Resources */,
 				D1EC0AEB228CD5DC00A3C47E /* LaunchScreen.storyboard in Resources */,
+				D1DF3F942290F944002074C2 /* YMNewCareSearchController.xib in Resources */,
 				D1DF3F752290BE0B002074C2 /* YMNewCareTopCell.xib in Resources */,
 				D1EC0AE8228CD5DC00A3C47E /* Assets.xcassets in Resources */,
 				D1EC0B43228F73BC00A3C47E /* YMSettingCell.xib in Resources */,
 				D1EC0B35228E2B2500A3C47E /* YMMineCell.xib in Resources */,
+				D1DF3F8E2290F537002074C2 /* YMNewCareCategoryCell.xib in Resources */,
 				D1EC0B31228E1BBC00A3C47E /* YMMineCellPlist.plist in Resources */,
 				D1DF3F61229024F8002074C2 /* YMMineNoLoginHeaderView.xib in Resources */,
+				D1DF3F8D2290F537002074C2 /* YMNewCareContentCell.xib in Resources */,
 				D1EC0AE6228CD5D800A3C47E /* Main.storyboard in Resources */,
 				D1DF3F772290BE0B002074C2 /* YMNewCareNoLoginCell.xib in Resources */,
 				D1EC0B4D228F7DE500A3C47E /* YMSettingPlist.plist in Resources */,
@@ -636,6 +654,7 @@
 				D1EC0B49228F767B00A3C47E /* YMSettingViewController.swift in Sources */,
 				D1DF3F672290277C002074C2 /* YMHelpViewController.swift in Sources */,
 				D1DF3F792290BE5F002074C2 /* YMNewCareBottomCell.swift in Sources */,
+				D1DF3F922290F8AD002074C2 /* YMNewCareContentCell.swift in Sources */,
 				D1DF3F702290BA6C002074C2 /* YMConcern.swift in Sources */,
 				D1EC0B45228F73F000A3C47E /* YMSettingCell.swift in Sources */,
 				D1EC0B2D228E161700A3C47E /* YMConst.swift in Sources */,
@@ -647,6 +666,7 @@
 				D1EC0B19228CD7C100A3C47E /* YMVideoViewController.swift in Sources */,
 				D1EC0B11228CD6FA00A3C47E /* YMBaseViewController.swift in Sources */,
 				D1DF3F5F22901F65002074C2 /* YMAccountManageController.swift in Sources */,
+				D1DF3F902290F569002074C2 /* YMNewCareCategoryCell.swift in Sources */,
 				D1DF3F832290C5D0002074C2 /* YMSettingModel.swift in Sources */,
 				D1DF3F7F2290C0E2002074C2 /* YMCareheaderView.swift in Sources */,
 				D1EC0B15228CD74500A3C47E /* YMMineViewController.swift in Sources */,
