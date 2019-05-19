@@ -16,7 +16,7 @@ class YMTabBarController: UITabBarController {
         // NavigationBar
         UINavigationBar.appearance().tintColor = UIColor.purple
         // BarButtonItem
-        UITabBar.appearance().tintColor = UIColor.yellow
+        UITabBar.appearance().tintColor = UIColor.cyan
         
         // add childViewController
         addChildViewControllers()

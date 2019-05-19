@@ -27,6 +27,8 @@
 		D1DF3F812290C26E002074C2 /* YMNewCareSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F802290C26E002074C2 /* YMNewCareSearchController.swift */; };
 		D1DF3F832290C5D0002074C2 /* YMSettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F822290C5D0002074C2 /* YMSettingModel.swift */; };
 		D1DF3F852290C64D002074C2 /* YMNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F842290C64D002074C2 /* YMNetworkTool.swift */; };
+		D1DF3F872290DB30002074C2 /* YMVideoSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F862290DB30002074C2 /* YMVideoSearchController.swift */; };
+		D1DF3F8A2290E411002074C2 /* YMTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F892290E411002074C2 /* YMTitleView.swift */; };
 		D1EC0AE1228CD5D800A3C47E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0AE0228CD5D800A3C47E /* AppDelegate.swift */; };
 		D1EC0AE6228CD5D800A3C47E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1EC0AE4228CD5D800A3C47E /* Main.storyboard */; };
 		D1EC0AE8228CD5DC00A3C47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1EC0AE7228CD5DC00A3C47E /* Assets.xcassets */; };
@@ -96,6 +98,8 @@
 		D1DF3F802290C26E002074C2 /* YMNewCareSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMNewCareSearchController.swift; sourceTree = "<group>"; };
 		D1DF3F822290C5D0002074C2 /* YMSettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMSettingModel.swift; sourceTree = "<group>"; };
 		D1DF3F842290C64D002074C2 /* YMNetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMNetworkTool.swift; sourceTree = "<group>"; };
+		D1DF3F862290DB30002074C2 /* YMVideoSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMVideoSearchController.swift; sourceTree = "<group>"; };
+		D1DF3F892290E411002074C2 /* YMTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMTitleView.swift; sourceTree = "<group>"; };
 		D1EC0ADD228CD5D800A3C47E /* TodayNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1EC0AE0228CD5D800A3C47E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1EC0AE5228CD5D800A3C47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -194,6 +198,14 @@
 				D1DF3F742290BE0B002074C2 /* YMNewCareNoLoginCell.xib */,
 				D1DF3F7C2290C07D002074C2 /* YMNewCareTopCell.swift */,
 				D1DF3F722290BE0B002074C2 /* YMNewCareTopCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1DF3F882290E405002074C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D1DF3F892290E411002074C2 /* YMTitleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -400,6 +412,7 @@
 		D1EC0B2A228E145D00A3C47E /* Video */ = {
 			isa = PBXGroup;
 			children = (
+				D1DF3F882290E405002074C2 /* View */,
 				D1EC0B2B228E146C00A3C47E /* Controller */,
 			);
 			path = Video;
@@ -409,6 +422,7 @@
 			isa = PBXGroup;
 			children = (
 				D1EC0B18228CD7C100A3C47E /* YMVideoViewController.swift */,
+				D1DF3F862290DB30002074C2 /* YMVideoSearchController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -628,6 +642,7 @@
 				D1EC0B13228CD72600A3C47E /* YMHomeViewController.swift in Sources */,
 				D1EC0B41228F5FD400A3C47E /* YMMineHeaderIconButton.swift in Sources */,
 				D1EC0B3B228E2F3C00A3C47E /* YMMineHeaderView.swift in Sources */,
+				D1DF3F8A2290E411002074C2 /* YMTitleView.swift in Sources */,
 				D1EC0B3F228E2FAE00A3C47E /* YMVerticalButton.swift in Sources */,
 				D1EC0B19228CD7C100A3C47E /* YMVideoViewController.swift in Sources */,
 				D1EC0B11228CD6FA00A3C47E /* YMBaseViewController.swift in Sources */,
@@ -645,6 +660,7 @@
 				D1EC0B2F228E193800A3C47E /* UIView+Extension.swift in Sources */,
 				D1DF3F852290C64D002074C2 /* YMNetworkTool.swift in Sources */,
 				D1EC0AE1228CD5D800A3C47E /* AppDelegate.swift in Sources */,
+				D1DF3F872290DB30002074C2 /* YMVideoSearchController.swift in Sources */,
 				D1EC0B3D228E2F8E00A3C47E /* YMMineHeaderBottomView.swift in Sources */,
 				D1DF3F6B2290B3EE002074C2 /* YMSettingHeaderView.swift in Sources */,
 			);
