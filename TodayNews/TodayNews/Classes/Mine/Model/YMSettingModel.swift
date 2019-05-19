@@ -1,14 +1,14 @@
 //
 //  YMSettingModel.swift
-//  
+//  TodayNews
 //
-//  Created by 林小興 on 2019/05/18.
+//  Created by 林小興 on 2019/05/19.
+//  Copyright © 2019 林小興. All rights reserved.
 //
 
 import UIKit
 
 class YMSettingModel: NSObject {
-    
     var title: String?
     var subtitle: String?
     var rightTitle: String?
@@ -20,7 +20,6 @@ class YMSettingModel: NSObject {
     
     init(dict: [String: AnyObject]) {
         super.init()
-        
         title = dict["title"] as? String
         subtitle = dict["subtitle"] as? String
         rightTitle = dict["rightTitle"] as? String

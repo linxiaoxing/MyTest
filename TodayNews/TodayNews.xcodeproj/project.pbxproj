@@ -16,6 +16,17 @@
 		D1DF3F69229028D8002074C2 /* YMHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1DF3F68229028D8002074C2 /* YMHelpViewController.xib */; };
 		D1DF3F6B2290B3EE002074C2 /* YMSettingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F6A2290B3EE002074C2 /* YMSettingHeaderView.swift */; };
 		D1DF3F6D2290B69B002074C2 /* YMSettingHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1DF3F6C2290B69B002074C2 /* YMSettingHeaderView.xib */; };
+		D1DF3F702290BA6C002074C2 /* YMConcern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F6F2290BA6C002074C2 /* YMConcern.swift */; };
+		D1DF3F752290BE0B002074C2 /* YMNewCareTopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1DF3F722290BE0B002074C2 /* YMNewCareTopCell.xib */; };
+		D1DF3F762290BE0B002074C2 /* YMNewCareBottomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1DF3F732290BE0B002074C2 /* YMNewCareBottomCell.xib */; };
+		D1DF3F772290BE0B002074C2 /* YMNewCareNoLoginCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1DF3F742290BE0B002074C2 /* YMNewCareNoLoginCell.xib */; };
+		D1DF3F792290BE5F002074C2 /* YMNewCareBottomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F782290BE5F002074C2 /* YMNewCareBottomCell.swift */; };
+		D1DF3F7B2290C03F002074C2 /* YMNewCareNoLoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F7A2290C03F002074C2 /* YMNewCareNoLoginCell.swift */; };
+		D1DF3F7D2290C07D002074C2 /* YMNewCareTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F7C2290C07D002074C2 /* YMNewCareTopCell.swift */; };
+		D1DF3F7F2290C0E2002074C2 /* YMCareheaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F7E2290C0E2002074C2 /* YMCareheaderView.swift */; };
+		D1DF3F812290C26E002074C2 /* YMNewCareSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F802290C26E002074C2 /* YMNewCareSearchController.swift */; };
+		D1DF3F832290C5D0002074C2 /* YMSettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F822290C5D0002074C2 /* YMSettingModel.swift */; };
+		D1DF3F852290C64D002074C2 /* YMNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3F842290C64D002074C2 /* YMNetworkTool.swift */; };
 		D1EC0AE1228CD5D800A3C47E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0AE0228CD5D800A3C47E /* AppDelegate.swift */; };
 		D1EC0AE6228CD5D800A3C47E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1EC0AE4228CD5D800A3C47E /* Main.storyboard */; };
 		D1EC0AE8228CD5DC00A3C47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1EC0AE7228CD5DC00A3C47E /* Assets.xcassets */; };
@@ -41,7 +52,6 @@
 		D1EC0B41228F5FD400A3C47E /* YMMineHeaderIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0B40228F5FD400A3C47E /* YMMineHeaderIconButton.swift */; };
 		D1EC0B43228F73BC00A3C47E /* YMSettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1EC0B42228F73BC00A3C47E /* YMSettingCell.xib */; };
 		D1EC0B45228F73F000A3C47E /* YMSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0B44228F73EF00A3C47E /* YMSettingCell.swift */; };
-		D1EC0B47228F754600A3C47E /* YMSettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0B46228F754600A3C47E /* YMSettingModel.swift */; };
 		D1EC0B49228F767B00A3C47E /* YMSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0B48228F767B00A3C47E /* YMSettingViewController.swift */; };
 		D1EC0B4B228F7D2800A3C47E /* YMCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC0B4A228F7D2800A3C47E /* YMCollectionViewController.swift */; };
 		D1EC0B4D228F7DE500A3C47E /* YMSettingPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1EC0B4C228F7DE500A3C47E /* YMSettingPlist.plist */; };
@@ -75,6 +85,17 @@
 		D1DF3F68229028D8002074C2 /* YMHelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMHelpViewController.xib; sourceTree = "<group>"; };
 		D1DF3F6A2290B3EE002074C2 /* YMSettingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMSettingHeaderView.swift; sourceTree = "<group>"; };
 		D1DF3F6C2290B69B002074C2 /* YMSettingHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMSettingHeaderView.xib; sourceTree = "<group>"; };
+		D1DF3F6F2290BA6C002074C2 /* YMConcern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMConcern.swift; sourceTree = "<group>"; };
+		D1DF3F722290BE0B002074C2 /* YMNewCareTopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMNewCareTopCell.xib; sourceTree = "<group>"; };
+		D1DF3F732290BE0B002074C2 /* YMNewCareBottomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMNewCareBottomCell.xib; sourceTree = "<group>"; };
+		D1DF3F742290BE0B002074C2 /* YMNewCareNoLoginCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMNewCareNoLoginCell.xib; sourceTree = "<group>"; };
+		D1DF3F782290BE5F002074C2 /* YMNewCareBottomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMNewCareBottomCell.swift; sourceTree = "<group>"; };
+		D1DF3F7A2290C03F002074C2 /* YMNewCareNoLoginCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMNewCareNoLoginCell.swift; sourceTree = "<group>"; };
+		D1DF3F7C2290C07D002074C2 /* YMNewCareTopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMNewCareTopCell.swift; sourceTree = "<group>"; };
+		D1DF3F7E2290C0E2002074C2 /* YMCareheaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMCareheaderView.swift; sourceTree = "<group>"; };
+		D1DF3F802290C26E002074C2 /* YMNewCareSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMNewCareSearchController.swift; sourceTree = "<group>"; };
+		D1DF3F822290C5D0002074C2 /* YMSettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMSettingModel.swift; sourceTree = "<group>"; };
+		D1DF3F842290C64D002074C2 /* YMNetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMNetworkTool.swift; sourceTree = "<group>"; };
 		D1EC0ADD228CD5D800A3C47E /* TodayNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1EC0AE0228CD5D800A3C47E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1EC0AE5228CD5D800A3C47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,7 +127,6 @@
 		D1EC0B40228F5FD400A3C47E /* YMMineHeaderIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMMineHeaderIconButton.swift; sourceTree = "<group>"; };
 		D1EC0B42228F73BC00A3C47E /* YMSettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMSettingCell.xib; sourceTree = "<group>"; };
 		D1EC0B44228F73EF00A3C47E /* YMSettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMSettingCell.swift; sourceTree = "<group>"; };
-		D1EC0B46228F754600A3C47E /* YMSettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YMSettingModel.swift; path = /Users/hayashishoukyou/Desktop/MyTest/TodayNews/TodayNews/Classes/Mine/Model/YMSettingModel.swift; sourceTree = "<absolute>"; };
 		D1EC0B48228F767B00A3C47E /* YMSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMSettingViewController.swift; sourceTree = "<group>"; };
 		D1EC0B4A228F7D2800A3C47E /* YMCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMCollectionViewController.swift; sourceTree = "<group>"; };
 		D1EC0B4C228F7DE500A3C47E /* YMSettingPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YMSettingPlist.plist; sourceTree = "<group>"; };
@@ -154,6 +174,28 @@
 				FF2100FC8B7AE4199733F376 /* Pods-TodayNews.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1DF3F6E2290BA44002074C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1DF3F6F2290BA6C002074C2 /* YMConcern.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D1DF3F712290BDCB002074C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D1DF3F732290BE0B002074C2 /* YMNewCareBottomCell.xib */,
+				D1DF3F782290BE5F002074C2 /* YMNewCareBottomCell.swift */,
+				D1DF3F7E2290C0E2002074C2 /* YMCareheaderView.swift */,
+				D1DF3F7A2290C03F002074C2 /* YMNewCareNoLoginCell.swift */,
+				D1DF3F742290BE0B002074C2 /* YMNewCareNoLoginCell.xib */,
+				D1DF3F7C2290C07D002074C2 /* YMNewCareTopCell.swift */,
+				D1DF3F722290BE0B002074C2 /* YMNewCareTopCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		D1EC0AD4228CD5D800A3C47E = {
@@ -279,6 +321,7 @@
 			isa = PBXGroup;
 			children = (
 				D1EC0B2C228E161700A3C47E /* YMConst.swift */,
+				D1DF3F842290C64D002074C2 /* YMNetworkTool.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -310,8 +353,8 @@
 		D1EC0B26228E141200A3C47E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D1EC0B46228F754600A3C47E /* YMSettingModel.swift */,
 				D1EC0B38228E2C5800A3C47E /* YMMineCellModel.swift */,
+				D1DF3F822290C5D0002074C2 /* YMSettingModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -338,6 +381,8 @@
 		D1EC0B28228E143400A3C47E /* NewCare */ = {
 			isa = PBXGroup;
 			children = (
+				D1DF3F712290BDCB002074C2 /* View */,
+				D1DF3F6E2290BA44002074C2 /* Model */,
 				D1EC0B29228E144900A3C47E /* Controller */,
 			);
 			path = NewCare;
@@ -347,6 +392,7 @@
 			isa = PBXGroup;
 			children = (
 				D1EC0B16228CD77200A3C47E /* YMNewCareViewController.swift */,
+				D1DF3F802290C26E002074C2 /* YMNewCareSearchController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -473,14 +519,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1DF3F762290BE0B002074C2 /* YMNewCareBottomCell.xib in Resources */,
 				D1DF3F6D2290B69B002074C2 /* YMSettingHeaderView.xib in Resources */,
 				D1EC0AEB228CD5DC00A3C47E /* LaunchScreen.storyboard in Resources */,
+				D1DF3F752290BE0B002074C2 /* YMNewCareTopCell.xib in Resources */,
 				D1EC0AE8228CD5DC00A3C47E /* Assets.xcassets in Resources */,
 				D1EC0B43228F73BC00A3C47E /* YMSettingCell.xib in Resources */,
 				D1EC0B35228E2B2500A3C47E /* YMMineCell.xib in Resources */,
 				D1EC0B31228E1BBC00A3C47E /* YMMineCellPlist.plist in Resources */,
 				D1DF3F61229024F8002074C2 /* YMMineNoLoginHeaderView.xib in Resources */,
 				D1EC0AE6228CD5D800A3C47E /* Main.storyboard in Resources */,
+				D1DF3F772290BE0B002074C2 /* YMNewCareNoLoginCell.xib in Resources */,
 				D1EC0B4D228F7DE500A3C47E /* YMSettingPlist.plist in Resources */,
 				D1DF3F69229028D8002074C2 /* YMHelpViewController.xib in Resources */,
 			);
@@ -566,10 +615,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1DF3F812290C26E002074C2 /* YMNewCareSearchController.swift in Sources */,
 				D1EC0B39228E2C5800A3C47E /* YMMineCellModel.swift in Sources */,
 				D1EC0B17228CD77200A3C47E /* YMNewCareViewController.swift in Sources */,
+				D1DF3F7B2290C03F002074C2 /* YMNewCareNoLoginCell.swift in Sources */,
 				D1EC0B49228F767B00A3C47E /* YMSettingViewController.swift in Sources */,
 				D1DF3F672290277C002074C2 /* YMHelpViewController.swift in Sources */,
+				D1DF3F792290BE5F002074C2 /* YMNewCareBottomCell.swift in Sources */,
+				D1DF3F702290BA6C002074C2 /* YMConcern.swift in Sources */,
 				D1EC0B45228F73F000A3C47E /* YMSettingCell.swift in Sources */,
 				D1EC0B2D228E161700A3C47E /* YMConst.swift in Sources */,
 				D1EC0B13228CD72600A3C47E /* YMHomeViewController.swift in Sources */,
@@ -579,15 +632,18 @@
 				D1EC0B19228CD7C100A3C47E /* YMVideoViewController.swift in Sources */,
 				D1EC0B11228CD6FA00A3C47E /* YMBaseViewController.swift in Sources */,
 				D1DF3F5F22901F65002074C2 /* YMAccountManageController.swift in Sources */,
+				D1DF3F832290C5D0002074C2 /* YMSettingModel.swift in Sources */,
+				D1DF3F7F2290C0E2002074C2 /* YMCareheaderView.swift in Sources */,
 				D1EC0B15228CD74500A3C47E /* YMMineViewController.swift in Sources */,
 				D1DF3F63229025B1002074C2 /* YMMineNoLoginHeaderView.swift in Sources */,
 				D1DF3F65229025F6002074C2 /* YMAutoPlayVideoController.swift in Sources */,
 				D1EC0B0F228CD6BD00A3C47E /* YMTabBarController.swift in Sources */,
-				D1EC0B47228F754600A3C47E /* YMSettingModel.swift in Sources */,
 				D1EC0B1B228CDAEA00A3C47E /* YMNavigationController.swift in Sources */,
 				D1EC0B37228E2C0600A3C47E /* YMMineCell.swift in Sources */,
+				D1DF3F7D2290C07D002074C2 /* YMNewCareTopCell.swift in Sources */,
 				D1EC0B4B228F7D2800A3C47E /* YMCollectionViewController.swift in Sources */,
 				D1EC0B2F228E193800A3C47E /* UIView+Extension.swift in Sources */,
+				D1DF3F852290C64D002074C2 /* YMNetworkTool.swift in Sources */,
 				D1EC0AE1228CD5D800A3C47E /* AppDelegate.swift in Sources */,
 				D1EC0B3D228E2F8E00A3C47E /* YMMineHeaderBottomView.swift in Sources */,
 				D1DF3F6B2290B3EE002074C2 /* YMSettingHeaderView.swift in Sources */,
