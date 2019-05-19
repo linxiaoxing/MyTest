@@ -9,6 +9,8 @@
 import UIKit
 import SnapKit
 
+let videoCollectionViewCellID = "videoCollectionViewCellID"
+
 protocol YMTitleViewDelegate: NSObjectProtocol {
     func titleView(_ titleView: YMTitleView, titleSearchButton button: UIButton)
 }
@@ -28,16 +30,16 @@ class YMTitleView: UIView {
     }
     
     private func setupUI() {
-        addSubview(titleScrollView)
+        addSubview(titleCollectionView)
         
         addSubview(titleSearchButton)
         
-        titleScrollView.snp_makeConstraints { (make) in
+        titleCollectionView.snp_makeConstraints { (make) in
             make.left.top.bottom.equalTo(self)
         }
         
         titleSearchButton.snp_makeConstraints { (make) in
-            make.left.equalTo(titleScrollView.snp_right)
+            make.left.equalTo(titleCollectionView.snp_right)
             make.size.equalTo(CGSize(width: 30, height: 44))
             make.top.right.bottom.equalTo(self)
         }
@@ -51,9 +53,17 @@ class YMTitleView: UIView {
         return titleSearchButton
     }()
     
-    private lazy var titleScrollView: UIScrollView = {
-        let titleScrollView = UIScrollView()
-        return titleScrollView
+    private lazy var titleCollectionView: UICollectionView = {
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .horizontal
+        let titleCollectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        titleCollectionView.backgroundColor = UIColor.white
+        titleCollectionView.delegate = self
+        titleCollectionView.dataSource = self
+        let nib = UINib(nibName: "YMVideoCollectionViewCell", bundle: nil)
+        titleCollectionView.register(nib, forCellWithReuseIdentifier: videoCollectionViewCellID)
+        titleCollectionView.showsHorizontalScrollIndicator = false
+        return titleCollectionView
     }()
     
     @objc func titleSearchButtonClick(_ button: UIButton) {
@@ -63,4 +73,23 @@ class YMTitleView: UIView {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+}
+
+extension YMTitleView: UICollectionViewDelegate, UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: videoCollectionViewCellID, for: indexPath) as! YMVideoCollectionViewCell
+        cell.titleLabel.text = "推荐"
+        return cell
+    }
+    
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    private func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        let cell = collectionView.cellForItem(at: indexPath as IndexPath) as! YMVideoCollectionViewCell
+        cell.titleLabel.textColor = UIColor.red
+    }
+    
 }
