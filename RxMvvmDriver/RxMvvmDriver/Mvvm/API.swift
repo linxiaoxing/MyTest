@@ -8,7 +8,6 @@
 
 import Foundation
 import Moya
-import RxMoya
 
 //初始化GitHub请求的provider
 let GitHubProvider = MoyaProvider<GitHubAPI>()

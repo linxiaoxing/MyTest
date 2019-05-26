@@ -1,0 +1,6 @@
+framework module Pods_RxMvvmDriverTests {
+  umbrella header "Pods-RxMvvmDriverTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
