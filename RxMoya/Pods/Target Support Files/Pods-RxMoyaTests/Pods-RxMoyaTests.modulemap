@@ -1,0 +1,6 @@
+framework module Pods_RxMoyaTests {
+  umbrella header "Pods-RxMoyaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

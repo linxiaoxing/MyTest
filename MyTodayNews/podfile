@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+target 'MyTodayNews' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod 'HandyJSON', :git => 'https://github.com/alibaba/HandyJSON.git', :branch => 'dev_for_swift5.0'
+#  pod 'HandyJSON', '~> 4.2.0'
+#  pod 'HandyJSON', '5.0.0-beta.1'
+  pod 'Kingfisher'
+  pod 'IBAnimatable'
+  pod 'SwiftTheme'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'SQLite.swift'
+  pod 'SVProgressHUD'
+  pod 'MJRefresh'
+  pod 'SGPagingView', :git => 'https://github.com/kingsic/SGPagingView.git', :branch => '1.4.0'
+  pod 'BMPlayer'
+  pod 'FDFullscreenPopGesture'
+  # pod 'Texture'
+  pod 'lottie-ios'
+
+end
+

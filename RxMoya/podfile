@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'RxMoya' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for RxMoya
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'Alamofire'
+  pod 'Moya'
+  pod 'Moya/RxSwift'
+  pod 'Result'
+  pod 'ObjectMapper'
+  target 'RxMoyaTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'RxMoyaUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

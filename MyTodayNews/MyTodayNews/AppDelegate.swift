@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftTheme
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+         /// 设置主题颜色
+        ThemeManager.setTheme(plistName:UserDefaults.standard.bool(forKey: isNight) ? "night_theme" : "default_theme", path: .mainBundle)
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = MyTabBarController()
+        window?.makeKeyAndVisible()
         return true
     }
 

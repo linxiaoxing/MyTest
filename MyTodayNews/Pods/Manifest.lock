@@ -1,0 +1,107 @@
+PODS:
+  - Alamofire (4.8.2)
+  - BMPlayer (1.2.1):
+    - BMPlayer/Full (= 1.2.1)
+  - BMPlayer/Core (1.2.1)
+  - BMPlayer/Full (1.2.1):
+    - BMPlayer/Core
+    - NVActivityIndicatorView (~> 4.6.1)
+    - SnapKit (~> 4.2.0)
+  - FDFullscreenPopGesture (1.1)
+  - HandyJSON (5.0.0-beta.1)
+  - IBAnimatable (5.2.1)
+  - Kingfisher (5.3.0)
+  - lottie-ios (3.0.3)
+  - MJRefresh (3.1.16)
+  - NVActivityIndicatorView (4.6.1):
+    - NVActivityIndicatorView/Presenter (= 4.6.1)
+  - NVActivityIndicatorView/Presenter (4.6.1)
+  - RxAtomic (4.4.2)
+  - RxCocoa (4.4.2):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.4.2):
+    - RxAtomic (>= 4.4.2, ~> 4.4)
+  - SGPagingView (1.4.0)
+  - SnapKit (4.2.0)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+  - SVProgressHUD (2.2.5)
+  - SwiftTheme (0.4.3)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - BMPlayer
+  - FDFullscreenPopGesture
+  - HandyJSON (from `https://github.com/alibaba/HandyJSON.git`, branch `dev_for_swift5.0`)
+  - IBAnimatable
+  - Kingfisher
+  - lottie-ios
+  - MJRefresh
+  - RxCocoa
+  - RxSwift
+  - SGPagingView (from `https://github.com/kingsic/SGPagingView.git`, branch `1.4.0`)
+  - SQLite.swift
+  - SVProgressHUD
+  - SwiftTheme
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BMPlayer
+    - FDFullscreenPopGesture
+    - IBAnimatable
+    - Kingfisher
+    - lottie-ios
+    - MJRefresh
+    - NVActivityIndicatorView
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - SQLite.swift
+    - SVProgressHUD
+    - SwiftTheme
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  HandyJSON:
+    :branch: dev_for_swift5.0
+    :git: https://github.com/alibaba/HandyJSON.git
+  SGPagingView:
+    :branch: 1.4.0
+    :git: https://github.com/kingsic/SGPagingView.git
+
+CHECKOUT OPTIONS:
+  HandyJSON:
+    :commit: a2ba4e537711ae1fcd9183679c4db878eb171a78
+    :git: https://github.com/alibaba/HandyJSON.git
+  SGPagingView:
+    :commit: 8989ac8b54fd3ec43d3163b5ff54a7b29641d0ca
+    :git: https://github.com/kingsic/SGPagingView.git
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  BMPlayer: ea12f9d82e37f968dea2078b5e58e356ee4439d8
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  HandyJSON: 582477127ab3ab65bd2e471815f1a7b846856978
+  IBAnimatable: a46b835ec6875178516cf7e014a40194d6bfa3fc
+  Kingfisher: 4692c783ffb99e9e2e40a6eb3e518c3b96c6fa8c
+  lottie-ios: 06e0b54aab85ba128e332687d7f4ac4861a7a7ae
+  MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
+  NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
+  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
+  RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
+  RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
+  SGPagingView: 24bb20c6be98306ad871bf4dec33f3707b1d6fd6
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftTheme: 628345b948068a48d330d76dffb1a990ea5f90aa
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 817beb5a50fb88c9b3b70e98f23a18e43ed1b540
+
+COCOAPODS: 1.6.1
