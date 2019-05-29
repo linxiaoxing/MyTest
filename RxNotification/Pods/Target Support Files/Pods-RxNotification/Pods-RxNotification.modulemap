@@ -1,0 +1,6 @@
+framework module Pods_RxNotification {
+  umbrella header "Pods-RxNotification-umbrella.h"
+
+  export *
+  module * { export * }
+}
