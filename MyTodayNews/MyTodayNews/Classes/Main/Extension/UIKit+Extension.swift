@@ -78,6 +78,25 @@ extension UIView {
         }
     }
     
+    /// centerX
+    var centerX: CGFloat {
+        get { return center.x }
+        set(newValue) {
+            var tempCenter: CGPoint = center
+            tempCenter.x            = newValue
+            center                  = tempCenter
+        }
+    }
+    
+    /// centerY
+    var centerY: CGFloat {
+        get { return center.y }
+        set(newValue) {
+            var tempCenter: CGPoint = center
+            tempCenter.y            = newValue
+            center                  = tempCenter;
+        }
+    }
 }
 
 protocol RegisterCellFromNib {}
@@ -108,3 +127,30 @@ extension UITableView {
         return dequeueReusableCell(withIdentifier: T.identifier, for: indexPath) as! T
     }
 }
+
+
+extension UICollectionView {
+    
+    /// 注册 cell 的方法
+    func ym_registerCell<T: UICollectionViewCell>(cell: T.Type) where T: RegisterCellFromNib {
+        if let nib = T.nib { register(nib, forCellWithReuseIdentifier: T.identifier) }
+        else { register(cell, forCellWithReuseIdentifier: T.identifier) }
+    }
+    
+    /// 从缓存池池出队已经存在的 cell
+    func ym_dequeueReusableCell<T: UICollectionViewCell>(indexPath: IndexPath) -> T where T: RegisterCellFromNib {
+        return dequeueReusableCell(withReuseIdentifier: T.identifier, for: indexPath) as! T
+    }
+}
+
+protocol StoryboardLoadable {
+    
+}
+
+extension StoryboardLoadable where Self: UIViewController {
+    /// 提供 加载方法
+    static func loadStoryboard() -> Self {
+        return UIStoryboard(name: "\(self)", bundle: nil).instantiateViewController(withIdentifier: "\(self)") as! Self
+    }
+}
+

@@ -69,7 +69,7 @@ class MyTabBarController:  UITabBarController {
         setChildViewController(HomeViewController(), title: "首页", imageName: "home")
         setChildViewController(VideoViewController(), title: "西瓜视频", imageName: "video")
         //        setChildViewController(RedPackageViewController(), title: "", imageName: "redpackage")
-        setChildViewController(RedPackageViewController(), title: "", imageName: "redpackage")
+        setChildViewController(RedPackageViewController2(), title: "", imageName: "redpackage")
         setChildViewController(WeitoutiaoViewController(), title: "微头条", imageName: "weitoutiao")
         setChildViewController(HuoshanViewController(), title: "小视频", imageName: "huoshan")
     }

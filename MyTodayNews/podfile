@@ -21,6 +21,7 @@ target 'MyTodayNews' do
   pod 'SGPagingView', :git => 'https://github.com/kingsic/SGPagingView.git', :branch => '1.4.0'
   pod 'BMPlayer'
   pod 'FDFullscreenPopGesture'
+  pod 'lottie-ios'
   # pod 'Texture'
   pod 'lottie-ios'
 

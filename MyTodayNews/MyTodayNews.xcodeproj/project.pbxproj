@@ -8,6 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		9E2CAF1C5DC04BC575BA4871 /* Pods_MyTodayNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B25527FB12F13375F6FC19B /* Pods_MyTodayNews.framework */; };
+		D10F9784229C88D30015128F /* NewYearActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F9783229C88D30015128F /* NewYearActivity.swift */; };
+		D10F9788229C8A0E0015128F /* RedPackageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F9787229C8A0E0015128F /* RedPackageHeaderView.swift */; };
+		D10F978A229C8E450015128F /* ShengxiaoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10F9789229C8E450015128F /* ShengxiaoCell.xib */; };
+		D10F978C229C8E670015128F /* ShengxiaoBigImageController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10F978B229C8E670015128F /* ShengxiaoBigImageController.storyboard */; };
+		D10F9791229C8E760015128F /* RedPackageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10F978D229C8E750015128F /* RedPackageCell.xib */; };
+		D10F9792229C8E760015128F /* NewYearCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10F978E229C8E760015128F /* NewYearCardCell.xib */; };
+		D10F9793229C8E760015128F /* NewYearActivityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10F978F229C8E760015128F /* NewYearActivityCell.xib */; };
+		D10F9794229C8E760015128F /* NewYearOtherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D10F9790229C8E760015128F /* NewYearOtherCell.xib */; };
+		D10F9796229C8EAE0015128F /* NewYearActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F9795229C8EAE0015128F /* NewYearActivityCell.swift */; };
+		D10F9798229C8F3D0015128F /* NewYearCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F9797229C8F3D0015128F /* NewYearCardCell.swift */; };
+		D10F979A229C91260015128F /* ShengxiaoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F9799229C91260015128F /* ShengxiaoCell.swift */; };
+		D10F979C229C917F0015128F /* NewYearOtherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F979B229C917F0015128F /* NewYearOtherCell.swift */; };
+		D10F979E229C91A10015128F /* RedPackageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F979D229C91A10015128F /* RedPackageCell.swift */; };
+		D10F97A0229C972C0015128F /* RainNextURLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F979F229C972C0015128F /* RainNextURLViewController.swift */; };
+		D10F97A4229C99520015128F /* settingPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = D10F97A1229C99520015128F /* settingPlist.plist */; };
+		D10F97A5229C99520015128F /* activity.plist in Resources */ = {isa = PBXBuildFile; fileRef = D10F97A2229C99520015128F /* activity.plist */; };
+		D10F97A6229C99520015128F /* activity2.plist in Resources */ = {isa = PBXBuildFile; fileRef = D10F97A3229C99520015128F /* activity2.plist */; };
+		D10F97A8229C996D0015128F /* shengxiao.plist in Resources */ = {isa = PBXBuildFile; fileRef = D10F97A7229C996C0015128F /* shengxiao.plist */; };
+		D10F97AA229C9A8A0015128F /* RedPackageViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F97A9229C9A8A0015128F /* RedPackageViewController2.swift */; };
+		D10F97AC229C9B670015128F /* ShengxiaoBigImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F97AB229C9B670015128F /* ShengxiaoBigImageController.swift */; };
 		D13CB1B8229210760012A85D /* Calculatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13CB1B7229210760012A85D /* Calculatable.swift */; };
 		D13CB1BA2292114B0012A85D /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13CB1B92292114B0012A85D /* Emoji.swift */; };
 		D13CB1BC229212140012A85D /* MyTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13CB1BB229212140012A85D /* MyTheme.swift */; };
@@ -89,6 +109,26 @@
 		4360659B6BB48E93676A6A02 /* Pods-MyTodayNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTodayNews.debug.xcconfig"; path = "Target Support Files/Pods-MyTodayNews/Pods-MyTodayNews.debug.xcconfig"; sourceTree = "<group>"; };
 		4B25527FB12F13375F6FC19B /* Pods_MyTodayNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTodayNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DEEA1A72827163EFD4B372B /* Pods-MyTodayNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTodayNews.release.xcconfig"; path = "Target Support Files/Pods-MyTodayNews/Pods-MyTodayNews.release.xcconfig"; sourceTree = "<group>"; };
+		D10F9783229C88D30015128F /* NewYearActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearActivity.swift; sourceTree = "<group>"; };
+		D10F9787229C8A0E0015128F /* RedPackageHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedPackageHeaderView.swift; sourceTree = "<group>"; };
+		D10F9789229C8E450015128F /* ShengxiaoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShengxiaoCell.xib; sourceTree = "<group>"; };
+		D10F978B229C8E670015128F /* ShengxiaoBigImageController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ShengxiaoBigImageController.storyboard; sourceTree = "<group>"; };
+		D10F978D229C8E750015128F /* RedPackageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedPackageCell.xib; sourceTree = "<group>"; };
+		D10F978E229C8E760015128F /* NewYearCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewYearCardCell.xib; sourceTree = "<group>"; };
+		D10F978F229C8E760015128F /* NewYearActivityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewYearActivityCell.xib; sourceTree = "<group>"; };
+		D10F9790229C8E760015128F /* NewYearOtherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewYearOtherCell.xib; sourceTree = "<group>"; };
+		D10F9795229C8EAE0015128F /* NewYearActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearActivityCell.swift; sourceTree = "<group>"; };
+		D10F9797229C8F3D0015128F /* NewYearCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearCardCell.swift; sourceTree = "<group>"; };
+		D10F9799229C91260015128F /* ShengxiaoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShengxiaoCell.swift; sourceTree = "<group>"; };
+		D10F979B229C917F0015128F /* NewYearOtherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearOtherCell.swift; sourceTree = "<group>"; };
+		D10F979D229C91A10015128F /* RedPackageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedPackageCell.swift; sourceTree = "<group>"; };
+		D10F979F229C972C0015128F /* RainNextURLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainNextURLViewController.swift; sourceTree = "<group>"; };
+		D10F97A1229C99520015128F /* settingPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settingPlist.plist; sourceTree = "<group>"; };
+		D10F97A2229C99520015128F /* activity.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = activity.plist; sourceTree = "<group>"; };
+		D10F97A3229C99520015128F /* activity2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = activity2.plist; sourceTree = "<group>"; };
+		D10F97A7229C996C0015128F /* shengxiao.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shengxiao.plist; sourceTree = "<group>"; };
+		D10F97A9229C9A8A0015128F /* RedPackageViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedPackageViewController2.swift; sourceTree = "<group>"; };
+		D10F97AB229C9B670015128F /* ShengxiaoBigImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShengxiaoBigImageController.swift; sourceTree = "<group>"; };
 		D13CB1B7229210760012A85D /* Calculatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculatable.swift; sourceTree = "<group>"; };
 		D13CB1B92292114B0012A85D /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 		D13CB1BB229212140012A85D /* MyTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTheme.swift; sourceTree = "<group>"; };
@@ -200,6 +240,44 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D10F9782229C88C20015128F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D10F9783229C88D30015128F /* NewYearActivity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D10F9785229C892B0015128F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D13CB1D0229349F30012A85D /* RedPackageViewController.swift */,
+				D10F97A9229C9A8A0015128F /* RedPackageViewController2.swift */,
+				D10F97AB229C9B670015128F /* ShengxiaoBigImageController.swift */,
+				D10F979F229C972C0015128F /* RainNextURLViewController.swift */,
+				D10F978B229C8E670015128F /* ShengxiaoBigImageController.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D10F9786229C8A020015128F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D10F9789229C8E450015128F /* ShengxiaoCell.xib */,
+				D10F9795229C8EAE0015128F /* NewYearActivityCell.swift */,
+				D10F9797229C8F3D0015128F /* NewYearCardCell.swift */,
+				D10F979D229C91A10015128F /* RedPackageCell.swift */,
+				D10F9799229C91260015128F /* ShengxiaoCell.swift */,
+				D10F979B229C917F0015128F /* NewYearOtherCell.swift */,
+				D10F978F229C8E760015128F /* NewYearActivityCell.xib */,
+				D10F978E229C8E760015128F /* NewYearCardCell.xib */,
+				D10F9790229C8E760015128F /* NewYearOtherCell.xib */,
+				D10F978D229C8E750015128F /* RedPackageCell.xib */,
+				D10F9787229C8A0E0015128F /* RedPackageHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D13CB1B422920F200012A85D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,7 +363,9 @@
 		D13CB1CF229349D60012A85D /* RedPackage */ = {
 			isa = PBXGroup;
 			children = (
-				D13CB1D0229349F30012A85D /* RedPackageViewController.swift */,
+				D10F9786229C8A020015128F /* View */,
+				D10F9785229C892B0015128F /* Controller */,
+				D10F9782229C88C20015128F /* Model */,
 			);
 			path = RedPackage;
 			sourceTree = "<group>";
@@ -313,6 +393,10 @@
 				D13CB1D922934E630012A85D /* Const.swift */,
 				D168E12D22974CDA00DFF08A /* emoji_mapping.plist */,
 				D168E12E22974CDA00DFF08A /* emoji_sort.plist */,
+				D10F97A7229C996C0015128F /* shengxiao.plist */,
+				D10F97A2229C99520015128F /* activity.plist */,
+				D10F97A3229C99520015128F /* activity2.plist */,
+				D10F97A1229C99520015128F /* settingPlist.plist */,
 				D168E12F22974CDA00DFF08A /* emojis.plist */,
 			);
 			path = Others;
@@ -589,22 +673,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D10F978A229C8E450015128F /* ShengxiaoCell.xib in Resources */,
 				D13CB1DE229354A50012A85D /* default_theme.plist in Resources */,
 				D15FCC0F2294B0C000E5160C /* RelatedVideoFooterView.xib in Resources */,
 				D13CB1E6229356B80012A85D /* HomeNavigationView.xib in Resources */,
 				D13CB1E0229354CC0012A85D /* night_theme.plist in Resources */,
+				D10F97A5229C99520015128F /* activity.plist in Resources */,
 				D168E13022974CDB00DFF08A /* emoji_mapping.plist in Resources */,
 				D168E13122974CDB00DFF08A /* emoji_sort.plist in Resources */,
 				D168E14D229A07BC00DFF08A /* DongtaiCommentCell.xib in Resources */,
 				D15FCC102294B0C000E5160C /* RelatedVideoCell.xib in Resources */,
 				D168E13A22990AAE00DFF08A /* VideoDetailViewController.xib in Resources */,
+				D10F9791229C8E760015128F /* RedPackageCell.xib in Resources */,
 				D15FCC0C2294B0C000E5160C /* RelatedVideoHeaderView.xib in Resources */,
+				D10F9792229C8E760015128F /* NewYearCardCell.xib in Resources */,
 				D1DF3FC622920C77002074C2 /* LaunchScreen.storyboard in Resources */,
+				D10F978C229C8E670015128F /* ShengxiaoBigImageController.storyboard in Resources */,
 				D15FCC0E2294B0C000E5160C /* VideoDetailUserView.xib in Resources */,
 				D15FCC0D2294B0C000E5160C /* VideoCell.xib in Resources */,
 				D168E13222974CDB00DFF08A /* emojis.plist in Resources */,
+				D10F9793229C8E760015128F /* NewYearActivityCell.xib in Resources */,
 				D1DF3FC322920C77002074C2 /* Assets.xcassets in Resources */,
 				D168E13922990AAE00DFF08A /* RelatedVideoTableViewController.xib in Resources */,
+				D10F9794229C8E760015128F /* NewYearOtherCell.xib in Resources */,
+				D10F97A4229C99520015128F /* settingPlist.plist in Resources */,
+				D10F97A8229C996D0015128F /* shengxiao.plist in Resources */,
+				D10F97A6229C99520015128F /* activity2.plist in Resources */,
 				D1DF3FC122920C75002074C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -711,6 +805,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D10F9788229C8A0E0015128F /* RedPackageHeaderView.swift in Sources */,
 				D168E136229753CF00DFF08A /* NSData+CRC32.m in Sources */,
 				D13CB1E9229360010012A85D /* HomeNewsTitle.swift in Sources */,
 				D168E12722973D6000DFF08A /* VideoPlayerCustomView.swift in Sources */,
@@ -719,13 +814,17 @@
 				D13CB1B8229210760012A85D /* Calculatable.swift in Sources */,
 				D168E14022991B6500DFF08A /* RelatedVideoView.swift in Sources */,
 				D13CB1BC229212140012A85D /* MyTheme.swift in Sources */,
+				D10F9784229C88D30015128F /* NewYearActivity.swift in Sources */,
 				D13CB1D722934A700012A85D /* HuoshanViewController.swift in Sources */,
 				D168E1232296093800DFF08A /* Foundation+Extension.swift in Sources */,
 				D15FCC052294AE0F00E5160C /* HomeTableViewController.swift in Sources */,
 				D13CB1D422934A370012A85D /* WeitoutiaoViewController.swift in Sources */,
+				D10F9798229C8F3D0015128F /* NewYearCardCell.swift in Sources */,
 				D168E12C22973FC900DFF08A /* RefreshView.swift in Sources */,
 				D13CB1CE2293497F0012A85D /* VideoViewController.swift in Sources */,
 				D168E148229A055100DFF08A /* TextLinkViewController.swift in Sources */,
+				D10F97AA229C9A8A0015128F /* RedPackageViewController2.swift in Sources */,
+				D10F979E229C91A10015128F /* RedPackageCell.swift in Sources */,
 				D15FCC172294B49C00E5160C /* Video.swift in Sources */,
 				D168E14F229A081900DFF08A /* RichLabel.swift in Sources */,
 				D168E14222991E3E00DFF08A /* RelatedVideoHeaderView.swift in Sources */,
@@ -733,20 +832,25 @@
 				D168E1462299FB0B00DFF08A /* RelatedVideoCell.swift in Sources */,
 				D168E13C22990B1F00DFF08A /* VideoDetailViewController.swift in Sources */,
 				D15FCC122294B14500E5160C /* VideoCell.swift in Sources */,
+				D10F9796229C8EAE0015128F /* NewYearActivityCell.swift in Sources */,
 				D13CB1C1229218A20012A85D /* NetworkTool.swift in Sources */,
 				D168E14422992CF900DFF08A /* RelatedVideoFooterView.swift in Sources */,
+				D10F979C229C917F0015128F /* NewYearOtherCell.swift in Sources */,
 				D13CB1C622921A780012A85D /* MyNavigationController.swift in Sources */,
 				D168E1212295FF6F00DFF08A /* UserDetail.swift in Sources */,
 				D13CB1D1229349F30012A85D /* RedPackageViewController.swift in Sources */,
 				D13CB1E4229356740012A85D /* HomeNavigationView.swift in Sources */,
 				D168E12922973E9500DFF08A /* SVProgressHUD+Extension.swift in Sources */,
+				D10F97A0229C972C0015128F /* RainNextURLViewController.swift in Sources */,
 				D13CB1C3229219680012A85D /* SQLiteManager.swift in Sources */,
 				D168E13E2299152500DFF08A /* VideoDetailUserView.swift in Sources */,
 				D168E14B229A074200DFF08A /* DongtaiCommentCell.swift in Sources */,
 				D1DF3FBE22920C75002074C2 /* ViewController.swift in Sources */,
+				D10F97AC229C9B670015128F /* ShengxiaoBigImageController.swift in Sources */,
 				D13CB1BA2292114B0012A85D /* Emoji.swift in Sources */,
 				D13CB1CB229349200012A85D /* HomeViewController.swift in Sources */,
 				D13CB1BF229215B10012A85D /* UIKit+Extension.swift in Sources */,
+				D10F979A229C91260015128F /* ShengxiaoCell.swift in Sources */,
 				D13CB1DA22934E630012A85D /* Const.swift in Sources */,
 				D1DF3FBC22920C75002074C2 /* AppDelegate.swift in Sources */,
 				D13CB1C822921E7D0012A85D /* MyTabBarController.swift in Sources */,
