@@ -1,4 +1,4 @@
-package com.example.kotlinshoptest.provider
+package com.example.kotlinshoptest.provider.event
 
 /*
     消息标签是否显示事件

@@ -6,10 +6,9 @@ import android.support.v4.app.Fragment
 import com.ashokvarma.bottomnavigation.BottomNavigationBar
 import com.eightbitlab.rxbus.Bus
 import com.eightbitlab.rxbus.registerInBus
-import com.example.baselibrary.utils.AppPrefsUtils
 import com.example.kotlinshoptest.R
 import com.example.kotlinshoptest.goodscenter.UpdateCartSizeEvent
-import com.example.kotlinshoptest.provider.MessageBadgeEvent
+import com.example.kotlinshoptest.provider.event.MessageBadgeEvent
 import com.example.kotlinshoptest.ui.fragment.HomeFragment
 import com.example.kotlinshoptest.ui.fragment.MeFragment
 import kotlinx.android.synthetic.main.activity_main.*
