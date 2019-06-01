@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1050414821147",
+    "firebase_url": "https://kotlinshoptest.firebaseio.com",
+    "project_id": "kotlinshoptest",
+    "storage_bucket": "kotlinshoptest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050414821147:android:dda7417772e3c5ba",
+        "android_client_info": {
+          "package_name": "com.example.kotlinshoptest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050414821147-g8vvekquo2qpcvfvlkb5ttr49qvtf0oo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBAK3j-NjNtiKsoS1ntySXj2ELLhw0qBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050414821147-g8vvekquo2qpcvfvlkb5ttr49qvtf0oo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
