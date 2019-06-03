@@ -11,5 +11,5 @@ import dagger.Component
 @PerComponentScope
 @Component(dependencies = [(ActivityComponent::class)],modules = [(CategoryModule::class)])
 interface CategoryComponent {
-    fun inject(fragment: CategoryFragment)
+    //fun inject(fragment: CategoryFragment)
 }

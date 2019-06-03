@@ -12,7 +12,7 @@ import dagger.Component
 @PerComponentScope
 @Component(dependencies = [(ActivityComponent::class)],modules = [(GoodsModule::class),(CartModule::class)])
 interface GoodsComponent {
-    fun inject(activity: GoodsActivity)
-    fun inject(fragment: GoodsDetailTabOneFragment)
+//    fun inject(activity: GoodsActivity)
+//    fun inject(fragment: GoodsDetailTabOneFragment)
 
 }

@@ -1,6 +1,6 @@
 package com.kotlin.goods.data.api
 
-import com.example.chen.baselibrary.data.protocol.BaseResp
+import com.example.baselibrary.data.protocol.BaseResp
 import com.kotlin.goods.data.protocol.Category
 import com.kotlin.goods.data.protocol.GetCategoryReq
 import retrofit2.http.Body

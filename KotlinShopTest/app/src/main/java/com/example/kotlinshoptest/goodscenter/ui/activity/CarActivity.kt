@@ -12,8 +12,8 @@ import com.example.kotlinshoptest.goodscenter.ui.fragment.CartFragment
 class CartActivity: BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_cart)
-        val fragment = supportFragmentManager.findFragmentById(R.id.fragment_cart)
-        (fragment as CartFragment).setBackVisibale(true)
+//        setContentView(R.layout.activity_cart)
+//        val fragment = supportFragmentManager.findFragmentById(R.id.fragment_cart)
+//        (fragment as CartFragment).setBackVisibale(true)
     }
 }
