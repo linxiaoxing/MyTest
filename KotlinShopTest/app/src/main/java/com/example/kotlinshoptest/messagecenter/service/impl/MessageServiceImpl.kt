@@ -21,4 +21,11 @@ class MessageServiceImpl @Inject constructor(): MessageService {
     override fun getMessageList(): Observable<MutableList<Message>?> {
         return repository.getMessageList().convert()
     }
+
+    /*
+      DBから获取消息列表
+   */
+    override fun getMessageListFromDb(): List<Message>? {
+        return repository.getMessageListFromDb()
+    }
 }

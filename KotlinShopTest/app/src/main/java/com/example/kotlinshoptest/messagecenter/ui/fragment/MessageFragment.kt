@@ -2,6 +2,7 @@ package com.example.kotlinshoptest.messagecenter.ui.fragment
 
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,11 +10,13 @@ import com.eightbitlab.rxbus.Bus
 import com.example.baselibrary.ui.fragment.BaseMvpFragment
 import com.example.kotlinshoptest.R
 import com.example.kotlinshoptest.messagecenter.data.protocol.Message
+import com.example.kotlinshoptest.messagecenter.injection.component.DaggerMessageComponent
 import com.example.kotlinshoptest.messagecenter.injection.module.MessageModule
 import com.example.kotlinshoptest.messagecenter.presenter.MessagePresenter
 import com.example.kotlinshoptest.messagecenter.presenter.view.MessageView
 import com.example.kotlinshoptest.messagecenter.ui.adapter.MessageAdapter
 import com.example.kotlinshoptest.provider.event.MessageBadgeEvent
+import com.google.firebase.iid.FirebaseInstanceId
 import com.kennyc.view.MultiStateView
 import kotlinx.android.synthetic.main.fragment_message.*
 
@@ -56,7 +59,7 @@ class MessageFragment: BaseMvpFragment<MessagePresenter>(), MessageView {
         Dagger注册
      */
     override fun injectComponent() {
-        //DaggerMessageComponent.builder().activityComponent(mActivityComponent).messageModule(MessageModule()).build().inject(this)
+        DaggerMessageComponent.builder().activityComponent(mActivityComponent).messageModule(MessageModule()).build().inject(this)
         mPresenter.mView = this
 
     }

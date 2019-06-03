@@ -1,6 +1,13 @@
 package com.example.kotlinshoptest.messagecenter.data.protocol
 
+import io.realm.RealmObject
+
 /*
     消息实体
  */
-data class Message(val msgIcon: String, val msgTitle:String,val msgContent:String,val msgTime:String)
+open class Message(
+        var msgIcon: String? = "",
+        var msgTitle:String? = "",
+        var msgContent:String? = "",
+        var msgTime:String? = "")
+        : RealmObject()

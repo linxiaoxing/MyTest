@@ -25,10 +25,15 @@ class MessagePresenter @Inject constructor(): BasePresenter<MessageView>() {
             return
         }
         mView.showLoading()
-        messageService.getMessageList().excute(object : BaseSubscriber<MutableList<Message>?>(mView) {
-            override fun onNext(t: MutableList<Message>?) {
-                mView.onGetMessageResult(t)
-            }
-        }, lifecycleProvider)
+//        messageService.getMessageList().excute(object : BaseSubscriber<MutableList<Message>?>(mView) {
+//            override fun onNext(t: MutableList<Message>?) {
+//                mView.onGetMessageResult(t)
+//            }
+//        }, lifecycleProvider)
+        val messages = messageService.getMessageListFromDb()
+        if (messages!!.isNotEmpty()) {
+            mView.onGetMessageResult(messages!!.toMutableList())
+        }
+
     }
 }

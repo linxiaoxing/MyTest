@@ -29,7 +29,7 @@ class MessageAdapter(context: Context): BaseRecyclerViewAdapter<Message, Message
         super.onBindViewHolder(holder, position)
         val model = dataList[position]
         //消息图标
-        holder.itemView.mMsgIconIv.loadUrl(model.msgIcon)
+        holder.itemView.mMsgIconIv.loadUrl(model.msgIcon!!)
         //消息标题
         holder.itemView.mMsgTitleTv.text = model.msgTitle
         //消息内容
