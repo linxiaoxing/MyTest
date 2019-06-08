@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: q.rorbin:badgeview:1.1.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/badgeview-1.1.3.aar/82a006a6b057d34d2847db2c8edd7944/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/badgeview-1.1.3.aar/82a006a6b057d34d2847db2c8edd7944/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/q.rorbin/badgeview/1.1.3/be049ff81c4d95503987b0e89367c1201979329c/badgeview-1.1.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
