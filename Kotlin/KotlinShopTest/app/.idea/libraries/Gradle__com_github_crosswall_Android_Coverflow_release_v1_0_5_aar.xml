@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.crosswall:Android-Coverflow:release-v1.0.5@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Android-Coverflow-release-v1.0.5.aar/ef2521c7bc24e4855d656f242de9870f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Android-Coverflow-release-v1.0.5.aar/ef2521c7bc24e4855d656f242de9870f/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.crosswall/Android-Coverflow/release-v1.0.5/f8dbd56614c573a928073dfe72b9048db01d2fec/Android-Coverflow-release-v1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

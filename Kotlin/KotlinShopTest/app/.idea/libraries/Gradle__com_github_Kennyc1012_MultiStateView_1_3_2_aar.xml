@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Kennyc1012:MultiStateView:1.3.2@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/MultiStateView-1.3.2.aar/9826784c7402bb0c4630281f2ce09149/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/MultiStateView-1.3.2.aar/9826784c7402bb0c4630281f2ce09149/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/MultiStateView-1.3.2.aar/9826784c7402bb0c4630281f2ce09149/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Kennyc1012/MultiStateView/1.3.2/d1b27163a7d2c17542078583743e72178dbd2687/MultiStateView-1.3.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
