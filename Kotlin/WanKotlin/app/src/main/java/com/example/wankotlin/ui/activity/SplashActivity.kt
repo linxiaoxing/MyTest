@@ -3,7 +3,6 @@ package com.example.wankotlin.ui.activity
 import android.content.Intent
 import android.view.animation.AlphaAnimation
 import android.view.animation.Animation
-import com.example.wankotlin.MainActivity
 import com.example.wankotlin.R
 import com.example.wankotlin.base.BaseActivity
 import kotlinx.android.synthetic.main.activity_splash.*
@@ -46,7 +45,7 @@ class SplashActivity : BaseActivity() {
     }
 
     fun jumpToMain() {
-        val intent = Intent(this, LoginActivity::class.java)
+        val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
         finish()
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
