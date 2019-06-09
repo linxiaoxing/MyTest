@@ -1,4 +1,4 @@
-package com.example.wankotlin.mvp.model
+package com.example.wankotlin.mvp.model.bean
 
 import android.nfc.Tag
 import com.squareup.moshi.Json
@@ -7,7 +7,7 @@ import java.io.Serializable
 
 data class HttpResult<T>(
     @Json(name = "data") val data: T
-)
+): BaseBean()
 
 //文章
 data class ArticleResponseBody(
