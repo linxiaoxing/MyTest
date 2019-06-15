@@ -10,4 +10,22 @@
         <attr name="borderWidth" format="dimension" />
         <attr name="rectRoundRadius" format="dimension" />
     </declare-styleable>
+
+    <declare-styleable name="TiltTextView">
+        <attr name="tiltBgColor" format="color"></attr>
+        <attr name="tiltTextSize" format="dimension" />
+        <attr name="tiltText" format="string" />
+        <attr name="tiltTextColor" format="color" />
+        <attr name="tiltLength" format="dimension" />
+        <attr name="tiltMode" format="enum">
+            <enum name="left_top" value="0" />
+            <enum name="left_top_triangle" value="1" />
+            <enum name="left_bottom" value="2" />
+            <enum name="left_bottom_triangle" value="3" />
+            <enum name="right_top" value="4" />
+            <enum name="right_top_triangle" value="5" />
+            <enum name="right_bottom" value="6" />
+            <enum name="right_bottom_triangle" value="7" />
+        </attr>
+    </declare-styleable>
 </resources>

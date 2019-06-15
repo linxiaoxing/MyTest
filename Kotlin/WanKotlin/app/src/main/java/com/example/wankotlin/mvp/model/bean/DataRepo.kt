@@ -1,6 +1,5 @@
 package com.example.wankotlin.mvp.model.bean
 
-import android.nfc.Tag
 import com.squareup.moshi.Json
 import org.litepal.crud.LitePalSupport
 import java.io.Serializable

@@ -8,6 +8,22 @@ import com.example.wankotlin.app.App
 object SettingUtil {
 
     private val setting = PreferenceManager.getDefaultSharedPreferences(App.context)
+
+
+    /**
+     * 获取是否开启显示首页置顶文章，true: 不显示  false: 显示
+     */
+    fun getIsShowTopArticle(): Boolean {
+        return setting.getBoolean("switch_show_top", false)
+    }
+
+    /**
+     * 获取是否开启无图模式
+     */
+    fun getIsNoPhotoMode(): Boolean {
+        return setting.getBoolean("switch_noPhotoMode", false) //&& NetWorkUtil.isMobile(App.context)
+    }
+
     /**
      * 获取主题颜色
      */
@@ -45,5 +61,38 @@ object SettingUtil {
      */
     fun getNavBar(): Boolean {
         return setting.getBoolean("nav_bar", false)
+    }
+
+
+    fun getNightStartHour(): String {
+        return setting.getString("night_startHour", "22")
+    }
+
+    fun setNightStartHour(nightStartHour: String) {
+        setting.edit().putString("night_startHour", nightStartHour).apply()
+    }
+
+    fun getNightStartMinute(): String {
+        return setting.getString("night_startMinute", "00")
+    }
+
+    fun setNightStartMinute(nightStartMinute: String) {
+        setting.edit().putString("night_startMinute", nightStartMinute).apply()
+    }
+
+    fun getDayStartHour(): String {
+        return setting.getString("day_startHour", "06")
+    }
+
+    fun setDayStartHour(dayStartHour: String) {
+        setting.edit().putString("day_startHour", dayStartHour).apply()
+    }
+
+    fun getDayStartMinute(): String {
+        return setting.getString("day_startMinute", "00")
+    }
+
+    fun setDayStartMinute(dayStartMinute: String) {
+        setting.edit().putString("day_startMinute", dayStartMinute).apply()
     }
 }

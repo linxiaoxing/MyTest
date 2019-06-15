@@ -3,11 +3,11 @@ package com.example.wankotlin.app
 import android.app.Activity
 import android.app.Application
 import android.content.Context
-import android.hardware.display.DisplayManager
 import android.os.Bundle
 import android.support.multidex.MultiDexApplication
 import android.util.Log
 import com.example.wankotlin.BuildConfig
+import com.example.wankotlin.utils.DisplayManager
 import com.orhanobut.logger.AndroidLogAdapter
 
 import com.orhanobut.logger.Logger
@@ -40,7 +40,7 @@ class App: MultiDexApplication() {
         context = applicationContext
         refWatcher = setupLeakCanary()
         initConfig()
-        // DisplayManager.init(this)
+        DisplayManager.init(this)
         registerActivityLifecycleCallbacks(mActivityLifecycleCallbacks)
     }
 

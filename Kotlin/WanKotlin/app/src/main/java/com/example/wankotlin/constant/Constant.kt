@@ -52,6 +52,7 @@ object Constant {
     const val TODO_TYPE = "todo_type"
     const val TODO_BEAN = "todo_bean"
 
+
     object Type {
         const val COLLECT_TYPE_KEY = "collect_type"
         const val ABOUT_US_TYPE_KEY = "about_us_type_key"

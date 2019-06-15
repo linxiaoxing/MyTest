@@ -100,7 +100,7 @@ public class MultipleStatusView extends RelativeLayout {
      * 显示空视图
      */
     public final void showEmpty() {
-        showEmpty();
+        showEmpty(mEmptyViewResId, DEFAULT_LAYOUT_PARAMS);
     }
 
     /**
