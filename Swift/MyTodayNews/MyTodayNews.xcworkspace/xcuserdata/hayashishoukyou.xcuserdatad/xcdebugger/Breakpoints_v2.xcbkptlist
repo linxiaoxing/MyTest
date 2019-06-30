@@ -217,8 +217,8 @@
                   symbolName = "closure #2 () -&gt; () in MyTodayNews.HomeTableViewController.setupRefresh(with: MyTodayNews.NewsTitleCategory) -&gt; ()"
                   moduleName = "MyTodayNews"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hayashishoukyou/Desktop/MyTest/MyTodayNews/MyTodayNews/Classes/Home/ViewController/HomeTableViewController.swift"
-                  timestampString = "580436198.098666"
+                  urlString = "file:///Users/hayashishoukyou/Desktop/MyTest/Swift/MyTodayNews/MyTodayNews/Classes/Home/ViewController/HomeTableViewController.swift"
+                  timestampString = "582671546.66272"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "54"
@@ -232,8 +232,8 @@
                   symbolName = "closure #1 (Swift.Array&lt;MyTodayNews.NewsModel&gt;) -&gt; () in closure #2 () -&gt; () in MyTodayNews.HomeTableViewController.setupRefresh(with: MyTodayNews.NewsTitleCategory) -&gt; ()"
                   moduleName = "MyTodayNews"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/hayashishoukyou/Desktop/MyTest/MyTodayNews/MyTodayNews/Classes/Home/ViewController/HomeTableViewController.swift"
-                  timestampString = "580436198.105775"
+                  urlString = "file:///Users/hayashishoukyou/Desktop/MyTest/Swift/MyTodayNews/MyTodayNews/Classes/Home/ViewController/HomeTableViewController.swift"
+                  timestampString = "582671546.6668839"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "52"
@@ -294,11 +294,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyTodayNews/Classes/Main/ViewController/MyNavigationController.swift"
-            timestampString = "580436197.256632"
+            timestampString = "582671545.322651"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
@@ -310,16 +310,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyTodayNews/Classes/Main/ViewController/MyNavigationController.swift"
-            timestampString = "580436197.257421"
+            timestampString = "582671545.32479"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "40"
             endingLineNumber = "40"
             landmarkName = "navigationBack()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTodayNews/Classes/Weitoutiao/WeitoutiaoViewController.swift"
+            timestampString = "582590416.994967"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "tableView(_:heightForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

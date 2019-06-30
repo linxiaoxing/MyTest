@@ -79,6 +79,12 @@
 		D168E14B229A074200DFF08A /* DongtaiCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D168E14A229A074200DFF08A /* DongtaiCommentCell.swift */; };
 		D168E14D229A07BC00DFF08A /* DongtaiCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D168E14C229A07BC00DFF08A /* DongtaiCommentCell.xib */; };
 		D168E14F229A081900DFF08A /* RichLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D168E14E229A081900DFF08A /* RichLabel.swift */; };
+		D19AD5C722B98EE800F05684 /* WeitoutiaoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19AD5C622B98EE800F05684 /* WeitoutiaoCell.swift */; };
+		D19AD5C922B98EF800F05684 /* WeitoutiaoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19AD5C822B98EF800F05684 /* WeitoutiaoCell.xib */; };
+		D19AD5CB22B9932B00F05684 /* DongtaiCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19AD5CA22B9932B00F05684 /* DongtaiCollectionView.xib */; };
+		D19AD5CD22B9939400F05684 /* DongtaiCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19AD5CC22B9939400F05684 /* DongtaiCollectionView.swift */; };
+		D19AD5CF22B9946600F05684 /* DongtaiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19AD5CE22B9946600F05684 /* DongtaiCollectionViewCell.swift */; };
+		D19AD5D122B9947600F05684 /* DongtaiCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D19AD5D022B9947600F05684 /* DongtaiCollectionViewCell.xib */; };
 		D1DF3FBC22920C75002074C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3FBB22920C75002074C2 /* AppDelegate.swift */; };
 		D1DF3FBE22920C75002074C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DF3FBD22920C75002074C2 /* ViewController.swift */; };
 		D1DF3FC122920C75002074C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1DF3FBF22920C75002074C2 /* Main.storyboard */; };
@@ -182,6 +188,12 @@
 		D168E14A229A074200DFF08A /* DongtaiCommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongtaiCommentCell.swift; sourceTree = "<group>"; };
 		D168E14C229A07BC00DFF08A /* DongtaiCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DongtaiCommentCell.xib; sourceTree = "<group>"; };
 		D168E14E229A081900DFF08A /* RichLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichLabel.swift; sourceTree = "<group>"; };
+		D19AD5C622B98EE800F05684 /* WeitoutiaoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeitoutiaoCell.swift; sourceTree = "<group>"; };
+		D19AD5C822B98EF800F05684 /* WeitoutiaoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeitoutiaoCell.xib; sourceTree = "<group>"; };
+		D19AD5CA22B9932B00F05684 /* DongtaiCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DongtaiCollectionView.xib; sourceTree = "<group>"; };
+		D19AD5CC22B9939400F05684 /* DongtaiCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongtaiCollectionView.swift; sourceTree = "<group>"; };
+		D19AD5CE22B9946600F05684 /* DongtaiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DongtaiCollectionViewCell.swift; sourceTree = "<group>"; };
+		D19AD5D022B9947600F05684 /* DongtaiCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DongtaiCollectionViewCell.xib; sourceTree = "<group>"; };
 		D1DF3FB822920C75002074C2 /* MyTodayNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTodayNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1DF3FBB22920C75002074C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1DF3FBD22920C75002074C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -374,6 +386,7 @@
 			isa = PBXGroup;
 			children = (
 				D13CB1D322934A370012A85D /* WeitoutiaoViewController.swift */,
+				D19AD5C522B98ED900F05684 /* View */,
 			);
 			path = Weitoutiao;
 			sourceTree = "<group>";
@@ -508,6 +521,19 @@
 			children = (
 				D168E14A229A074200DFF08A /* DongtaiCommentCell.swift */,
 				D168E14C229A07BC00DFF08A /* DongtaiCommentCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D19AD5C522B98ED900F05684 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D19AD5C622B98EE800F05684 /* WeitoutiaoCell.swift */,
+				D19AD5CA22B9932B00F05684 /* DongtaiCollectionView.xib */,
+				D19AD5CC22B9939400F05684 /* DongtaiCollectionView.swift */,
+				D19AD5CE22B9946600F05684 /* DongtaiCollectionViewCell.swift */,
+				D19AD5D022B9947600F05684 /* DongtaiCollectionViewCell.xib */,
+				D19AD5C822B98EF800F05684 /* WeitoutiaoCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -674,11 +700,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D10F978A229C8E450015128F /* ShengxiaoCell.xib in Resources */,
+				D19AD5D122B9947600F05684 /* DongtaiCollectionViewCell.xib in Resources */,
 				D13CB1DE229354A50012A85D /* default_theme.plist in Resources */,
 				D15FCC0F2294B0C000E5160C /* RelatedVideoFooterView.xib in Resources */,
 				D13CB1E6229356B80012A85D /* HomeNavigationView.xib in Resources */,
 				D13CB1E0229354CC0012A85D /* night_theme.plist in Resources */,
+				D19AD5C922B98EF800F05684 /* WeitoutiaoCell.xib in Resources */,
 				D10F97A5229C99520015128F /* activity.plist in Resources */,
+				D19AD5CB22B9932B00F05684 /* DongtaiCollectionView.xib in Resources */,
 				D168E13022974CDB00DFF08A /* emoji_mapping.plist in Resources */,
 				D168E13122974CDB00DFF08A /* emoji_sort.plist in Resources */,
 				D168E14D229A07BC00DFF08A /* DongtaiCommentCell.xib in Resources */,
@@ -814,7 +843,9 @@
 				D13CB1B8229210760012A85D /* Calculatable.swift in Sources */,
 				D168E14022991B6500DFF08A /* RelatedVideoView.swift in Sources */,
 				D13CB1BC229212140012A85D /* MyTheme.swift in Sources */,
+				D19AD5CD22B9939400F05684 /* DongtaiCollectionView.swift in Sources */,
 				D10F9784229C88D30015128F /* NewYearActivity.swift in Sources */,
+				D19AD5CF22B9946600F05684 /* DongtaiCollectionViewCell.swift in Sources */,
 				D13CB1D722934A700012A85D /* HuoshanViewController.swift in Sources */,
 				D168E1232296093800DFF08A /* Foundation+Extension.swift in Sources */,
 				D15FCC052294AE0F00E5160C /* HomeTableViewController.swift in Sources */,
@@ -846,6 +877,7 @@
 				D168E13E2299152500DFF08A /* VideoDetailUserView.swift in Sources */,
 				D168E14B229A074200DFF08A /* DongtaiCommentCell.swift in Sources */,
 				D1DF3FBE22920C75002074C2 /* ViewController.swift in Sources */,
+				D19AD5C722B98EE800F05684 /* WeitoutiaoCell.swift in Sources */,
 				D10F97AC229C9B670015128F /* ShengxiaoBigImageController.swift in Sources */,
 				D13CB1BA2292114B0012A85D /* Emoji.swift in Sources */,
 				D13CB1CB229349200012A85D /* HomeViewController.swift in Sources */,

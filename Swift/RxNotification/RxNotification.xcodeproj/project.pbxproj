@@ -16,6 +16,7 @@
 		D10F97CF229DE27F0015128F /* RxNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F97CE229DE27F0015128F /* RxNotificationTests.swift */; };
 		D10F97DA229DE27F0015128F /* RxNotificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F97D9229DE27F0015128F /* RxNotificationUITests.swift */; };
 		D10F97E8229DE9800015128F /* MyObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10F97E7229DE9800015128F /* MyObserver.swift */; };
+		D19AD5C422B5C27800F05684 /* memory_nav.dart in Resources */ = {isa = PBXBuildFile; fileRef = D19AD5C322B5C27800F05684 /* memory_nav.dart */; };
 		F5FC29E10EC75E6B3CB69444 /* Pods_RxNotificationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DFDAB09584542377B1CE53C /* Pods_RxNotificationTests.framework */; };
 		FD7800763E0094AD930F7FF5 /* Pods_RxNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC20B8EEDF2F76D9866A610 /* Pods_RxNotification.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		D10F97D9229DE27F0015128F /* RxNotificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxNotificationUITests.swift; sourceTree = "<group>"; };
 		D10F97DB229DE27F0015128F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D10F97E7229DE9800015128F /* MyObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyObserver.swift; sourceTree = "<group>"; };
+		D19AD5C322B5C27800F05684 /* memory_nav.dart */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = memory_nav.dart; path = ../../../../../Downloads/flutter/examples/flutter_gallery/test_memory/memory_nav.dart; sourceTree = "<group>"; };
 		E66B09DB2A4972E60E37D835 /* Pods-RxNotificationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxNotificationTests.release.xcconfig"; path = "Target Support Files/Pods-RxNotificationTests/Pods-RxNotificationTests.release.xcconfig"; sourceTree = "<group>"; };
 		F5E270E96A1381FF7E081429 /* Pods-RxNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxNotification.release.xcconfig"; path = "Target Support Files/Pods-RxNotification/Pods-RxNotification.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,6 +145,7 @@
 				D10F97BB229DE27D0015128F /* ViewController.swift */,
 				D10F97E7229DE9800015128F /* MyObserver.swift */,
 				D10F97BD229DE27D0015128F /* Main.storyboard */,
+				D19AD5C322B5C27800F05684 /* memory_nav.dart */,
 				D10F97C0229DE27F0015128F /* Assets.xcassets */,
 				D10F97C2229DE27F0015128F /* LaunchScreen.storyboard */,
 				D10F97C5229DE27F0015128F /* Info.plist */,
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D10F97C4229DE27F0015128F /* LaunchScreen.storyboard in Resources */,
+				D19AD5C422B5C27800F05684 /* memory_nav.dart in Resources */,
 				D10F97C1229DE27F0015128F /* Assets.xcassets in Resources */,
 				D10F97BF229DE27D0015128F /* Main.storyboard in Resources */,
 			);
