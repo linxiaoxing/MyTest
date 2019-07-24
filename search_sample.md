@@ -11,7 +11,7 @@ method: POST
 ### リクエスト
 
 | パラメータ名 | 型 | 必須 | 説明 |
-| ---------- | ---- | :---: | --- |
+
 | access_token | string |  | アクセストークン（※ログイン時必須） |
 | prefecture | array[integer] | × | 都道府県ID |
 | business_type | array[integer] | × | 業種ID |
