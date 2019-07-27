@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/EditTextInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="EditTextInput"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/ButtonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ButtonSave" />
+
+    <Button
+        android:id="@+id/ButtonShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ButtonShow" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show data" />
+</LinearLayout>

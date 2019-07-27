@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ローカルファイルへデータ保存する" />
+
+    <Button
+        android:id="@+id/preference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="データを簡単に保存する方法(Preference編)" />
+
+    <Button
+        android:id="@+id/sqlite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="データを簡単に保存する方法(SQLite編)" />
+
+    <Button
+        android:id="@+id/serializable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="データを簡単に保存する方法(シリアライズ編)" />
+
+
+    <Button
+        android:id="@+id/sdcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* SDカードにファイルを保存する" />
+</LinearLayout>
