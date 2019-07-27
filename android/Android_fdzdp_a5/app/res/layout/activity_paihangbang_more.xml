@@ -1,0 +1,117 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F4F4F4"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yy_list_bkg_line_bottom"
+            android:paddingBottom="0.5dp" >
+
+            <TextView
+                android:id="@+id/paihangbang_more_title1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F4F4F4"
+                android:paddingBottom="12dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="12dp"
+                android:text="最佳排行"
+                android:textColor="#666666"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/paihangbang_more_bzrm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shopdetails_list_bkg"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="本周热门"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/paihangbang_more_zjct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shopdetails_list_bkg"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="最佳餐厅"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/paihangbang_more_kwzj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shopdetails_list_bkg"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="口味最佳"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/paihangbang_more_hjzj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shopdetails_list_bkg"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="环境最佳"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/paihangbang_more_fwzj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shopdetails_list_bkg"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="服务最佳"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/yy_list_bkg_line_bottom"
+            android:paddingBottom="0.5dp" >
+
+            <TextView
+                android:id="@+id/paihangbang_more_title2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F4F4F4"
+                android:paddingBottom="12dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="12dp"
+                android:text="最佳餐厅"
+                android:textColor="#666666"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/paihangbang_more_zjjr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shopdetails_list_bkg"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="最近加入"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</ScrollView>

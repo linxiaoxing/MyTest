@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anjoyo.liuxiaowei"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.anjoyo.liuxiaowei.StartActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.anjoyo.liuxiaowei.MainActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity android:name="com.anjoyo.liuxiaowei.FrameActivity" >
+        </activity>
+        <activity android:name="com.anjoyo.liuxiaowei.SearchActivity" >
+        </activity>
+        <activity
+            android:name="com.anjoyo.liuxiaowei.TuanActivity"
+            android:label="@string/title_activity_tuan" >
+        </activity>
+        <activity
+            android:name="com.anjoyo.liuxiaowei.CheckinActivity"
+            android:label="@string/title_activity_checkin" >
+        </activity>
+        <activity
+            android:name="com.anjoyo.liuxiaowei.MyActivity"
+            android:label="@string/title_activity_my" >
+        </activity>
+        <activity
+            android:name="com.anjoyo.liuxiaowei.MoreActivity"
+            android:label="@string/title_activity_more" >
+        </activity>
+        <activity android:name="com.anjoyo.liuxiaowei.ShopListActivity" >
+        </activity>
+        <activity
+            android:name="com.anjoyo.liuxiaowei.SearchMoreActivity"
+            android:label="@string/title_activity_search_more" >
+        </activity>
+        <activity
+            android:name="com.anjoyo.liuxiaowei.ShopDetailsActivity"
+            android:label="@string/title_activity_shop_details" >
+        </activity>
+        <activity
+            android:name="com.anjoyo.liuxiaowei.SearchTheCity"
+            android:label="@string/title_activity_sou_quan_cheng" >
+        </activity>
+        <activity
+            android:name="com.anjoyo.liuxiaowei.ShopDetailsMore"
+            android:label="@string/title_activity_shop_details_more" >
+        </activity>
+        <activity
+            android:name="com.anjoyo.liuxiaowei.RankingList"
+            android:label="@string/title_activity_paihangbang" >
+        </activity>
+        <activity
+            android:name="com.anjoyo.liuxiaowei.RegistrationActivity"
+            android:label="@string/title_activity_registration" >
+        </activity>
+        <activity
+            android:name="com.anjoyo.liuxiaowei.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.anjoyo.liuxiaowei.ShopDetailsCheckinActivity"
+            android:label="@string/title_activity_shop_detailsqiandao" >
+        </activity>
+        <activity
+            android:name="com.anjoyo.liuxiaowei.ShopDetailsCommentActivity"
+            android:label="@string/title_activity_shop_detailsdianping" >
+        </activity>
+        <activity
+            android:name="com.anjoyo.liuxiaowei.RankingList_more"
+            android:label="@string/title_activity_paihangbang_more" >
+        </activity>
+        <activity
+            android:name="com.anjoyo.liuxiaowei.RankingList_bzrm"
+            android:label="@string/title_activity_paihangbang_bzrm" >
+        </activity>
+        <activity
+            android:name="com.anjoyo.liuxiaowei.TuanDetailsActivity"
+            android:label="@string/title_activity_tuan_details" >
+        </activity>
+    </application>
+
+</manifest>

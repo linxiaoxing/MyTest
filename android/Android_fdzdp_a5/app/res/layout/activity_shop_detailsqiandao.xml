@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/titlerelativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_background"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/Shoplist_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:src="@drawable/ic_back" />
+
+        <LinearLayout
+            android:id="@+id/Shoplist_shanghuleixing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="3dp"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:id="@+id/Shoplist_title_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="签到留言"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/Shop_details_more_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="1dp"
+                android:singleLine="true"
+                android:text="商户名"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/FaceViewGroup" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="20dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:background="#ADADAD"
+                    android:orientation="vertical"
+                    android:paddingBottom="0.2dp" >
+
+                    <EditText
+                        android:id="@+id/shop_qiandao_edittext1"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="#FFFFFF"
+                        android:gravity="start"
+                        android:hint="在这里感觉如何?留两句言吧"
+                        android:padding="10dp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF" >
+
+                        <ImageView
+                            android:id="@+id/shop_qiandao_biaoqing"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="5dp"
+                            android:src="@drawable/icon_emotion" />
+
+                        <TextView
+                            android:id="@+id/shop_qiandao_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="15dp"
+                            android:paddingBottom="5dp"
+                            android:text="140"
+                            android:textColor="#666666"
+                            android:textSize="15sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/yy_list_bkg_line_bottom"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/shop_qiandao_addimage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:src="@drawable/shop_qiandao_photobg" />
+                </LinearLayout>
+
+                <RatingBar
+                    android:id="@+id/shop_qiandao_ratingbar"
+                    style="@style/custom_ratingbar_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:numStars="5" />
+
+                <TextView
+                    android:id="@+id/shop_qiandao_OK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/login_btn_bg"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:text="签　到"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/FaceViewGroup"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_alignParentBottom="true"
+            android:background="#d1d1d1"
+            android:padding="8dp"
+            android:visibility="gone" >
+        </android.support.v4.view.ViewPager>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">小伟点评</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_tuan">TuanActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_checkin">CheckinActivity</string>
+    <string name="title_activity_my">MyActivity</string>
+    <string name="title_activity_more">MoreActivity</string>
+    <string name="title_activity_search_more">SearchMoreActivity</string>
+    <string name="title_activity_shop_details">ShopDetails</string>
+    <string name="title_activity_sou_quan_cheng">搜全城</string>
+    <string name="title_activity_shop_details_more">ShopDetailsMore</string>
+    <string name="title_activity_paihangbang">Paihangbang</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_activity_shop_detailsqiandao">ShopDetailsqiandaoActivity</string>
+    <string name="title_activity_shop_detailsdianping">ShopDetailsdianpingActivity</string>
+    <string name="title_activity_paihangbang_more">Paihangbang_more</string>
+    <string name="title_activity_paihangbang_bzrm">Paihangbang_bzrm</string>
+    <string name="title_activity_tuan_details">TuanDetailsActivity</string>
+
+</resources>
