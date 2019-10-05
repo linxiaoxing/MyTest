@@ -1,0 +1,118 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'kotlin-kapt'
+
+apply plugin: 'realm-android'
+
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "29.0.0"
+    defaultConfig {
+        applicationId "com.example.gsykotlin"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+                arguments = [AROUTER_MODULE_NAME: project.getName()]
+            }
+        }
+    }
+
+    //针对编辑错误
+    configurations {
+        cleanedAnnotations
+        compile.exclude group: 'org.jetbrains', module: 'annotations'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    //打开 dataBinding
+    dataBinding {
+        enabled = true
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //dagger
+    implementation "com.google.dagger:dagger:${dagger_version}"
+    kapt "com.google.dagger:dagger-compiler:${dagger_version}"
+    implementation "com.google.dagger:dagger-android-support:${dagger_version}"
+    kapt "com.google.dagger:dagger-android-processor:${dagger_version}"
+
+    //kotlin plugin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "org.jetbrains.anko:anko:$anko_version"
+
+
+    ///ARouter
+    implementation "com.alibaba:arouter-api:${arouter_api_versoion}"
+    kapt "com.alibaba:arouter-compiler:${arouter_compiler_versoion}"
+
+    //HTTP retrofit2
+    implementation "com.squareup.okhttp3:logging-interceptor:${okhttp3_version}"
+    implementation "com.squareup.retrofit2:retrofit:${retrofit_version}"
+    implementation "com.squareup.retrofit2:converter-gson:${retrofit_version}"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:${retrofit_version}"
+    implementation "com.squareup.retrofit2:converter-scalars:${retrofit_version}"
+    implementation("com.squareup.retrofit2:converter-simplexml:${retrofit_version}") {
+        exclude group: 'xpp3', module: 'xpp3'
+        exclude group: 'stax', module: 'stax-api'
+        exclude group: 'stax', module: 'stax'
+    }
+
+    //RxJava
+    implementation "io.reactivex.rxjava2:rxandroid:${rx_android}"
+    implementation "io.reactivex.rxjava2:rxjava:${rx_version}"
+
+    //iconics
+    implementation "com.mikepenz:iconics-core:${iconics_version}"
+    implementation "com.mikepenz:iconics-views:${iconics_version}"
+    implementation 'com.mikepenz:material-design-iconic-typeface:2.2.0.6-kotlin@aar'
+    implementation 'com.mikepenz:fontawesome-typeface:5.9.0.0-kotlin@aar'
+    implementation 'com.mikepenz:community-material-typeface:3.5.95.1-kotlin@aar'
+    implementation 'com.mikepenz:octicons-typeface:3.2.0.6-kotlin@aar'
+    implementation 'com.mikepenz:weather-icons-typeface:2.0.10.5-kotlin@aar'
+    implementation 'com.mikepenz:foundation-icons-typeface:3.0.0.5-kotlin@aar'
+    implementation 'com.mikepenz:ionicons-typeface:2.0.1.5-kotlin@aar'
+
+    //navigation
+    implementation 'androidx.navigation:navigation-fragment:2.1.0-beta02'
+    implementation 'androidx.navigation:navigation-ui:2.1.0-beta02'
+
+    ///lottie
+    implementation "com.airbnb.android:lottie:${lottie_version}"
+
+    //TABBAR
+    implementation "devlight.io:navigationtabbar:${tabbar_version}"
+
+
+    ///Drawer
+    implementation "com.mikepenz:materialdrawer:7.0.0-rc03"
+
+    ///dialogplus
+    implementation "com.orhanobut:dialogplus:${dialogplus_version}"
+}

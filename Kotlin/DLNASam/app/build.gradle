@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+    defaultConfig {
+        applicationId "com.example.dlnasam"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    task makeJar(type: Copy) {
+        //���ÿ������ļ�
+        from('build/intermediates/bundles/release')
+        //���jar������ļ�Ŀ¼
+        into('build/libs/')
+        //��classes.jar����build/libs/Ŀ¼��
+        //include ,exclude���������ù���
+        include('classes.jar')
+        //ȥ��R$��ͷ���ļ�
+        exclude {
+            it.name.startsWith('R$')
+        }
+    }
+    makeJar.dependsOn(build)
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+
+    implementation files('libs/bdplayer.jar')
+    implementation files('libs/agent_lss_4.6.0-20180417.jar')
+    api project(path: ':dlnasupport')
+}
