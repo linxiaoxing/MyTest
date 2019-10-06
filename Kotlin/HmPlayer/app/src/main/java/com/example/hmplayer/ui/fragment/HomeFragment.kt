@@ -50,12 +50,117 @@ class HomeFragment : BaseFragment() {
 
             override fun onResponse(call: Call, response: Response) {
                 println("获取数据成功：" + Thread.currentThread().name)
+                var result = ""
                 if (response.code() != 200) {
                     println("获取数据出错：" + Thread.currentThread().name)
                     myToast("获取数据出错：" + Thread.currentThread().name)
-                    return
+                    result =
+                            "[{\n" +
+                            "                        \"type\": \"VIDEO\",\n" +
+                            "                        \"id\": \"3028080\",\n" +
+                            "                        \"title\": \"whisper完整版\",\n" +
+                            "                        \"description\": \"VIXX LR\",\n" +
+                            "                        \"posterPic\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                        \"thumbnailPic\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                        \"url\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                        \"hdUrl\": \"http://www.bejson.com\",\n" +
+                            "                        \"videoSize\": 88,\n" +
+                            "                        \"hdVideoSize\": 0,\n" +
+                            "                        \"uhdVideoSize\": 0,\n" +
+                            "                        \"status\": 200,\n" +
+                            "                        \"traceUrl\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                        \"clickUrl\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                        \"uhdUrl\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\"\n" +
+                            "                    },\n" +
+                            "                        {\n" +
+                            "                            \"type\": \"VIDEO\",\n" +
+                            "                            \"id\": \"3028080\",\n" +
+                            "                            \"title\": \"whisper完整版\",\n" +
+                            "                            \"description\": \"VIXX LR\",\n" +
+                            "                            \"posterPic\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"thumbnailPic\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"url\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"hdUrl\": \"http://www.bejson.com\",\n" +
+                            "                            \"videoSize\": 88,\n" +
+                            "                            \"hdVideoSize\": 0,\n" +
+                            "                            \"uhdVideoSize\": 0,\n" +
+                            "                            \"status\": 200,\n" +
+                            "                            \"traceUrl\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"clickUrl\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"uhdUrl\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\"\n" +
+                            "                        },\n" +
+                            "                        {\n" +
+                            "                            \"type\": \"VIDEO\",\n" +
+                            "                            \"id\": \"3028080\",\n" +
+                            "                            \"title\": \"whisper完整版\",\n" +
+                            "                            \"description\": \"VIXX LR\",\n" +
+                            "                            \"posterPic\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"thumbnailPic\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"url\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"hdUrl\": \"http://www.bejson.com\",\n" +
+                            "                            \"videoSize\": 88,\n" +
+                            "                            \"hdVideoSize\": 0,\n" +
+                            "                            \"uhdVideoSize\": 0,\n" +
+                            "                            \"status\": 200,\n" +
+                            "                            \"traceUrl\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"clickUrl\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"uhdUrl\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\"\n" +
+                            "                        },\n" +
+                            "                        {\n" +
+                            "                            \"type\": \"VIDEO\",\n" +
+                            "                            \"id\": \"3028080\",\n" +
+                            "                            \"title\": \"whisper完整版\",\n" +
+                            "                            \"description\": \"VIXX LR\",\n" +
+                            "                            \"posterPic\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"thumbnailPic\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"url\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"hdUrl\": \"http://www.bejson.com\",\n" +
+                            "                            \"videoSize\": 88,\n" +
+                            "                            \"hdVideoSize\": 0,\n" +
+                            "                            \"uhdVideoSize\": 0,\n" +
+                            "                            \"status\": 200,\n" +
+                            "                            \"traceUrl\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"clickUrl\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"uhdUrl\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\"\n" +
+                            "                        },\n" +
+                            "                        {\n" +
+                            "                            \"type\": \"VIDEO\",\n" +
+                            "                            \"id\": \"3028080\",\n" +
+                            "                            \"title\": \"whisper完整版\",\n" +
+                            "                            \"description\": \"VIXX LR\",\n" +
+                            "                            \"posterPic\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"thumbnailPic\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"url\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"hdUrl\": \"http://www.bejson.com\",\n" +
+                            "                            \"videoSize\": 88,\n" +
+                            "                            \"hdVideoSize\": 0,\n" +
+                            "                            \"uhdVideoSize\": 0,\n" +
+                            "                            \"status\": 200,\n" +
+                            "                            \"traceUrl\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"clickUrl\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"uhdUrl\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\"\n" +
+                            "                        },\n" +
+                            "                        {\n" +
+                            "                            \"type\": \"VIDEO\",\n" +
+                            "                            \"id\": \"3028080\",\n" +
+                            "                            \"title\": \"whisper完整版\",\n" +
+                            "                            \"description\": \"VIXX LR\",\n" +
+                            "                            \"posterPic\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"thumbnailPic\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"url\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"hdUrl\": \"http://www.bejson.com\",\n" +
+                            "                            \"videoSize\": 88,\n" +
+                            "                            \"hdVideoSize\": 0,\n" +
+                            "                            \"uhdVideoSize\": 0,\n" +
+                            "                            \"status\": 200,\n" +
+                            "                            \"traceUrl\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"clickUrl\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\",\n" +
+                            "                            \"uhdUrl\": \"http://img2.c.yinyuetai.com/others/frontPageRec/190920/0/-M-bc58b446a4775a8968f7d892d1d5b90b_0x0.jpg\"\n" +
+                            "                        }\n" +
+                            "                    ]"
+                } else {
+                    result = response?.body()?.string()!!
                 }
-                val result = response?.body()?.string()
                 println("数据:"+result)
                 val gson = Gson()
                 val list = gson.fromJson<List<HomeItemBean>>(

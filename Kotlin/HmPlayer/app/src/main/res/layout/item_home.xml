@@ -25,7 +25,9 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_margin="10dp"
-            android:src="@mipmap/home_page_live" />
+            android:src="@mipmap/home_page_live"
+            android:scaleType="centerCrop"
+            />
 
         <TextView
             android:id="@+id/title"
