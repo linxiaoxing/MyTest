@@ -6,7 +6,7 @@ import java.lang.reflect.ParameterizedType
 /**
  * @Description 所有网络请求的基类
  */
-open class MRequest<T>(val url: String, val handler: ResponseHandler<T>) {
+open class MRequest<T>(val type: Int, val url: String, val handler: ResponseHandler<T>) {
 
     /**
      * 解析网络请求结果
@@ -22,6 +22,6 @@ open class MRequest<T>(val url: String, val handler: ResponseHandler<T>) {
      * 发送网络请求
      */
     fun execute() {
-        NetManager.manager.sendRequest(this)
+        NetManager.manager.sendRequest(type, this)
     }
 }

@@ -20,7 +20,7 @@ class NetManager private constructor() {
         val manager by lazy { NetManager() }
     }
 
-    fun <T> sendRequest(req: MRequest<T>) {
+    fun <T> sendRequest(type: Int, req: MRequest<T>) {
         val path = URLProviderUtils.getHomeUrl(0, 20)
         val client = OkHttpClient()
         val request = Request.Builder()
@@ -57,7 +57,7 @@ class NetManager private constructor() {
                 //更新処理(Main Thread)
                 ThreadUtil.runOnMainThread(object : Runnable {
                     override fun run() {
-                        req.handler.onSuccess(list)
+                        req.handler.onSuccess(type, list)
                     }
                 })
             }

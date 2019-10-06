@@ -6,19 +6,11 @@ import com.example.hmplayer.net.ResponseHandler
 import com.example.hmplayer.presenter.interf.HomePresenter
 import com.example.hmplayer.view.HomeView
 
-class HomePresenterImpl(var homeView: HomeView) : HomePresenter {
+class HomePresenterImpl(var homeView: HomeView) : HomePresenter,
+    ResponseHandler<List<HomeItemBean>> {
 
     override fun loadMore(offset: Int) {
-        HomeRequest(offset, object : ResponseHandler<List<HomeItemBean>> {
-            override fun onError(msg: String?) {
-                homeView.onError(msg)
-            }
-
-            override fun onSuccess(result: List<HomeItemBean>) {
-                homeView.loadMoreSuccessed(result)
-            }
-
-        }).execute()
+        HomeRequest(HomePresenter.TYPE_LOAD_MORE, offset, this).execute()
 //        NetManager.manager.sendRequest(request)
 
 //        val path = URLProviderUtils.getHomeUrl(offset, 20)
@@ -65,16 +57,7 @@ class HomePresenterImpl(var homeView: HomeView) : HomePresenter {
     }
 
     override fun loadDatas() {
-        HomeRequest(0, object : ResponseHandler<List<HomeItemBean>> {
-            override fun onError(msg: String?) {
-                homeView.onError(msg)
-            }
-
-            override fun onSuccess(result: List<HomeItemBean>) {
-                homeView.loadSuccessed(result)
-            }
-
-        }).execute()
+        HomeRequest(HomePresenter.TYPE_INIT_OR_REFRESH,0, this).execute()
 //        NetManager.manager.sendRequest(request)
 
 //        val path = URLProviderUtils.getHomeUrl(0, 20)
@@ -117,6 +100,18 @@ class HomePresenterImpl(var homeView: HomeView) : HomePresenter {
 //                })
 //            }
 //        })
+    }
+
+    override fun onError(msg: String?) {
+        homeView.onError(msg)
+    }
+
+    override fun onSuccess(type: Int, result: List<HomeItemBean>) {
+
+        when(type) {
+            HomePresenter.TYPE_INIT_OR_REFRESH-> homeView.loadSuccessed(result)
+            HomePresenter.TYPE_LOAD_MORE-> homeView.loadMoreSuccessed(result)
+        }
     }
 
     companion object {
