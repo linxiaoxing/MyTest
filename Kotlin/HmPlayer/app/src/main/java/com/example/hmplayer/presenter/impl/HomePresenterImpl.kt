@@ -6,8 +6,14 @@ import com.example.hmplayer.net.ResponseHandler
 import com.example.hmplayer.presenter.interf.HomePresenter
 import com.example.hmplayer.view.HomeView
 
-class HomePresenterImpl(var homeView: HomeView) : HomePresenter,
+class HomePresenterImpl(var homeView: HomeView?) : HomePresenter,
     ResponseHandler<List<HomeItemBean>> {
+
+    fun destoryView() {
+        if (homeView != null) {
+            homeView = null
+        }
+    }
 
     override fun loadMore(offset: Int) {
         HomeRequest(HomePresenter.TYPE_LOAD_MORE, offset, this).execute()
@@ -103,14 +109,14 @@ class HomePresenterImpl(var homeView: HomeView) : HomePresenter,
     }
 
     override fun onError(msg: String?) {
-        homeView.onError(msg)
+        homeView?.onError(msg)
     }
 
     override fun onSuccess(type: Int, result: List<HomeItemBean>) {
 
         when(type) {
-            HomePresenter.TYPE_INIT_OR_REFRESH-> homeView.loadSuccessed(result)
-            HomePresenter.TYPE_LOAD_MORE-> homeView.loadMoreSuccessed(result)
+            HomePresenter.TYPE_INIT_OR_REFRESH-> homeView?.loadSuccessed(result)
+            HomePresenter.TYPE_LOAD_MORE-> homeView?.loadMoreSuccessed(result)
         }
     }
 
