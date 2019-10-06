@@ -15,15 +15,20 @@ class HomeAdapter : RecyclerView.Adapter<HomeAdapter.HomeHolder>() {
     /**
      * 更新処理
      */
-    fun updateList(list: List<HomeItemBean>) {
+    fun updateList(list: List<HomeItemBean>?) {
+        if (list == null) {
+            return
+        }
         this.list.clear()
         this.list.addAll(list)
         notifyDataSetChanged()
     }
 
-    fun loadMore(list: List<HomeItemBean>) {
-        this.list.addAll(list)
-        notifyDataSetChanged()
+    fun loadMore(list: List<HomeItemBean>?) {
+        list?.let {
+            this.list.addAll(it)
+            notifyDataSetChanged()
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeHolder {
