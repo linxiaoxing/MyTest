@@ -2,7 +2,6 @@ package com.example.hmplayer.presenter.impl
 
 import com.example.hmplayer.model.HomeItemBean
 import com.example.hmplayer.net.HomeRequest
-import com.example.hmplayer.net.NetManager
 import com.example.hmplayer.net.ResponseHandler
 import com.example.hmplayer.presenter.interf.HomePresenter
 import com.example.hmplayer.view.HomeView
@@ -10,7 +9,7 @@ import com.example.hmplayer.view.HomeView
 class HomePresenterImpl(var homeView: HomeView) : HomePresenter {
 
     override fun loadMore(offset: Int) {
-        val request = HomeRequest(offset, object : ResponseHandler<List<HomeItemBean>> {
+        HomeRequest(offset, object : ResponseHandler<List<HomeItemBean>> {
             override fun onError(msg: String?) {
                 homeView.onError(msg)
             }
@@ -19,8 +18,9 @@ class HomePresenterImpl(var homeView: HomeView) : HomePresenter {
                 homeView.loadMoreSuccessed(result)
             }
 
-        })
-        NetManager.manager.sendRequest(request)
+        }).execute()
+//        NetManager.manager.sendRequest(request)
+
 //        val path = URLProviderUtils.getHomeUrl(offset, 20)
 //        val client = OkHttpClient()
 //        val request = Request.Builder()
@@ -65,7 +65,7 @@ class HomePresenterImpl(var homeView: HomeView) : HomePresenter {
     }
 
     override fun loadDatas() {
-        val request = HomeRequest(0, object : ResponseHandler<List<HomeItemBean>> {
+        HomeRequest(0, object : ResponseHandler<List<HomeItemBean>> {
             override fun onError(msg: String?) {
                 homeView.onError(msg)
             }
@@ -74,8 +74,9 @@ class HomePresenterImpl(var homeView: HomeView) : HomePresenter {
                 homeView.loadSuccessed(result)
             }
 
-        })
-        NetManager.manager.sendRequest(request)
+        }).execute()
+//        NetManager.manager.sendRequest(request)
+
 //        val path = URLProviderUtils.getHomeUrl(0, 20)
 //        val client = OkHttpClient()
 //        val request = Request.Builder()
