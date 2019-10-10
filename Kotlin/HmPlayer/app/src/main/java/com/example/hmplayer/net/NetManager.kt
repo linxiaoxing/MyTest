@@ -1,11 +1,9 @@
 package com.example.hmplayer.net
 
-import com.example.hmplayer.model.HomeItemBean
 import com.example.hmplayer.presenter.impl.HomePresenterImpl
 import com.example.hmplayer.util.ThreadUtil
 import com.example.hmplayer.util.URLProviderUtils
 import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
 import okhttp3.*
 import java.io.IOException
 

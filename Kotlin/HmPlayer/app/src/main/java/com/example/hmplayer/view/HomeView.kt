@@ -1,12 +1,8 @@
 package com.example.hmplayer.view
 
+import com.example.hmplayer.base.BaseView
 import com.example.hmplayer.model.HomeItemBean
 
-interface HomeView {
+interface HomeView: BaseView<List<HomeItemBean>> {
 
-    fun onError(message: String?)
-
-    fun loadSuccessed(list: List<HomeItemBean>?)
-
-    fun loadMoreSuccessed(list: List<HomeItemBean>?)
 }

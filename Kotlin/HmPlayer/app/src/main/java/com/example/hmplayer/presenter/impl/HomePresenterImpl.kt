@@ -1,22 +1,24 @@
 package com.example.hmplayer.presenter.impl
 
+import com.example.hmplayer.base.BaseListPresenter
+import com.example.hmplayer.base.BaseView
 import com.example.hmplayer.model.HomeItemBean
 import com.example.hmplayer.net.HomeRequest
 import com.example.hmplayer.net.ResponseHandler
 import com.example.hmplayer.presenter.interf.HomePresenter
 import com.example.hmplayer.view.HomeView
 
-class HomePresenterImpl(var homeView: HomeView?) : HomePresenter,
+class HomePresenterImpl(var homeView: BaseView<List<HomeItemBean>>?) : HomePresenter,
     ResponseHandler<List<HomeItemBean>> {
 
-    fun destoryView() {
+    override fun destroyView() {
         if (homeView != null) {
             homeView = null
         }
     }
 
     override fun loadMore(offset: Int) {
-        HomeRequest(HomePresenter.TYPE_LOAD_MORE, offset, this).execute()
+        HomeRequest(BaseListPresenter.TYPE_LOAD_MORE, offset, this).execute()
 //        NetManager.manager.sendRequest(request)
 
 //        val path = URLProviderUtils.getHomeUrl(offset, 20)
@@ -62,8 +64,8 @@ class HomePresenterImpl(var homeView: HomeView?) : HomePresenter,
 //        })
     }
 
-    override fun loadDatas() {
-        HomeRequest(HomePresenter.TYPE_INIT_OR_REFRESH,0, this).execute()
+    override fun loadData() {
+        HomeRequest(BaseListPresenter.TYPE_INIT_OR_REFRESH,0, this).execute()
 //        NetManager.manager.sendRequest(request)
 
 //        val path = URLProviderUtils.getHomeUrl(0, 20)
@@ -115,8 +117,8 @@ class HomePresenterImpl(var homeView: HomeView?) : HomePresenter,
     override fun onSuccess(type: Int, result: List<HomeItemBean>) {
 
         when(type) {
-            HomePresenter.TYPE_INIT_OR_REFRESH-> homeView?.loadSuccessed(result)
-            HomePresenter.TYPE_LOAD_MORE-> homeView?.loadMoreSuccessed(result)
+            BaseListPresenter.TYPE_INIT_OR_REFRESH-> homeView?.onLoadDataSuccess(result)
+            BaseListPresenter.TYPE_LOAD_MORE-> homeView?.onLoadMoreSuccess(result)
         }
     }
 

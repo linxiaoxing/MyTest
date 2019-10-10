@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.hmplayer.R
 import com.example.hmplayer.adapter.HomeAdapter
 import com.example.hmplayer.base.BaseFragment
+import com.example.hmplayer.base.BaseView
 import com.example.hmplayer.model.HomeItemBean
 import com.example.hmplayer.presenter.impl.HomePresenterImpl
 import com.example.hmplayer.presenter.interf.HomePresenter
@@ -22,7 +23,7 @@ import org.jetbrains.anko.support.v4.runOnUiThread
 import org.jetbrains.anko.support.v4.toast
 import java.io.IOException
 
-class HomeFragment : BaseFragment(), HomeView {
+class HomeFragment : BaseFragment(), BaseView<List<HomeItemBean>> {
 
     val adapter by lazy { HomeAdapter() }
     val presenter by lazy { HomePresenterImpl(this) }
@@ -38,7 +39,7 @@ class HomeFragment : BaseFragment(), HomeView {
         // 更新の初期処理
         refreshLayout.setColorSchemeColors(Color.RED, Color.YELLOW, Color.GREEN)
         refreshLayout.setOnRefreshListener {
-            presenter.loadDatas()
+            presenter.loadData()
         }
 
         recycleView.addOnScrollListener(object : RecyclerView.OnScrollListener() {
@@ -77,7 +78,7 @@ class HomeFragment : BaseFragment(), HomeView {
 
     override fun initData() {
         // loadDatas()
-        presenter.loadDatas()
+        presenter.loadData()
     }
 
     override fun onError(message: String?) {
@@ -85,12 +86,12 @@ class HomeFragment : BaseFragment(), HomeView {
         runOnUiThread { refreshLayout.isRefreshing = false }
     }
 
-    override fun loadSuccessed(list: List<HomeItemBean>?) {
+    override fun onLoadDataSuccess(list: List<HomeItemBean>?) {
         runOnUiThread { refreshLayout.isRefreshing = false }
         adapter.updateList(list)
     }
 
-    override fun loadMoreSuccessed(list: List<HomeItemBean>?) {
+    override fun onLoadMoreSuccess(list: List<HomeItemBean>?) {
         adapter.loadMore(list)
 
     }

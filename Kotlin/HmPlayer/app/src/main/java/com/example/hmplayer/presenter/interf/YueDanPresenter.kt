@@ -2,6 +2,6 @@ package com.example.hmplayer.presenter.interf
 
 import com.example.hmplayer.base.BaseListPresenter
 
-interface HomePresenter: BaseListPresenter {
+interface YueDanPresenter: BaseListPresenter {
 
 }
