@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hmplayer">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.activity.SplashActivity"
+        <activity
+            android:name=".ui.activity.SplashActivity"
             android:theme="@style/AppTheme.FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,8 +19,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.activity.MainActivity"/>
-        <activity android:name=".ui.activity.SettingActivity"/>
+        <activity android:name=".ui.activity.MainActivity" />
+        <activity android:name=".ui.activity.SettingActivity" />
+        <activity android:name=".ui.activity.VideoPlayerActivity" />
+        <activity android:name=".ui.activity.VitamioVideoPlayerActivity" />
+        <activity
+            android:name=".ui.activity.AudioPlayerActivity"
+            android:launchMode="singleTask" />
+
+        <service android:name=".service.AudioService" />
     </application>
 
 </manifest>

@@ -55,6 +55,8 @@ abstract class BaseListFragment<RESPONSE, ITEMBEAN, ITEMVIEW : View> : BaseFragm
                 }
             }
         })
+
+        setListener()
     }
 
     override fun initData() {
@@ -96,4 +98,6 @@ abstract class BaseListFragment<RESPONSE, ITEMBEAN, ITEMVIEW : View> : BaseFragm
      * 获取Presenter
      */
     abstract fun getSpecialPresenter(): BaseListPresenter
+
+    abstract fun setListener()
 }

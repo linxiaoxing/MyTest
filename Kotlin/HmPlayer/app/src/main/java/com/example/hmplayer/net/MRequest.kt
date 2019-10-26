@@ -1,12 +1,13 @@
 package com.example.hmplayer.net
 
+import com.example.hmplayer.base.BaseFragment
 import com.google.gson.Gson
 import java.lang.reflect.ParameterizedType
 
 /**
  * @Description 所有网络请求的基类
  */
-open class MRequest<T>(val type: Int, val url: String, val handler: ResponseHandler<T>) {
+open class MRequest<T>(val type: Int, val url: String, val handler: ResponseHandler<T>, val fragment: BaseFragment?) {
 
     /**
      * 解析网络请求结果
@@ -22,6 +23,6 @@ open class MRequest<T>(val type: Int, val url: String, val handler: ResponseHand
      * 发送网络请求
      */
     fun execute() {
-        NetManager.manager.sendRequest(type, this)
+        NetManager.manager.sendRequest(type, this, fragment)
     }
 }

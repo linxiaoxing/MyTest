@@ -1,14 +1,14 @@
 package com.example.hmplayer.presenter.impl
 
+import com.example.hmplayer.base.BaseFragment
 import com.example.hmplayer.base.BaseListPresenter
 import com.example.hmplayer.base.BaseView
 import com.example.hmplayer.model.HomeItemBean
 import com.example.hmplayer.net.HomeRequest
 import com.example.hmplayer.net.ResponseHandler
 import com.example.hmplayer.presenter.interf.HomePresenter
-import com.example.hmplayer.view.HomeView
 
-class HomePresenterImpl(var homeView: BaseView<List<HomeItemBean>>?) : HomePresenter,
+class HomePresenterImpl(var homeView: BaseView<List<HomeItemBean>>?, val fragment: BaseFragment) : HomePresenter,
     ResponseHandler<List<HomeItemBean>> {
 
     override fun destroyView() {
@@ -18,7 +18,7 @@ class HomePresenterImpl(var homeView: BaseView<List<HomeItemBean>>?) : HomePrese
     }
 
     override fun loadMore(offset: Int) {
-        HomeRequest(BaseListPresenter.TYPE_LOAD_MORE, offset, this).execute()
+        HomeRequest(BaseListPresenter.TYPE_LOAD_MORE, offset, this, fragment).execute()
 //        NetManager.manager.sendRequest(request)
 
 //        val path = URLProviderUtils.getHomeUrl(offset, 20)
@@ -65,7 +65,7 @@ class HomePresenterImpl(var homeView: BaseView<List<HomeItemBean>>?) : HomePrese
     }
 
     override fun loadData() {
-        HomeRequest(BaseListPresenter.TYPE_INIT_OR_REFRESH,0, this).execute()
+        HomeRequest(BaseListPresenter.TYPE_INIT_OR_REFRESH,0, this, fragment).execute()
 //        NetManager.manager.sendRequest(request)
 
 //        val path = URLProviderUtils.getHomeUrl(0, 20)

@@ -47,6 +47,39 @@ public class URLProviderUtils {
         return url;
     }
 
+    public static String getMVareaUrl() {
+        String url = "http://mapi.yinyuetai.com/video/get_mv_areas.json?deviceinfo="
+                + "{\"aid\":\"10201036\",\"os\":\"Android\","
+                + "\"ov\":" + "\"" + getSystemVersion() + "\"" + ","
+                + "\"rn\":\"480*800\","
+                + "\"dn\":" + "\"" + getPhoneModel() + "\"" + ","
+                + "\"cr\":\"46000\","
+                + "\"as\":"
+                + "\"WIFI\","
+                + "\"uid\":"
+                + "\"dbcaa6c4482bc05ecb0bf39dabf207d2\","
+                + "\"clid\":110025000}";
+        return url;
+    }
+
+    public static String getMVListUrl(String area, int offset, int size) {
+        String url = "http://mapi.yinyuetai.com/video/list.json?deviceinfo="
+                + "{\"aid\":\"10201036\",\"os\":\"Android\","
+                + "\"ov\":" + "\"" + getSystemVersion() + "\"" + ","
+                + "\"rn\":\"480*800\","
+                + "\"dn\":" + "\"" + getPhoneModel() + "\"" + ","
+                + "\"cr\":\"46000\","
+                + "\"as\":"
+                + "\"WIFI\","
+                + "\"uid\":"
+                + "\"dbcaa6c4482bc05ecb0bf39dabf207d2\","
+                + "\"clid\":110025000}"
+                + "&area=" + area
+                + "&offset=" + offset
+                + "&size=" + size;
+        return url;
+    }
+
     private static String getSystemVersion() {
         return android.os.Build.VERSION.RELEASE;
     }

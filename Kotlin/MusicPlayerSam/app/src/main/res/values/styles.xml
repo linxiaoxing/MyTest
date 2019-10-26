@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- application base theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name="android:windowAllowReturnTransitionOverlap">false</item>
+
+        <!-- default theme color -->
+        <item name="quietBackground">@color/background</item>
+        <item name="quietPrimaryLight">@color/color_primary_light</item>
+        <item name="quietTextPrimary">@color/color_text_primary</item>
+        <item name="quietTextPrimaryInverse">@color/color_text_inverse_primary</item>
+        <item name="quietTextSecondary">@color/color_text_secondary</item>
+        <item name="quietTextSecondaryInverse">@color/color_text_inverse_secondary</item>
+        <item name="quietDivider">@color/color_divider</item>
+        <item name="quietIconActive">@color/color_icon_active</item>
+        <item name="quietIconInactive">@color/color_icon_inactive</item>
+
+        <!-- support material components style -->
+        <!--<item name="chipGroupStyle">@style/Widget.MaterialComponents.ChipGroup</item>-->
+        <!--<item name="chipStyle">@style/Widget.MaterialComponents.Chip.Action</item>-->
+        <!--<item name="navigationViewStyle">@style/Widget.Design.NavigationView</item>-->
+        <!--<item name="materialCardViewStyle">@style/Widget.MaterialComponents.CardView</item>-->
+        <!--<item name="materialButtonStyle">@style/Widget.MaterialComponents.Button</item>-->
+
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox
+        </item>
+        <item name="editTextStyle">@style/Widget.MaterialComponents.TextInputEditText.OutlinedBox
+        </item>
+
+        <!-- disable action bar and make window translucent -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+        <item name="toolbarNavigationButtonStyle">@style/Toolbar.Button.Navigation.Tinted</item>
+
+    </style>
+
+    <style name="Toolbar.Button.Navigation.Tinted" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="tint">@color/color_text_inverse_primary</item>
+    </style>
+
+
+    <style name="AppTheme.ColoredNavigationBar">
+        <item name="android:navigationBarColor">?colorPrimary</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+
+</resources>

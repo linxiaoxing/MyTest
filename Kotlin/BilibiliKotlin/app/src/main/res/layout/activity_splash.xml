@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivSplash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/llCountDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp16"
+        android:background="@drawable/shape_count_down"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp6">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跳过"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_14"/>
+
+        <TextView
+            android:id="@+id/tvCountDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp10"
+            android:textColor="@color/pink"
+            android:textSize="@dimen/text_size_14"/>
+    </LinearLayout>
+
+</RelativeLayout>

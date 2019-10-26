@@ -1,0 +1,39 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.vov.vitamio"
+4    android:versionCode="400"
+5    android:versionName="4.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/AndroidManifest.xml:6:5-68
+11-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/AndroidManifest.xml:6:22-65
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/AndroidManifest.xml:7:5-67
+12-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/AndroidManifest.xml:8:5-79
+13-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/AndroidManifest.xml:8:22-76
+14
+15    <application>
+15-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/AndroidManifest.xml:10:5-17:19
+16        <activity
+16-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/AndroidManifest.xml:11:9-16:66
+17            android:name="io.vov.vitamio.activity.InitActivity"
+17-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/AndroidManifest.xml:12:17-68
+18            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+18-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/AndroidManifest.xml:13:17-117
+19            android:launchMode="singleTop"
+19-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/AndroidManifest.xml:14:17-47
+20            android:theme="@android:style/Theme.NoTitleBar"
+20-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/AndroidManifest.xml:15:17-64
+21            android:windowSoftInputMode="stateAlwaysHidden" />
+21-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/AndroidManifest.xml:16:17-64
+22    </application>
+23
+24</manifest>

@@ -1,36 +1,17 @@
 package com.example.hmplayer.adapter
 
-import android.view.View
-import android.view.ViewGroup
-import androidx.recyclerview.widget.RecyclerView
+import android.content.Context
+import com.example.hmplayer.base.BaseListAdapter
 import com.example.hmplayer.model.YueDanBean
-import com.example.hmplayer.view.YueDanItemView
+import com.example.hmplayer.widget.YueDanItemView
 
-class YueDanAdapter : RecyclerView.Adapter<YueDanAdapter.YueDanHolder>() {
+class YueDanAdapter : BaseListAdapter<YueDanBean.PlayListsBean, YueDanItemView>() {
 
-    private var list = ArrayList<YueDanBean.PlayListsBean>()
-
-    fun updateList(list: List<YueDanBean.PlayListsBean>?) {
-        list?.let {
-            this.list.clear()
-            this.list.addAll(it)
-            notifyDataSetChanged()
-        }
+    override fun refreshItemView(itemView: YueDanItemView, data: YueDanBean.PlayListsBean) {
+        itemView.setData(data)
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): YueDanHolder {
-        return YueDanHolder(YueDanItemView(parent?.context))
-    }
-
-    override fun getItemCount(): Int {
-        return list.size
-    }
-
-    override fun onBindViewHolder(holder: YueDanHolder, position: Int) {
-
-    }
-
-    class YueDanHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-
+    override fun getItemView(context: Context?): YueDanItemView {
+        return YueDanItemView(context)
     }
 }

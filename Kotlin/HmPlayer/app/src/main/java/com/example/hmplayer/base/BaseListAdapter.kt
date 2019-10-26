@@ -4,7 +4,7 @@ import android.content.Context
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.hmplayer.view.LoadMoreView
+import com.example.hmplayer.widget.LoadMoreView
 
 /**
  * @Description 所有适配器的基类

@@ -1,6 +1,10 @@
 package com.example.hmplayer.net
 
+import com.example.hmplayer.base.BaseFragment
+import com.example.hmplayer.model.HomeItemBean
+import com.example.hmplayer.model.YueDanBean
 import com.example.hmplayer.presenter.impl.HomePresenterImpl
+import com.example.hmplayer.ui.fragment.HomeFragment
 import com.example.hmplayer.util.ThreadUtil
 import com.example.hmplayer.util.URLProviderUtils
 import com.google.gson.Gson
@@ -18,11 +22,11 @@ class NetManager private constructor() {
         val manager by lazy { NetManager() }
     }
 
-    fun <T> sendRequest(type: Int, req: MRequest<T>) {
-        val path = URLProviderUtils.getHomeUrl(0, 20)
+    fun <T> sendRequest(type: Int, req: MRequest<T>, fragment: BaseFragment?) {
+        //val path = URLProviderUtils.getHomeUrl(0, 20)
         val client = OkHttpClient()
         val request = Request.Builder()
-            .url(path)
+            .url(req.url)
             .get()
             .build()
 
@@ -43,7 +47,11 @@ class NetManager private constructor() {
                 var result = ""
                 if (response.code() != 200) {
                     println("获取数据出错：" + Thread.currentThread().name)
-                    result = HomePresenterImpl.jsonStr
+                    if (fragment is HomeFragment) {
+                        result = HomePresenterImpl.jsonStr
+                    } else {
+                        result = YueDanBean.yueDanJson
+                    }
                 } else {
                     result = response?.body()?.string()!!
                 }
