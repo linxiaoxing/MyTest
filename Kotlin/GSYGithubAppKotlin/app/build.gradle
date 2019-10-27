@@ -4,6 +4,11 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
+apply plugin: 'kotlin-kapt'
+
+
+apply plugin: 'realm-android'
+
 android {
     compileSdkVersion 28
     buildToolsVersion "29.0.0"
@@ -14,11 +19,33 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+                arguments = [AROUTER_MODULE_NAME: project.getName()]
+            }
+        }
+
+        Properties properties = new Properties()
+        properties.load(project.rootProject.file('local.properties').newDataInputStream())
+        buildConfigField "String", "CLIENT_ID", properties.getProperty("CLIENT_ID")
+        buildConfigField "String", "CLIENT_SECRET", properties.getProperty("CLIENT_SECRET")
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    kapt {
+        arguments {
+            arg("AROUTER_MODULE_NAME", project.getName())
+        }
+        javacOptions {
+            // 增加错误提示
+            option("-Xmaxerrs", 500)
         }
     }
 }
@@ -32,4 +59,44 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+
+    //dagger
+    implementation "com.google.dagger:dagger:${dagger_version}"
+    kapt "com.google.dagger:dagger-compiler:${dagger_version}"
+    implementation "com.google.dagger:dagger-android-support:${dagger_version}"
+    kapt "com.google.dagger:dagger-android-processor:${dagger_version}"
+
+
+    ///ARouter
+    implementation "com.alibaba:arouter-api:${arouter_api_versoion}"
+    kapt "com.alibaba:arouter-compiler:${arouter_compiler_versoion}"
+
+    //iconics
+    implementation "com.mikepenz:iconics-core:${iconics_version}"
+    implementation "com.mikepenz:iconics-views:${iconics_version}"
+    implementation 'com.mikepenz:material-design-iconic-typeface:2.2.0.6-kotlin@aar'
+    implementation 'com.mikepenz:fontawesome-typeface:5.9.0.0-kotlin@aar'
+    implementation 'com.mikepenz:community-material-typeface:3.5.95.1-kotlin@aar'
+    implementation 'com.mikepenz:octicons-typeface:3.2.0.6-kotlin@aar'
+    implementation 'com.mikepenz:weather-icons-typeface:2.0.10.5-kotlin@aar'
+    implementation 'com.mikepenz:foundation-icons-typeface:3.0.0.5-kotlin@aar'
+    implementation 'com.mikepenz:ionicons-typeface:2.0.1.5-kotlin@aar'
+
+    ///bugly
+    implementation "com.tencent.bugly:crashreport:${bugly_version}"
+
+    //glide
+    implementation "com.github.bumptech.glide:glide:${image_load}"
+    kapt "com.github.bumptech.glide:compiler:${image_load}"
+
+    //RxJava
+    implementation "io.reactivex.rxjava2:rxandroid:${rx_android}"
+    implementation "io.reactivex.rxjava2:rxjava:${rx_version}"
+
+    ///Drawer
+    implementation "com.mikepenz:materialdrawer:7.0.0-beta01"
+
+    //kotlin plugin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "org.jetbrains.anko:anko:$anko_version"
 }
