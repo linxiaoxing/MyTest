@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mikepenz:community-material-typeface:3.5.95.1-kotlin@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b36ad89022bbc33e66d8b41910b77598/community-material-typeface-3.5.95.1-kotlin/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b36ad89022bbc33e66d8b41910b77598/community-material-typeface-3.5.95.1-kotlin/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/community-material-typeface/3.5.95.1-kotlin/5f625edf56b9631b7c330602067c446669532318/community-material-typeface-3.5.95.1-kotlin-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mikepenz/community-material-typeface/3.5.95.1-kotlin/bd4f83da287bdd9b7fe8e3b82757626973836a1/community-material-typeface-3.5.95.1-kotlin-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

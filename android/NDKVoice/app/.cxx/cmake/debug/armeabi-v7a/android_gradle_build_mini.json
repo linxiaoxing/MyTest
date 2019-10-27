@@ -1,0 +1,26 @@
+{
+  "buildFiles": [
+    "/Users/hayashishoukyou/Desktop/MyTest/android/NDKVoice/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/hayashishoukyou/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/hayashishoukyou/Desktop/MyTest/android/NDKVoice/app/.cxx/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "fmodL-Debug-armeabi-v7a": {
+      "artifactName": "fmodL",
+      "abi": "armeabi-v7a",
+      "output": "/Users/hayashishoukyou/Desktop/MyTest/android/NDKVoice/app/src/main/cpp/libs/armeabi-v7a/libfmodL.so"
+    },
+    "sound-Debug-armeabi-v7a": {
+      "artifactName": "sound",
+      "buildCommand": "/Users/hayashishoukyou/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/hayashishoukyou/Desktop/MyTest/android/NDKVoice/app/.cxx/cmake/debug/armeabi-v7a --target sound",
+      "abi": "armeabi-v7a",
+      "output": "/Users/hayashishoukyou/Desktop/MyTest/android/NDKVoice/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libsound.so"
+    },
+    "fmod-Debug-armeabi-v7a": {
+      "artifactName": "fmod",
+      "abi": "armeabi-v7a",
+      "output": "/Users/hayashishoukyou/Desktop/MyTest/android/NDKVoice/app/src/main/cpp/libs/armeabi-v7a/libfmod.so"
+    }
+  }
+}

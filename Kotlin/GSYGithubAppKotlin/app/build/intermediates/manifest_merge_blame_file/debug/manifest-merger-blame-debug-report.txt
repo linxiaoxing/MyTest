@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.gsygithubappkotlin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYGithubAppKotlin/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYGithubAppKotlin/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYGithubAppKotlin/app/src/main/AndroidManifest.xml:5:5-20:19
+12        android:name="com.example.gsygithubappkotlin.GSYGithubApplication"
+12-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYGithubAppKotlin/app/src/main/AndroidManifest.xml:6:9-45
+13        android:allowBackup="true"
+13-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYGithubAppKotlin/app/src/main/AndroidManifest.xml:7:9-35
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.1.0-rc01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/502885014632344b3d0300dba698b0ab/core-1.1.0-rc01/AndroidManifest.xml:24:18-86
+15        android:debuggable="true"
+16        android:icon="@mipmap/ic_launcher"
+16-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYGithubAppKotlin/app/src/main/AndroidManifest.xml:8:9-43
+17        android:label="@string/app_name"
+17-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYGithubAppKotlin/app/src/main/AndroidManifest.xml:9:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYGithubAppKotlin/app/src/main/AndroidManifest.xml:10:9-54
+19        android:supportsRtl="true"
+19-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYGithubAppKotlin/app/src/main/AndroidManifest.xml:11:9-35
+20        android:theme="@style/AppTheme" >
+20-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYGithubAppKotlin/app/src/main/AndroidManifest.xml:12:9-40
+21        <activity android:name="com.example.gsygithubappkotlin.MainActivity" >
+21-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYGithubAppKotlin/app/src/main/AndroidManifest.xml:13:9-19:20
+21-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYGithubAppKotlin/app/src/main/AndroidManifest.xml:13:19-47
+22            <intent-filter>
+22-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYGithubAppKotlin/app/src/main/AndroidManifest.xml:14:13-18:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYGithubAppKotlin/app/src/main/AndroidManifest.xml:15:17-69
+23-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYGithubAppKotlin/app/src/main/AndroidManifest.xml:15:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYGithubAppKotlin/app/src/main/AndroidManifest.xml:17:17-77
+25-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYGithubAppKotlin/app/src/main/AndroidManifest.xml:17:27-74
+26            </intent-filter>
+27        </activity>
+28
+29        <provider
+29-->[com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:27:9-32:39
+30            android:name="com.mikepenz.iconics.IconicsContentProvider"
+30-->[com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:28:13-71
+31            android:authorities="com.example.gsygithubappkotlin.iconics.core.provider"
+31-->[com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:29:13-73
+32            android:enabled="@bool/is_iconics_content_provider_enabled"
+32-->[com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:30:13-72
+33            android:exported="false"
+33-->[com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:31:13-37
+34            android:initOrder="100" />
+34-->[com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:32:13-36
+35    </application>
+36
+37</manifest>

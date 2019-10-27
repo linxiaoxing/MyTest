@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c6c807f-35ad-4a40-870d-b8985a7427a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BilibiliKotlin/app/src/main/java/com/example/bilibilikotlin/App.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BilibiliKotlin/app/src/main/java/com/example/bilibilikotlin/utils/AppUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/adapter/MvListAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/adapter/MvPagerAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/adapter/PopupAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/model/AudioBean.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/model/LyricBean.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/model/MvPagerBean.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/model/VideoPlayBean.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/net/MvListRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/presenter/impl/BaseListPresenterImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/presenter/impl/MvListPresenterImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/presenter/interf/MvListPresenter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/service/AudioService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/service/IService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/ui/activity/VideoPlayerActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/ui/activity/VitamioVideoPlayerActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/util/LyricLoader.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/util/LyricUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/util/StringUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/view/MvListView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/widget/LyricView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/widget/PlayListPopupWindow.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/widget/PopupListItemView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/widget/YueDanItemView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/anim/popup_enter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/anim/popup_exit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/drawable/animation_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/drawable/back_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/drawable/music_progress_sb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/drawable/selector_btn_audio_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/drawable/selector_btn_audio_next.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/drawable/selector_btn_audio_pause.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/drawable/selector_btn_audio_play.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/drawable/selector_btn_audio_pre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/drawable/selector_btn_playmode_random.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/drawable/selector_btn_playmode_single.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/layout/activity_audio_player.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/layout/activity_music_player_bottom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/layout/activity_music_player_middle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/layout/activity_music_player_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/layout/activity_video_player_vitamio.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/layout/item_mv.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/layout/item_popup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/layout/notification.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/layout/popup_playlist.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/AppContext.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/model/local/LocalAlbum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/model/local/LocalArtist.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/model/po/NeteaseUser.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/model/vo/Album.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/model/vo/Artist.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/model/vo/Music.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/model/vo/User.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/db/QuietDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/db/dao/KeyValueDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/db/dao/LocalMusicDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/db/entity/KeyValueEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/db/entity/LocalMusic.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/netease/CloudMusicService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/netease/CloudMusicServiceProvider.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/netease/NeteaseRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/netease/source/NeteaseGlideUrl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/activity/base/BaseActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/activity/main/AppMainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/activity/main/SplashActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/adapter/CloudMainAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/fragment/base/BaseFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/fragment/home/MainCloudFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/view/ContentFrameLayout.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/annotation/LayoutId.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/AppTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/network/CookieStore.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/network/Inject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/network/PersistentCookieStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/network/SerializableOkHttpCookies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/persistence/KeyValue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/persistence/KeyValuePersistence.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/support/Resources.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/viewmodel/MusicControllerViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/bg_nav_header.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_arrow_back_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_arrow_upward_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_chevron_right_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_clear_all_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_clear_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_close_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_cloud_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_collections_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_comment_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_date_range_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_delete_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_favorite_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_favorite_border_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_file_download_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_headset_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_history_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_link_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_menu_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_music_note_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_my_location_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_pause_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_play_arrow_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_play_circle_outline_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_radio_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_remove_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_repeat_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_repeat_one_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_search_white_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_select_all_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_settings_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_share_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_show_chart_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_shuffle_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_skip_next_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_skip_previous_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_today_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_volume_up_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/mask_cloud_top_cover.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/mask_play_list_detail_cover.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/player_gradient_mask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_app_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_bottom_controller.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main_cloud.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/main_content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_app_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/attr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/adapter/HomeAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/adapter/HomeAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/adapter/YueDanAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/adapter/YueDanAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/base/BaseListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/base/BaseListAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/base/BaseListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/base/BaseListFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/model/YueDanBean.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/model/YueDanBean.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/net/HomeRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/net/HomeRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/net/MRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/net/MRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/net/NetManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/net/NetManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/net/YueDanRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/net/YueDanRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/presenter/impl/HomePresenterImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/presenter/impl/HomePresenterImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/presenter/impl/YueDanPresenterImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/presenter/impl/YueDanPresenterImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/ui/fragment/HomeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/ui/fragment/HomeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/ui/fragment/MvFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/ui/fragment/MvFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/ui/fragment/YueDanFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/ui/fragment/YueDanFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/util/URLProviderUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/util/URLProviderUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/view/HomeItemView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/widget/HomeItemView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/view/LoadMoreView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/widget/LoadMoreView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/java/com/example/hmplayer/view/YueDanItemView.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/layout/item_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/layout/item_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/layout/item_yuedan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/layout/item_yuedan.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HmPlayer/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../HmPlayer/settings.gradle" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_27" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/activity/main/AppMainActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="48" column="56" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/fragment/home/MainCloudFragment.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <element signature="e#53#212#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/adapter/CloudMainAdapter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/AppContext.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+              <folding>
+                <element signature="e#36#124#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/activity/base/BaseActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="38" column="75" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_app_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>clientCookies</find>
+      <find>TabLayout</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gradle.properties" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/db/entity/KeyValueEntity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/model/vo/Music.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/model/vo/Artist.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/model/vo/Album.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/model/local/LocalArtist.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/model/local/LocalAlbum.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/db/entity/LocalMusic.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/db/dao/LocalMusicDao.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/db/QuietDatabase.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/support/QuietViewModelProvider.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/network/SerializableOkHttpCookies.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/network/PersistentCookieStore.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/network/CookieStore.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/network/Inject.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/netease/CloudMusicServiceProvider.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/netease/CloudMusicService.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/model/vo/User.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/netease/source/NeteaseGlideUrl.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/model/po/NeteaseUser.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/persistence/KeyValue.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/persistence/KeyValuePersistence.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/netease/NeteaseRepository.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/AppContext.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/AppTask.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/attr.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/base/BaseActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/main/SplashActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/dimen.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/annotation/LayoutId.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/activity/main/SplashActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/viewmodel/MusicControllerViewModel.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_app_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/db/dao/KeyValueDao.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/support/Resources.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_bottom_controller.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/main_content.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/activity/base/BaseActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_app_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/activity/main/AppMainActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/view/ContentFrameLayout.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/fragment/base/BaseFragment.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_main_cloud.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/fragment/home/MainCloudFragment.kt" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/adapter/CloudMainAdapter.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="388" />
+    <option name="y" value="165" />
+    <option name="width" value="1127" />
+    <option name="height" value="716" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MusicPlayerSam" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="MusicPlayerSam" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="MusicPlayerSam" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="musicplayersam" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MusicPlayerSam" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.musicplayersam.ui" />
+      <recent name="com.example.musicplayersam.model" />
+      <recent name="com.example.musicplayersam.utils" />
+      <recent name="com.example.musicplayersam" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/support" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c6c807f-35ad-4a40-870d-b8985a7427a8" name="Default Changelist" comment="" />
+      <created>1570930322297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570930322297</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="388" y="165" width="1127" height="716" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.28663594" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="0" visible="true" weight="0.14903846" />
+      <window_info anchor="bottom" id="Run" order="1" />
+      <window_info anchor="bottom" id="Logcat" order="2" weight="0.37179488" />
+      <window_info anchor="bottom" id="TODO" order="3" />
+      <window_info anchor="bottom" id="Android Profiler" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="5" visible="true" weight="0.23717949" />
+      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" />
+      <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Flutter Inspector" order="3" />
+      <window_info anchor="right" id="Hierarchy" order="4" visible="true" weight="0.06967985" />
+      <window_info anchor="right" id="Flutter Outline" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Preview" order="8" weight="0.3299539" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/java/io/ObjectOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="347" column="22" selection-start-line="347" selection-start-column="22" selection-end-line="347" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/network/CookieStore.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/network/Inject.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="93" selection-start-line="24" selection-start-column="93" selection-end-line="24" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/netease/CloudMusicService.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="e#55#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/network/PersistentCookieStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/netease/CloudMusicServiceProvider.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <element signature="e#55#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/model/vo/User.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/netease/source/NeteaseGlideUrl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#62#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/model/po/NeteaseUser.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#45#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/persistence/KeyValuePersistence.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/persistence/KeyValue.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="20" selection-end-column="52" />
+          <folding>
+            <element signature="e#64#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/netease/NeteaseRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#55#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/app/ActivityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="4299" column="24" selection-start-line="4299" selection-start-column="24" selection-end-line="4299" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/AppTask.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+          <folding>
+            <element signature="e#52#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/db/dao/LocalMusicDao.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/db/QuietDatabase.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/11902f3e06fb17b52c3e8ecd7b3f6a0f/appcompat-1.1.0/res/values/values.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="2242" column="35" selection-start-line="2242" selection-start-column="35" selection-end-line="2242" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimen.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/player_gradient_mask.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/viewmodel/MusicControllerViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="e#46#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/support/QuietViewModelProvider.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="e#60#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/activity/main/SplashActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-28/android/content/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="664" column="36" selection-start-line="664" selection-start-column="36" selection-end-line="664" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/repository/db/dao/KeyValueDao.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding>
+            <element signature="e#54#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2b65506696bf83ff84dae4a57f36fcdb/material-1.0.0/jars/classes.jar!/com/google/android/material/navigation/NavigationView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/annotation/LayoutId.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#53#127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/attr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0/9865019bbd2d95e41dede3d8ebf964aa93f97766/appcompat-1.1.0-sources.jar!/androidx/appcompat/app/AppCompatDelegateImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="554" selection-start-line="554" selection-end-line="554" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0/9865019bbd2d95e41dede3d8ebf964aa93f97766/appcompat-1.1.0-sources.jar!/androidx/appcompat/widget/AppCompatImageView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/utils/component/support/Resources.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_bottom_controller.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="84" column="53" lean-forward="true" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main_content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2b65506696bf83ff84dae4a57f36fcdb/material-1.0.0/jars/classes.jar!/com/google/android/material/tabs/TabLayout.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_app_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#248#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0/9865019bbd2d95e41dede3d8ebf964aa93f97766/appcompat-1.1.0-sources.jar!/androidx/appcompat/widget/ContentFrameLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+          <folding>
+            <element signature="e#1821#1822#0" expanded="true" />
+            <element signature="e#1856#1857#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/view/ContentFrameLayout.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="21" column="97" selection-start-line="21" selection-start-column="97" selection-end-line="21" selection-end-column="97" />
+          <folding>
+            <element signature="e#44#438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/fragment/base/BaseFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="33" column="27" lean-forward="true" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding>
+            <element signature="e#53#581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main_cloud.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="59" column="61" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/activity/main/AppMainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="48" column="56" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/fragment/home/MainCloudFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#53#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/activity/base/BaseActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="38" column="75" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_app_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/ui/adapter/CloudMainAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/musicplayersam/AppContext.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#36#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,3 @@
+/Users/hayashishoukyou/Desktop/MyTest/android/NDKVoice/app/.cxx/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+/Users/hayashishoukyou/Desktop/MyTest/android/NDKVoice/app/.cxx/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/hayashishoukyou/Desktop/MyTest/android/NDKVoice/app/.cxx/cmake/release/x86_64/CMakeFiles/sound.dir

@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/hayashishoukyou/Desktop/MyTest/android/CPlus/app/.cxx/cmake/debug/x86'
+ninja: no work to do.

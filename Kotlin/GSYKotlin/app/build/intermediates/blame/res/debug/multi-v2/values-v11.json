@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/61fe323b2bbd489b2b740b7b3eac8f77/materialize-1.2.1/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2,8,12,17,23,27,36,41,45,49",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,331,615,924,1224,1520,1942,2263,2439,2627",
+                        "endLines": "7,11,16,22,26,35,40,44,48,52",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "326,610,919,1219,1515,1937,2258,2434,2622,2834"
+                    }
+                }
+            ]
+        }
+    ]
+}

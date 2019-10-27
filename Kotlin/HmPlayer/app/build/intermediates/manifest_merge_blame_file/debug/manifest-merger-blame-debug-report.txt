@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.hmplayer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->[:vitamio] /Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-68
+12-->[:vitamio] /Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-65
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[:vitamio] /Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+13-->[:vitamio] /Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+14
+15    <application
+15-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:6:5-31:19
+16        android:allowBackup="true"
+16-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:7:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/563be99a7f8ba6717b67ce50a8a4b6a6/core-1.1.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:8:9-43
+20        android:label="@string/app_name"
+20-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:9:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:10:9-54
+22        android:supportsRtl="true"
+22-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:11:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:12:9-40
+25        <activity
+25-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:13:9-21:20
+26            android:name="com.example.hmplayer.ui.activity.SplashActivity"
+26-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:14:13-55
+27            android:theme="@style/AppTheme.FullScreen" >
+27-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:15:13-55
+28            <intent-filter>
+28-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:16:13-20:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:17:17-69
+29-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:17:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:19:17-77
+31-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:19:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity android:name="com.example.hmplayer.ui.activity.MainActivity" />
+34-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:22:9-62
+34-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:22:19-59
+35        <activity android:name="com.example.hmplayer.ui.activity.SettingActivity" />
+35-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:23:9-65
+35-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:23:19-62
+36        <activity android:name="com.example.hmplayer.ui.activity.VideoPlayerActivity" />
+36-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:24:9-69
+36-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:24:19-66
+37        <activity android:name="com.example.hmplayer.ui.activity.VitamioVideoPlayerActivity" />
+37-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:25:9-76
+37-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:25:19-73
+38        <activity
+38-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:26:9-28:47
+39            android:name="com.example.hmplayer.ui.activity.AudioPlayerActivity"
+39-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:27:13-60
+40            android:launchMode="singleTask" />
+40-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:28:13-44
+41
+42        <service android:name="com.example.hmplayer.service.AudioService" />
+42-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:30:9-57
+42-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/app/src/main/AndroidManifest.xml:30:18-54
+43
+44        <activity
+44-->[:vitamio] /Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-21:63
+45            android:name="io.vov.vitamio.activity.InitActivity"
+45-->[:vitamio] /Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-64
+46            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+46-->[:vitamio] /Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-113
+47            android:launchMode="singleTop"
+47-->[:vitamio] /Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-43
+48            android:theme="@android:style/Theme.NoTitleBar"
+48-->[:vitamio] /Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-60
+49            android:windowSoftInputMode="stateAlwaysHidden" />
+49-->[:vitamio] /Users/hayashishoukyou/Desktop/MyTest/Kotlin/HmPlayer/vitamio/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-60
+50    </application>
+51
+52</manifest>

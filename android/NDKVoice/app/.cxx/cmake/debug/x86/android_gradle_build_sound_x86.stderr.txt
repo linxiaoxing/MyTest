@@ -1,0 +1,1 @@
+ninja: error: '/Users/hayashishoukyou/Desktop/MyTest/android/NDKVoice/app/src/main/cpp/libs/x86/libfmod.so', needed by '/Users/hayashishoukyou/Desktop/MyTest/android/NDKVoice/app/build/intermediates/cmake/debug/obj/x86/libsound.so', missing and no known rule to make it

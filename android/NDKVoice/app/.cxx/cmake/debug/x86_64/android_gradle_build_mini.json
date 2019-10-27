@@ -1,0 +1,26 @@
+{
+  "buildFiles": [
+    "/Users/hayashishoukyou/Desktop/MyTest/android/NDKVoice/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/hayashishoukyou/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/hayashishoukyou/Desktop/MyTest/android/NDKVoice/app/.cxx/cmake/debug/x86_64 --target clean"
+  ],
+  "libraries": {
+    "fmodL-Debug-x86_64": {
+      "artifactName": "fmodL",
+      "abi": "x86_64",
+      "output": "/Users/hayashishoukyou/Desktop/MyTest/android/NDKVoice/app/src/main/cpp/libs/x86_64/libfmodL.so"
+    },
+    "fmod-Debug-x86_64": {
+      "artifactName": "fmod",
+      "abi": "x86_64",
+      "output": "/Users/hayashishoukyou/Desktop/MyTest/android/NDKVoice/app/src/main/cpp/libs/x86_64/libfmod.so"
+    },
+    "sound-Debug-x86_64": {
+      "artifactName": "sound",
+      "buildCommand": "/Users/hayashishoukyou/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/hayashishoukyou/Desktop/MyTest/android/NDKVoice/app/.cxx/cmake/debug/x86_64 --target sound",
+      "abi": "x86_64",
+      "output": "/Users/hayashishoukyou/Desktop/MyTest/android/NDKVoice/app/build/intermediates/cmake/debug/obj/x86_64/libsound.so"
+    }
+  }
+}

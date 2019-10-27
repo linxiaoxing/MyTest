@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bilibilikotlin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:7:5-75
+12-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:7:22-73
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:8:5-78
+13-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:8:22-76
+14
+15    <application
+15-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:9:5-33:19
+16        android:name="com.example.bilibilikotlin.App"
+16-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:10:9-28
+17        android:allowBackup="true"
+17-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/fb4ad53205f8d4936efe97b660a50952/core-1.1.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:13:9-41
+22        android:networkSecurityConfig="@xml/network_security_config"
+22-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:17:9-69
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:14:9-54
+24        android:supportsRtl="true"
+24-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:15:9-35
+25        android:testOnly="true"
+26        android:theme="@style/BaseAppTheme" >
+26-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:16:9-44
+27        <activity android:name="com.example.bilibilikotlin.module.app.SplashActivity" >
+27-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:18:9-24:20
+27-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:18:19-60
+28            <intent-filter>
+28-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:19:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:20:17-69
+29-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:22:17-77
+31-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity android:name="com.example.bilibilikotlin.module.app.MainActivity" />
+34-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:26:9-61
+34-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:26:19-58
+35        <activity android:name="com.example.bilibilikotlin.module.app.LoginActivity" />
+35-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:28:9-62
+35-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:28:19-59
+36        <activity android:name="com.example.bilibilikotlin.module.app.video.VideoDetailActivity" />
+36-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:30:9-74
+36-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:30:19-71
+37        <activity android:name="com.example.bilibilikotlin.module.app.video.VideoPlayerActivity" />
+37-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:32:9-74
+37-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/BilibiliKotlin/app/src/main/AndroidManifest.xml:32:19-71
+38    </application>
+39
+40</manifest>

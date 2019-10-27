@@ -1,0 +1,355 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [io.realm:realm-android-library:5.7.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/be89ed4d6c41e965aac4c2a435a13d10/jetified-realm-android-library-5.7.0/AndroidManifest.xml:2:1-10:12
+MERGED from [io.realm:realm-android-kotlin-extensions:5.7.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/e7c0478444176b91c8de670bca3cd8a7/realm-android-kotlin-extensions-5.7.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.mikepenz:materialdrawer:7.0.0-rc03] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/27282d3357d84c5cb002aeffec1c5c41/materialdrawer-7.0.0-rc03/AndroidManifest.xml:2:1-11:12
+MERGED from [com.mikepenz:iconics-views:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/e462fec5d24674b99474f87178ad0527/iconics-views-4.0.1-b01/AndroidManifest.xml:17:1-26:12
+MERGED from [com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:17:1-35:12
+MERGED from [com.google.dagger:dagger-android-support:2.23.2] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/7856e92e3965c9eb836a5726be931a33/jetified-dagger-android-support-2.23.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.airbnb.android:lottie:2.8.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0a0cf5d8276a0c0e984aa1cf39cad647/lottie-2.8.0/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/95d5bda45611d4e4b9eb3d269cd2be23/anko-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/725c87d4aae371f43bacc607a2712739/jetified-anko-appcompat-v7-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0b7ba92ab5829dbc17089f19f4916480/jetified-anko-appcompat-v7-coroutines-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.navigation:navigation-ui:2.1.0-beta02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/728b574056efac6e0bde55177189207a/jetified-navigation-ui-2.1.0-beta02/AndroidManifest.xml:17:1-24:12
+MERGED from [devlight.io:navigationtabbar:1.2.5] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5957630a5d7dbda8d1a93d5d20e56784/jetified-navigationtabbar-1.2.5/AndroidManifest.xml:14:1-28:12
+MERGED from [com.mikepenz:materialize:1.2.1] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/61fe323b2bbd489b2b740b7b3eac8f77/materialize-1.2.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.1.0-alpha08] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/1959120f93fb945254d12ea830cee212/material-1.1.0-alpha08/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/53ef7dbe4633b23d062e93fc136d35d7/constraintlayout-2.0.0-beta2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.mikepenz:fastadapter-extensions-expandable:4.0.1] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/688a7052299bc8e3d265be06850a8fd8/fastadapter-extensions-expandable-4.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.mikepenz:fastadapter:4.0.1] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b21de05ee5916ae3c2fa91ed01747f9f/jetified-fastadapter-4.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f8c7b3527307e7bb731c33251140779e/anko-appcompat-v7-commons-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:appcompatV7-base:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/34641ab08da43f7a258be9bb4987d393/jetified-appcompatV7-base-0.10.8/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/abcd03f709c3b33ab7adeb91c3ed5f45/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/6d8acd2fc6a4c5bf96dcd5f06fcd9ddc/core-ktx-1.0.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.dagger:dagger-android:2.23.2] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/e416607eaa50aa9a5980937ef160afee/jetified-dagger-android-2.23.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.alibaba:arouter-api:1.4.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/849d6d69f34b17ce16c298ecf3b89ec6/jetified-arouter-api-1.4.0/AndroidManifest.xml:2:1-10:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ffc876d3f5f125393300d728f3cae002/rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [com.mikepenz:material-design-iconic-typeface:2.2.0.6-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/bb82a5d5e22fea8979292174e5b6de33/material-design-iconic-typeface-2.2.0.6-kotlin/AndroidManifest.xml:17:1-26:12
+MERGED from [com.mikepenz:fontawesome-typeface:5.9.0.0-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/4cb86ecd6246ebd2677615b15fbf2a62/fontawesome-typeface-5.9.0.0-kotlin/AndroidManifest.xml:17:1-26:12
+MERGED from [com.mikepenz:community-material-typeface:3.5.95.1-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b36ad89022bbc33e66d8b41910b77598/community-material-typeface-3.5.95.1-kotlin/AndroidManifest.xml:17:1-26:12
+MERGED from [com.mikepenz:octicons-typeface:3.2.0.6-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/80cbb55247bcf9cd7209d5535475f8e7/octicons-typeface-3.2.0.6-kotlin/AndroidManifest.xml:17:1-26:12
+MERGED from [com.mikepenz:weather-icons-typeface:2.0.10.5-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/98d9ceda29bd9725ed7ca88cbbb87199/weather-icons-typeface-2.0.10.5-kotlin/AndroidManifest.xml:17:1-26:12
+MERGED from [com.mikepenz:foundation-icons-typeface:3.0.0.5-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/111357cc9ae177155e0ed5949574de69/foundation-icons-typeface-3.0.0.5-kotlin/AndroidManifest.xml:17:1-26:12
+MERGED from [com.mikepenz:ionicons-typeface:2.0.1.5-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5d7f8cafcad3e6dee6339c42cc49e32d/ionicons-typeface-2.0.1.5-kotlin/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.navigation:navigation-fragment:2.1.0-beta02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b193cc3544ff4d9f795fe5e8a01659bf/navigation-fragment-2.1.0-beta02/AndroidManifest.xml:17:1-24:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.3.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/faff32812f78d4c54fb27b0faf496a9e/relinker-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/09f61791cac83740bc89e6093f5886d2/anko-sqlite-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/2c67c6f318f0e75e2f83393fad6e3f48/anko-sdk27-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/d9589e0bcb841629920fa6679e11517e/anko-sdk27-coroutines-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/300e49752fe2e3446ef3c32b89a675d2/jetified-anko-support-v4-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/8ab3a0316d1c38def840409736b9130f/anko-support-v4-commons-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/3a44ad85408f93fb7d66e41760de8501/anko-commons-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/09f1679ddb27ce33cffa629f7a00151e/anko-coroutines-0.10.8/AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:sqlite-base:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/bdd98e8f7dbc0d94de5348f647fdc409/sqlite-base-0.10.8/AndroidManifest.xml:2:1-11:12
+MERGED from [org.jetbrains.anko:platform-base:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b7a8342b010d15dafb5ca9a47015a82f/platform-base-0.10.8/AndroidManifest.xml:2:1-11:12
+MERGED from [org.jetbrains.anko:supportV4-base:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/30d00bf25172ceb20d4699a53e383822/jetified-supportV4-base-0.10.8/AndroidManifest.xml:2:1-11:12
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/93a2f83059a44581856140642f5f6f39/jetified-commons-base-0.10.8/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/322186184a3f85a84bf5f627435da6a7/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/27c12b26b0d25d81552e93f3188b47df/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/a4f41b64068b43be57c05e4ce6c4b632/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha06] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f4395acb20d67cc40ff1dea2c84f0111/viewpager2-1.0.0-alpha06/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5622893b6d334d3bbb3f1decad913df9/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/68e4ff14b4d5cc6dee4914d4813f060e/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.0.1] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/23a52678297d2b2bc5d5d57bf4d1c70e/transition-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0-alpha02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/da43aad02759ae8ce71ad26132814149/drawerlayout-1.1.0-alpha02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0823a04d464b5bece52e466c7e83d300/recyclerview-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/97e36164554e0f21bc094db86befb3cc/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/d1b303b9a4241c9eb077d703d96cf938/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.1.0-beta02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/a0789d4c8dd994d2d060804caa9c668f/navigation-runtime-2.1.0-beta02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.1.0-beta02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f1c2553f2b38e92555bef83aa5561ea0/navigation-common-2.1.0-beta02/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/2b3ba3bd2f4a2b939504d663de636584/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0f57ec24ed1a56100dc208d67c5bab3d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ae67eee799f96364018283e1bac87b5e/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/8d6cf14a9e92695fc3235a530a8e3c40/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/1a849aa05c98037b458f2e43da8aa76b/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/c1cfe6086a665d8a8a3d78f9ed1874aa/coordinatorlayout-1.1.0-beta01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/afe7ee75fc8b91a99ea3d85c59e06ef6/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0-alpha01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/330cd5574061bcc1e19bf2bfb7f5e106/customview-1.1.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/860c441715bae720b3e076ac1f8042b8/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/9154684e8d955760564ff0160e42df59/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.2.0-alpha02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/56f1b27a29c16087ccbc1a895438d99d/core-1.2.0-alpha02/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/c5e68f040d0f7fd0870a416c74f3adf0/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/efced60a4c064777d8cf3b7a1dbd4951/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/e5f019f0552b16549993c8563730e33c/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ebc81e9803a26b5e9db30881f66ea278/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/2b33d482a2af63431aabf27b76cf59f5/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/88ab972555f590ac5cc1e5ea183f00ac/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/bc3504247729ed782aa88de1b15e3f6e/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b454237111931543b25d1cb347a37bca/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/334235b33abbbf646617262731f962dc/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/41595eeeae9d73895c486c99a4c9a3cc/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0f123b4db9253819b48ee08f89481105/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/a6737cdb97f0b8b248199a9725c0698b/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:26:5-33:19
+MERGED from [com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:26:5-33:19
+MERGED from [com.airbnb.android:lottie:2.8.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0a0cf5d8276a0c0e984aa1cf39cad647/lottie-2.8.0/AndroidManifest.xml:11:5-20
+MERGED from [com.airbnb.android:lottie:2.8.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0a0cf5d8276a0c0e984aa1cf39cad647/lottie-2.8.0/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/95d5bda45611d4e4b9eb3d269cd2be23/anko-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/95d5bda45611d4e4b9eb3d269cd2be23/anko-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/725c87d4aae371f43bacc607a2712739/jetified-anko-appcompat-v7-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/725c87d4aae371f43bacc607a2712739/jetified-anko-appcompat-v7-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0b7ba92ab5829dbc17089f19f4916480/jetified-anko-appcompat-v7-coroutines-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0b7ba92ab5829dbc17089f19f4916480/jetified-anko-appcompat-v7-coroutines-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [devlight.io:navigationtabbar:1.2.5] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5957630a5d7dbda8d1a93d5d20e56784/jetified-navigationtabbar-1.2.5/AndroidManifest.xml:23:5-26:38
+MERGED from [devlight.io:navigationtabbar:1.2.5] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5957630a5d7dbda8d1a93d5d20e56784/jetified-navigationtabbar-1.2.5/AndroidManifest.xml:23:5-26:38
+MERGED from [com.google.android.material:material:1.1.0-alpha08] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/1959120f93fb945254d12ea830cee212/material-1.1.0-alpha08/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha08] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/1959120f93fb945254d12ea830cee212/material-1.1.0-alpha08/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/53ef7dbe4633b23d062e93fc136d35d7/constraintlayout-2.0.0-beta2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/53ef7dbe4633b23d062e93fc136d35d7/constraintlayout-2.0.0-beta2/AndroidManifest.xml:9:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f8c7b3527307e7bb731c33251140779e/anko-appcompat-v7-commons-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f8c7b3527307e7bb731c33251140779e/anko-appcompat-v7-commons-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/09f61791cac83740bc89e6093f5886d2/anko-sqlite-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/09f61791cac83740bc89e6093f5886d2/anko-sqlite-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/2c67c6f318f0e75e2f83393fad6e3f48/anko-sdk27-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/2c67c6f318f0e75e2f83393fad6e3f48/anko-sdk27-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/d9589e0bcb841629920fa6679e11517e/anko-sdk27-coroutines-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/d9589e0bcb841629920fa6679e11517e/anko-sdk27-coroutines-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/300e49752fe2e3446ef3c32b89a675d2/jetified-anko-support-v4-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/300e49752fe2e3446ef3c32b89a675d2/jetified-anko-support-v4-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/8ab3a0316d1c38def840409736b9130f/anko-support-v4-commons-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/8ab3a0316d1c38def840409736b9130f/anko-support-v4-commons-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/3a44ad85408f93fb7d66e41760de8501/anko-commons-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/3a44ad85408f93fb7d66e41760de8501/anko-commons-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/09f1679ddb27ce33cffa629f7a00151e/anko-coroutines-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/09f1679ddb27ce33cffa629f7a00151e/anko-coroutines-0.10.8/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.2.0-alpha02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/56f1b27a29c16087ccbc1a895438d99d/core-1.2.0-alpha02/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0-alpha02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/56f1b27a29c16087ccbc1a895438d99d/core-1.2.0-alpha02/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/c5e68f040d0f7fd0870a416c74f3adf0/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/c5e68f040d0f7fd0870a416c74f3adf0/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.2.0-alpha02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/56f1b27a29c16087ccbc1a895438d99d/core-1.2.0-alpha02/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.gsykotlin.MainActivity
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml
+MERGED from [io.realm:realm-android-library:5.7.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/be89ed4d6c41e965aac4c2a435a13d10/jetified-realm-android-library-5.7.0/AndroidManifest.xml:6:5-8:41
+MERGED from [io.realm:realm-android-library:5.7.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/be89ed4d6c41e965aac4c2a435a13d10/jetified-realm-android-library-5.7.0/AndroidManifest.xml:6:5-8:41
+MERGED from [io.realm:realm-android-kotlin-extensions:5.7.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/e7c0478444176b91c8de670bca3cd8a7/realm-android-kotlin-extensions-5.7.0/AndroidManifest.xml:6:5-8:41
+MERGED from [io.realm:realm-android-kotlin-extensions:5.7.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/e7c0478444176b91c8de670bca3cd8a7/realm-android-kotlin-extensions-5.7.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.mikepenz:materialdrawer:7.0.0-rc03] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/27282d3357d84c5cb002aeffec1c5c41/materialdrawer-7.0.0-rc03/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:materialdrawer:7.0.0-rc03] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/27282d3357d84c5cb002aeffec1c5c41/materialdrawer-7.0.0-rc03/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:iconics-views:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/e462fec5d24674b99474f87178ad0527/iconics-views-4.0.1-b01/AndroidManifest.xml:22:5-24:41
+MERGED from [com.mikepenz:iconics-views:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/e462fec5d24674b99474f87178ad0527/iconics-views-4.0.1-b01/AndroidManifest.xml:22:5-24:41
+MERGED from [com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:22:5-24:41
+MERGED from [com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.dagger:dagger-android-support:2.23.2] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/7856e92e3965c9eb836a5726be931a33/jetified-dagger-android-support-2.23.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android-support:2.23.2] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/7856e92e3965c9eb836a5726be931a33/jetified-dagger-android-support-2.23.2/AndroidManifest.xml:20:5-44
+MERGED from [com.airbnb.android:lottie:2.8.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0a0cf5d8276a0c0e984aa1cf39cad647/lottie-2.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:2.8.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0a0cf5d8276a0c0e984aa1cf39cad647/lottie-2.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/95d5bda45611d4e4b9eb3d269cd2be23/anko-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/95d5bda45611d4e4b9eb3d269cd2be23/anko-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/725c87d4aae371f43bacc607a2712739/jetified-anko-appcompat-v7-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/725c87d4aae371f43bacc607a2712739/jetified-anko-appcompat-v7-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0b7ba92ab5829dbc17089f19f4916480/jetified-anko-appcompat-v7-coroutines-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-coroutines:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0b7ba92ab5829dbc17089f19f4916480/jetified-anko-appcompat-v7-coroutines-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0-beta02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/728b574056efac6e0bde55177189207a/jetified-navigation-ui-2.1.0-beta02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0-beta02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/728b574056efac6e0bde55177189207a/jetified-navigation-ui-2.1.0-beta02/AndroidManifest.xml:20:5-22:41
+MERGED from [devlight.io:navigationtabbar:1.2.5] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5957630a5d7dbda8d1a93d5d20e56784/jetified-navigationtabbar-1.2.5/AndroidManifest.xml:19:5-21:41
+MERGED from [devlight.io:navigationtabbar:1.2.5] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5957630a5d7dbda8d1a93d5d20e56784/jetified-navigationtabbar-1.2.5/AndroidManifest.xml:19:5-21:41
+MERGED from [com.mikepenz:materialize:1.2.1] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/61fe323b2bbd489b2b740b7b3eac8f77/materialize-1.2.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:materialize:1.2.1] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/61fe323b2bbd489b2b740b7b3eac8f77/materialize-1.2.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0-alpha08] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/1959120f93fb945254d12ea830cee212/material-1.1.0-alpha08/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha08] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/1959120f93fb945254d12ea830cee212/material-1.1.0-alpha08/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/53ef7dbe4633b23d062e93fc136d35d7/constraintlayout-2.0.0-beta2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/53ef7dbe4633b23d062e93fc136d35d7/constraintlayout-2.0.0-beta2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mikepenz:fastadapter-extensions-expandable:4.0.1] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/688a7052299bc8e3d265be06850a8fd8/fastadapter-extensions-expandable-4.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:fastadapter-extensions-expandable:4.0.1] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/688a7052299bc8e3d265be06850a8fd8/fastadapter-extensions-expandable-4.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:fastadapter:4.0.1] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b21de05ee5916ae3c2fa91ed01747f9f/jetified-fastadapter-4.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mikepenz:fastadapter:4.0.1] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b21de05ee5916ae3c2fa91ed01747f9f/jetified-fastadapter-4.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f8c7b3527307e7bb731c33251140779e/anko-appcompat-v7-commons-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f8c7b3527307e7bb731c33251140779e/anko-appcompat-v7-commons-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:appcompatV7-base:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/34641ab08da43f7a258be9bb4987d393/jetified-appcompatV7-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:appcompatV7-base:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/34641ab08da43f7a258be9bb4987d393/jetified-appcompatV7-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/abcd03f709c3b33ab7adeb91c3ed5f45/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/abcd03f709c3b33ab7adeb91c3ed5f45/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/6d8acd2fc6a4c5bf96dcd5f06fcd9ddc/core-ktx-1.0.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/6d8acd2fc6a4c5bf96dcd5f06fcd9ddc/core-ktx-1.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.dagger:dagger-android:2.23.2] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/e416607eaa50aa9a5980937ef160afee/jetified-dagger-android-2.23.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.23.2] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/e416607eaa50aa9a5980937ef160afee/jetified-dagger-android-2.23.2/AndroidManifest.xml:20:5-44
+MERGED from [com.alibaba:arouter-api:1.4.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/849d6d69f34b17ce16c298ecf3b89ec6/jetified-arouter-api-1.4.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.alibaba:arouter-api:1.4.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/849d6d69f34b17ce16c298ecf3b89ec6/jetified-arouter-api-1.4.0/AndroidManifest.xml:6:5-8:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ffc876d3f5f125393300d728f3cae002/rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ffc876d3f5f125393300d728f3cae002/rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [com.mikepenz:material-design-iconic-typeface:2.2.0.6-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/bb82a5d5e22fea8979292174e5b6de33/material-design-iconic-typeface-2.2.0.6-kotlin/AndroidManifest.xml:22:5-24:41
+MERGED from [com.mikepenz:material-design-iconic-typeface:2.2.0.6-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/bb82a5d5e22fea8979292174e5b6de33/material-design-iconic-typeface-2.2.0.6-kotlin/AndroidManifest.xml:22:5-24:41
+MERGED from [com.mikepenz:fontawesome-typeface:5.9.0.0-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/4cb86ecd6246ebd2677615b15fbf2a62/fontawesome-typeface-5.9.0.0-kotlin/AndroidManifest.xml:22:5-24:41
+MERGED from [com.mikepenz:fontawesome-typeface:5.9.0.0-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/4cb86ecd6246ebd2677615b15fbf2a62/fontawesome-typeface-5.9.0.0-kotlin/AndroidManifest.xml:22:5-24:41
+MERGED from [com.mikepenz:community-material-typeface:3.5.95.1-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b36ad89022bbc33e66d8b41910b77598/community-material-typeface-3.5.95.1-kotlin/AndroidManifest.xml:22:5-24:41
+MERGED from [com.mikepenz:community-material-typeface:3.5.95.1-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b36ad89022bbc33e66d8b41910b77598/community-material-typeface-3.5.95.1-kotlin/AndroidManifest.xml:22:5-24:41
+MERGED from [com.mikepenz:octicons-typeface:3.2.0.6-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/80cbb55247bcf9cd7209d5535475f8e7/octicons-typeface-3.2.0.6-kotlin/AndroidManifest.xml:22:5-24:41
+MERGED from [com.mikepenz:octicons-typeface:3.2.0.6-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/80cbb55247bcf9cd7209d5535475f8e7/octicons-typeface-3.2.0.6-kotlin/AndroidManifest.xml:22:5-24:41
+MERGED from [com.mikepenz:weather-icons-typeface:2.0.10.5-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/98d9ceda29bd9725ed7ca88cbbb87199/weather-icons-typeface-2.0.10.5-kotlin/AndroidManifest.xml:22:5-24:41
+MERGED from [com.mikepenz:weather-icons-typeface:2.0.10.5-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/98d9ceda29bd9725ed7ca88cbbb87199/weather-icons-typeface-2.0.10.5-kotlin/AndroidManifest.xml:22:5-24:41
+MERGED from [com.mikepenz:foundation-icons-typeface:3.0.0.5-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/111357cc9ae177155e0ed5949574de69/foundation-icons-typeface-3.0.0.5-kotlin/AndroidManifest.xml:22:5-24:41
+MERGED from [com.mikepenz:foundation-icons-typeface:3.0.0.5-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/111357cc9ae177155e0ed5949574de69/foundation-icons-typeface-3.0.0.5-kotlin/AndroidManifest.xml:22:5-24:41
+MERGED from [com.mikepenz:ionicons-typeface:2.0.1.5-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5d7f8cafcad3e6dee6339c42cc49e32d/ionicons-typeface-2.0.1.5-kotlin/AndroidManifest.xml:22:5-24:41
+MERGED from [com.mikepenz:ionicons-typeface:2.0.1.5-kotlin] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5d7f8cafcad3e6dee6339c42cc49e32d/ionicons-typeface-2.0.1.5-kotlin/AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0-beta02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b193cc3544ff4d9f795fe5e8a01659bf/navigation-fragment-2.1.0-beta02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0-beta02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b193cc3544ff4d9f795fe5e8a01659bf/navigation-fragment-2.1.0-beta02/AndroidManifest.xml:20:5-22:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.3.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/faff32812f78d4c54fb27b0faf496a9e/relinker-1.3.0/AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.3.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/faff32812f78d4c54fb27b0faf496a9e/relinker-1.3.0/AndroidManifest.xml:5:5-43
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/09f61791cac83740bc89e6093f5886d2/anko-sqlite-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sqlite:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/09f61791cac83740bc89e6093f5886d2/anko-sqlite-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/2c67c6f318f0e75e2f83393fad6e3f48/anko-sdk27-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/2c67c6f318f0e75e2f83393fad6e3f48/anko-sdk27-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/d9589e0bcb841629920fa6679e11517e/anko-sdk27-coroutines-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk27-coroutines:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/d9589e0bcb841629920fa6679e11517e/anko-sdk27-coroutines-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/300e49752fe2e3446ef3c32b89a675d2/jetified-anko-support-v4-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/300e49752fe2e3446ef3c32b89a675d2/jetified-anko-support-v4-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/8ab3a0316d1c38def840409736b9130f/anko-support-v4-commons-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/8ab3a0316d1c38def840409736b9130f/anko-support-v4-commons-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/3a44ad85408f93fb7d66e41760de8501/anko-commons-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/3a44ad85408f93fb7d66e41760de8501/anko-commons-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/09f1679ddb27ce33cffa629f7a00151e/anko-coroutines-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-coroutines:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/09f1679ddb27ce33cffa629f7a00151e/anko-coroutines-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:sqlite-base:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/bdd98e8f7dbc0d94de5348f647fdc409/sqlite-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:sqlite-base:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/bdd98e8f7dbc0d94de5348f647fdc409/sqlite-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:platform-base:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b7a8342b010d15dafb5ca9a47015a82f/platform-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:platform-base:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b7a8342b010d15dafb5ca9a47015a82f/platform-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:supportV4-base:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/30d00bf25172ceb20d4699a53e383822/jetified-supportV4-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:supportV4-base:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/30d00bf25172ceb20d4699a53e383822/jetified-supportV4-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/93a2f83059a44581856140642f5f6f39/jetified-commons-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/93a2f83059a44581856140642f5f6f39/jetified-commons-base-0.10.8/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/322186184a3f85a84bf5f627435da6a7/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/322186184a3f85a84bf5f627435da6a7/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/27c12b26b0d25d81552e93f3188b47df/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/27c12b26b0d25d81552e93f3188b47df/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/a4f41b64068b43be57c05e4ce6c4b632/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/a4f41b64068b43be57c05e4ce6c4b632/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha06] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f4395acb20d67cc40ff1dea2c84f0111/viewpager2-1.0.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha06] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f4395acb20d67cc40ff1dea2c84f0111/viewpager2-1.0.0-alpha06/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5622893b6d334d3bbb3f1decad913df9/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5622893b6d334d3bbb3f1decad913df9/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/68e4ff14b4d5cc6dee4914d4813f060e/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/68e4ff14b4d5cc6dee4914d4813f060e/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.0.1] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/23a52678297d2b2bc5d5d57bf4d1c70e/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/23a52678297d2b2bc5d5d57bf4d1c70e/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0-alpha02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/da43aad02759ae8ce71ad26132814149/drawerlayout-1.1.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0-alpha02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/da43aad02759ae8ce71ad26132814149/drawerlayout-1.1.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0823a04d464b5bece52e466c7e83d300/recyclerview-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0823a04d464b5bece52e466c7e83d300/recyclerview-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/97e36164554e0f21bc094db86befb3cc/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/97e36164554e0f21bc094db86befb3cc/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/d1b303b9a4241c9eb077d703d96cf938/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/d1b303b9a4241c9eb077d703d96cf938/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0-beta02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/a0789d4c8dd994d2d060804caa9c668f/navigation-runtime-2.1.0-beta02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0-beta02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/a0789d4c8dd994d2d060804caa9c668f/navigation-runtime-2.1.0-beta02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0-beta02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f1c2553f2b38e92555bef83aa5561ea0/navigation-common-2.1.0-beta02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0-beta02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f1c2553f2b38e92555bef83aa5561ea0/navigation-common-2.1.0-beta02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/2b3ba3bd2f4a2b939504d663de636584/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/2b3ba3bd2f4a2b939504d663de636584/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0f57ec24ed1a56100dc208d67c5bab3d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0f57ec24ed1a56100dc208d67c5bab3d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ae67eee799f96364018283e1bac87b5e/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ae67eee799f96364018283e1bac87b5e/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/8d6cf14a9e92695fc3235a530a8e3c40/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/8d6cf14a9e92695fc3235a530a8e3c40/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/1a849aa05c98037b458f2e43da8aa76b/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/1a849aa05c98037b458f2e43da8aa76b/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/c1cfe6086a665d8a8a3d78f9ed1874aa/coordinatorlayout-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/c1cfe6086a665d8a8a3d78f9ed1874aa/coordinatorlayout-1.1.0-beta01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/afe7ee75fc8b91a99ea3d85c59e06ef6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/afe7ee75fc8b91a99ea3d85c59e06ef6/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0-alpha01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/330cd5574061bcc1e19bf2bfb7f5e106/customview-1.1.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0-alpha01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/330cd5574061bcc1e19bf2bfb7f5e106/customview-1.1.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/860c441715bae720b3e076ac1f8042b8/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/860c441715bae720b3e076ac1f8042b8/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/9154684e8d955760564ff0160e42df59/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/9154684e8d955760564ff0160e42df59/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.2.0-alpha02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/56f1b27a29c16087ccbc1a895438d99d/core-1.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0-alpha02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/56f1b27a29c16087ccbc1a895438d99d/core-1.2.0-alpha02/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/c5e68f040d0f7fd0870a416c74f3adf0/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/c5e68f040d0f7fd0870a416c74f3adf0/versionedparcelable-1.1.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/efced60a4c064777d8cf3b7a1dbd4951/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/efced60a4c064777d8cf3b7a1dbd4951/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/e5f019f0552b16549993c8563730e33c/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/e5f019f0552b16549993c8563730e33c/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ebc81e9803a26b5e9db30881f66ea278/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ebc81e9803a26b5e9db30881f66ea278/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/2b33d482a2af63431aabf27b76cf59f5/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/2b33d482a2af63431aabf27b76cf59f5/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/88ab972555f590ac5cc1e5ea183f00ac/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/88ab972555f590ac5cc1e5ea183f00ac/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/bc3504247729ed782aa88de1b15e3f6e/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/bc3504247729ed782aa88de1b15e3f6e/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b454237111931543b25d1cb347a37bca/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b454237111931543b25d1cb347a37bca/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/334235b33abbbf646617262731f962dc/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/334235b33abbbf646617262731f962dc/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/41595eeeae9d73895c486c99a4c9a3cc/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/41595eeeae9d73895c486c99a4c9a3cc/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0f123b4db9253819b48ee08f89481105/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0f123b4db9253819b48ee08f89481105/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/a6737cdb97f0b8b248199a9725c0698b/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/a6737cdb97f0b8b248199a9725c0698b/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml
+provider#com.mikepenz.iconics.IconicsContentProvider
+ADDED from [com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:27:9-32:39
+	android:enabled
+		ADDED from [com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:30:13-72
+	android:authorities
+		ADDED from [com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:29:13-73
+	android:exported
+		ADDED from [com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:31:13-37
+	android:initOrder
+		ADDED from [com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from [com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:28:13-71

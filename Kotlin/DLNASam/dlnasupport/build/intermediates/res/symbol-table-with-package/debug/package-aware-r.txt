@@ -1,0 +1,2 @@
+com.didi365.dlnasupport
+string app_name

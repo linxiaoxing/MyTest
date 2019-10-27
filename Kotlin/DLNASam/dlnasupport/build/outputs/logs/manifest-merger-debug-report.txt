@@ -1,0 +1,79 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:1:1-23:12
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:1:1-23:12
+	package
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:2:5-38
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:1:1-23:12
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:1:1-23:12
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:4:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:5:5-76
+	android:name
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:5:22-73
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:6:5-86
+	android:name
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:6:22-83
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:7:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:9:22-77
+application
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:11:5-22:19
+service#com.didi365.dlnasupport.service.MediaRenderService
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:13:9-20:19
+	android:enabled
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:15:13-35
+	android:name
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:14:13-55
+intent-filter#action:name:com.didi365.restart.engine+action:name:com.didi365.start.engine
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:16:13-19:29
+action#com.didi365.start.engine
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:17:17-67
+	android:name
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:17:25-64
+action#com.didi365.restart.engine
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml:18:25-66
+uses-sdk
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/DLNASam/dlnasupport/src/main/AndroidManifest.xml

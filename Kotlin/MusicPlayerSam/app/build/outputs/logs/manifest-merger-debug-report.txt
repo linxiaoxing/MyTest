@@ -1,0 +1,226 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/2b65506696bf83ff84dae4a57f36fcdb/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/11902f3e06fb17b52c3e8ecd7b3f6a0f/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/90edf521f899e27039b498cbbe72a7e0/core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/19474b4aaff052c346bf9996fd2674f3/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.room:room-runtime:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/6c68d1bf508ed72be95661864b5c6b6a/room-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [jp.wasabeef:glide-transformations:3.3.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/8a65a47f6be5575fdc11a32447d947a2/jetified-glide-transformations-3.3.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5b0d1953c67bd87efd200a0b6a4e26f3/jetified-glide-4.8.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/47eba8c9c51e987afb7716425c27b0d6/jetified-exoplayer-core-2.9.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.palette:palette-ktx:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/57a1e46840364097604581074919d9ea/palette-ktx-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.palette:palette:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/23d0dc56087bfe234680514ec479289b/palette-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/7b4a9091fcf3df6a8166d5d6fccd5566/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/58475ebefc9e36b3502b25e864ff3d1d/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/273b99b89d8ae5128de940a48e7a8aae/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/644b2a09f3eb93f418da5d17491bd5df/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/03b64fcd117fb8324ca6b227735c9231/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ab6c507c1dc05d80b4720e8570594b4b/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b8172786ba2b8058e4ae70e0bf803d47/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/51a88feb3fba46dd6efe158f8c521aff/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/090c0eb499e66a6e508ef56f6cfd386d/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/6b6149ad8d9010a0421932c4a966cd9d/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/a94ff2650831e4bd852d12f5b2d0ffc9/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/105bde80547e9704e3477897b8665f0b/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/69abd9999e6699df7c6e954eb1147c9d/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/a5f74989c3ad9a1a6075287bf27c4807/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/2f3596b85ac68b7dac69f9acd45ebf55/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f3ee3c1c0a3b93a746a29872dd239b92/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/86460dabffde8295d4ff8b8a14d04c70/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/1ce182ece2a3ec6a36accb8fa3c3bfea/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/083b92e3bca74a7aedbe6e6310ffde15/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ee637c27266184c4bdb4bf2926561f3f/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/7bd48b43e3c7828402d7871b5d82f797/sqlite-framework-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0baa27133bd0afb08c3ecb6bd3fccafd/sqlite-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f5ff9b66afb4e145c8a40c3ad043194d/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5d9f8fae01b8102f92ae2fa73a1add06/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f549217ffbbb583dd88f3a81d78b3935/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/4d2371db49d5f0de38a1d3fc5da8eb11/jetified-gifdecoder-4.8.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/cdac20535b1b1647a208d80f094e28e3/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/268e8162d40a61bb344f9472a7799896/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ea5d46b797ce853ab102367bb6e001fd/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/43728d4b2e9e95be6d209f07a87bcce3/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/db43f09ca6fc051dad5b14226976d2db/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ac0d2485f2f11b72d843872fef072c2c/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/17bf1596730ca02a025f6e64a71386b3/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5c8494ecc7bb6fee51ee5245f63438a2/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ed5986a306fa27dce4c18544bcae6287/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:5:5-22:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/2b65506696bf83ff84dae4a57f36fcdb/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/2b65506696bf83ff84dae4a57f36fcdb/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/19474b4aaff052c346bf9996fd2674f3/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/19474b4aaff052c346bf9996fd2674f3/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5b0d1953c67bd87efd200a0b6a4e26f3/jetified-glide-4.8.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5b0d1953c67bd87efd200a0b6a4e26f3/jetified-glide-4.8.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/083b92e3bca74a7aedbe6e6310ffde15/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/083b92e3bca74a7aedbe6e6310ffde15/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/4d2371db49d5f0de38a1d3fc5da8eb11/jetified-gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/4d2371db49d5f0de38a1d3fc5da8eb11/jetified-gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/268e8162d40a61bb344f9472a7799896/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/268e8162d40a61bb344f9472a7799896/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/083b92e3bca74a7aedbe6e6310ffde15/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:12:9-40
+	android:name
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:6:9-35
+activity#com.example.musicplayersam.ui.activity.main.SplashActivity
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:13:19-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:17:27-74
+activity#com.example.musicplayersam.ui.activity.main.AppMainActivity
+ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:20:9-21:67
+	android:theme
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:21:13-65
+	android:name
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml:20:19-67
+uses-sdk
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/2b65506696bf83ff84dae4a57f36fcdb/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/2b65506696bf83ff84dae4a57f36fcdb/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/11902f3e06fb17b52c3e8ecd7b3f6a0f/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/11902f3e06fb17b52c3e8ecd7b3f6a0f/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/90edf521f899e27039b498cbbe72a7e0/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/90edf521f899e27039b498cbbe72a7e0/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/19474b4aaff052c346bf9996fd2674f3/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/19474b4aaff052c346bf9996fd2674f3/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.room:room-runtime:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/6c68d1bf508ed72be95661864b5c6b6a/room-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/6c68d1bf508ed72be95661864b5c6b6a/room-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [jp.wasabeef:glide-transformations:3.3.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/8a65a47f6be5575fdc11a32447d947a2/jetified-glide-transformations-3.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [jp.wasabeef:glide-transformations:3.3.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/8a65a47f6be5575fdc11a32447d947a2/jetified-glide-transformations-3.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5b0d1953c67bd87efd200a0b6a4e26f3/jetified-glide-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5b0d1953c67bd87efd200a0b6a4e26f3/jetified-glide-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/47eba8c9c51e987afb7716425c27b0d6/jetified-exoplayer-core-2.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/47eba8c9c51e987afb7716425c27b0d6/jetified-exoplayer-core-2.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.palette:palette-ktx:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/57a1e46840364097604581074919d9ea/palette-ktx-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette-ktx:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/57a1e46840364097604581074919d9ea/palette-ktx-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/23d0dc56087bfe234680514ec479289b/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/23d0dc56087bfe234680514ec479289b/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/7b4a9091fcf3df6a8166d5d6fccd5566/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/7b4a9091fcf3df6a8166d5d6fccd5566/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/58475ebefc9e36b3502b25e864ff3d1d/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/58475ebefc9e36b3502b25e864ff3d1d/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/273b99b89d8ae5128de940a48e7a8aae/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/273b99b89d8ae5128de940a48e7a8aae/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/644b2a09f3eb93f418da5d17491bd5df/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/644b2a09f3eb93f418da5d17491bd5df/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/03b64fcd117fb8324ca6b227735c9231/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/03b64fcd117fb8324ca6b227735c9231/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ab6c507c1dc05d80b4720e8570594b4b/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ab6c507c1dc05d80b4720e8570594b4b/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b8172786ba2b8058e4ae70e0bf803d47/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b8172786ba2b8058e4ae70e0bf803d47/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/51a88feb3fba46dd6efe158f8c521aff/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/51a88feb3fba46dd6efe158f8c521aff/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/090c0eb499e66a6e508ef56f6cfd386d/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/090c0eb499e66a6e508ef56f6cfd386d/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/6b6149ad8d9010a0421932c4a966cd9d/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/6b6149ad8d9010a0421932c4a966cd9d/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/a94ff2650831e4bd852d12f5b2d0ffc9/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/a94ff2650831e4bd852d12f5b2d0ffc9/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/105bde80547e9704e3477897b8665f0b/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/105bde80547e9704e3477897b8665f0b/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/69abd9999e6699df7c6e954eb1147c9d/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/69abd9999e6699df7c6e954eb1147c9d/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/a5f74989c3ad9a1a6075287bf27c4807/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/a5f74989c3ad9a1a6075287bf27c4807/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/2f3596b85ac68b7dac69f9acd45ebf55/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/2f3596b85ac68b7dac69f9acd45ebf55/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f3ee3c1c0a3b93a746a29872dd239b92/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f3ee3c1c0a3b93a746a29872dd239b92/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/86460dabffde8295d4ff8b8a14d04c70/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/86460dabffde8295d4ff8b8a14d04c70/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/1ce182ece2a3ec6a36accb8fa3c3bfea/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/1ce182ece2a3ec6a36accb8fa3c3bfea/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/083b92e3bca74a7aedbe6e6310ffde15/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/083b92e3bca74a7aedbe6e6310ffde15/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ee637c27266184c4bdb4bf2926561f3f/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ee637c27266184c4bdb4bf2926561f3f/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/7bd48b43e3c7828402d7871b5d82f797/sqlite-framework-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/7bd48b43e3c7828402d7871b5d82f797/sqlite-framework-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0baa27133bd0afb08c3ecb6bd3fccafd/sqlite-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/0baa27133bd0afb08c3ecb6bd3fccafd/sqlite-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f5ff9b66afb4e145c8a40c3ad043194d/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f5ff9b66afb4e145c8a40c3ad043194d/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5d9f8fae01b8102f92ae2fa73a1add06/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5d9f8fae01b8102f92ae2fa73a1add06/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f549217ffbbb583dd88f3a81d78b3935/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/f549217ffbbb583dd88f3a81d78b3935/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/4d2371db49d5f0de38a1d3fc5da8eb11/jetified-gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/4d2371db49d5f0de38a1d3fc5da8eb11/jetified-gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/cdac20535b1b1647a208d80f094e28e3/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/cdac20535b1b1647a208d80f094e28e3/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/268e8162d40a61bb344f9472a7799896/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/268e8162d40a61bb344f9472a7799896/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ea5d46b797ce853ab102367bb6e001fd/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ea5d46b797ce853ab102367bb6e001fd/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/43728d4b2e9e95be6d209f07a87bcce3/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/43728d4b2e9e95be6d209f07a87bcce3/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/db43f09ca6fc051dad5b14226976d2db/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/db43f09ca6fc051dad5b14226976d2db/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ac0d2485f2f11b72d843872fef072c2c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ac0d2485f2f11b72d843872fef072c2c/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/17bf1596730ca02a025f6e64a71386b3/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/17bf1596730ca02a025f6e64a71386b3/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5c8494ecc7bb6fee51ee5245f63438a2/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/5c8494ecc7bb6fee51ee5245f63438a2/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ed5986a306fa27dce4c18544bcae6287/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/ed5986a306fa27dce4c18544bcae6287/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml
+INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml
+		ADDED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/hayashishoukyou/Desktop/MyTest/Kotlin/MusicPlayerSam/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.9.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/47eba8c9c51e987afb7716425c27b0d6/jetified-exoplayer-core-2.9.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.9.0] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/47eba8c9c51e987afb7716425c27b0d6/jetified-exoplayer-core-2.9.0/AndroidManifest.xml:24:22-76

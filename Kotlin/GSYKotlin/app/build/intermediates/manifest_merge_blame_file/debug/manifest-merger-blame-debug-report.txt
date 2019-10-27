@@ -1,0 +1,59 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.gsykotlin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:5:5-19:19
+12        android:allowBackup="true"
+12-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.2.0-alpha02] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/56f1b27a29c16087ccbc1a895438d99d/core-1.2.0-alpha02/AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:10:9-35
+19        android:theme="@style/AppTheme" >
+19-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:11:9-40
+20        <activity android:name="com.example.gsykotlin.MainActivity" >
+20-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:12:9-18:20
+20-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:12:19-47
+21            <intent-filter>
+21-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:13:13-17:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:14:17-69
+22-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:14:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:16:17-77
+24-->/Users/hayashishoukyou/Desktop/MyTest/Kotlin/GSYKotlin/app/src/main/AndroidManifest.xml:16:27-74
+25            </intent-filter>
+26        </activity>
+27
+28        <provider
+28-->[com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:27:9-32:39
+29            android:name="com.mikepenz.iconics.IconicsContentProvider"
+29-->[com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:28:13-71
+30            android:authorities="com.example.gsykotlin.iconics.core.provider"
+30-->[com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:29:13-73
+31            android:enabled="@bool/is_iconics_content_provider_enabled"
+31-->[com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:30:13-72
+32            android:exported="false"
+32-->[com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:31:13-37
+33            android:initOrder="100" />
+33-->[com.mikepenz:iconics-core:4.0.1-b01] /Users/hayashishoukyou/.gradle/caches/transforms-2/files-2.1/b26b3e862a4191db9c6ba26aa250cdd9/iconics-core-4.0.1-b01/AndroidManifest.xml:32:13-36
+34    </application>
+35
+36</manifest>

@@ -1,0 +1,205 @@
+{
+    "code": 0,
+    "message": "ok",
+    "data": {
+        "banner": [{
+                "title": "深空无止境，吾辈的征途亦无止境！",
+                "img": "http://i0.hdslb.com/bfs/live/0e9e81a130e26f5eba791aefe3bd3ea40d703f67.jpg",
+                "remark": "深空远征",
+                "link": "http://live.bilibili.com/AppBanner/index?id=356"
+            }, 
+            {
+                "title": "深空无止境，吾辈的征途亦无止境！",
+                "img": "http://i0.hdslb.com/bfs/live/0e9e81a130e26f5eba791aefe3bd3ea40d703f67.jpg",
+                "remark": "深空远征",
+                "link": "http://live.bilibili.com/AppBanner/index?id=356"
+            }, 
+            {
+                "title": "深空无止境，吾辈的征途亦无止境！",
+                "img": "http://i0.hdslb.com/bfs/live/0e9e81a130e26f5eba791aefe3bd3ea40d703f67.jpg",
+                "remark": "深空远征",
+                "link": "http://live.bilibili.com/AppBanner/index?id=356"
+            } 
+        ],
+        "entranceIcons": [{
+                "id": 11,
+                "name": "手机直播",
+                "entrance_icon": {
+                    "src": "http://static.hdslb.com/live-static/images/mobile/android/big/xxhdpi/11_big.png?201611101426",
+                    "height": "132",
+                    "width": "132"
+                }
+            }, 
+            {
+                "id": 11,
+                "name": "手机直播",
+                "entrance_icon": {
+                    "src": "http://static.hdslb.com/live-static/images/mobile/android/big/xxhdpi/11_big.png?201611101426",
+                    "height": "132",
+                    "width": "132"
+                }
+            }, 
+            {
+                "id": 11,
+                "name": "手机直播",
+                "entrance_icon": {
+                    "src": "http://static.hdslb.com/live-static/images/mobile/android/big/xxhdpi/11_big.png?201611101426",
+                    "height": "132",
+                    "width": "132"
+                }
+            }
+        ],
+        "navigator": [{
+            "id": 11,
+            "name": "手机直播2",
+            "entrance_icon": {
+                "src": "http://static.hdslb.com/live-static/images/mobile/android/big/xxhdpi/11_big.png?201611101426",
+                "height": "132",
+                "width": "132"
+            }
+        },
+            {
+                "id": 11,
+                "name": "手机直播2",
+                "entrance_icon": {
+                    "src": "http://static.hdslb.com/live-static/images/mobile/android/big/xxhdpi/11_big.png?201611101426",
+                    "height": "132",
+                    "width": "132"
+                }
+            },
+            {
+                "id": 11,
+                "name": "手机直播2",
+                "entrance_icon": {
+                    "src": "http://static.hdslb.com/live-static/images/mobile/android/big/xxhdpi/11_big.png?201611101426",
+                    "height": "132",
+                    "width": "132"
+                }
+            }
+        ],
+        "partitions": [{
+                "partition": {
+                    "id": 9,
+                    "name": "绘画专区",
+                    "area": "draw",
+                    "sub_icon": {
+                        "src": "http://static.hdslb.com/live-static/images/mobile/android/small/xxhdpi/9.png?201611101426",
+                        "height": "63",
+                        "width": "63"
+                    },
+                    "count": 124
+                },
+                "lives": [ {
+                        "owner": {
+                            "face": "http://i0.hdslb.com/bfs/face/effbe54414657ed89b2a48fd822abeed90d67f67.jpg",
+                            "mid": 2084445,
+                            "name": "怒又ir37n"
+                        },
+                        "cover": {
+                            "src": "http://i0.hdslb.com/bfs/live/af6b3f4fbb60f18704267ac044eb7180cf372304.jpg",
+                            "height": 180,
+                            "width": 320
+                        },
+                        "title": "鱼",
+                        "room_id": 95974,
+                        "check_version": 0,
+                        "online": 881,
+                        "area": "绘画专区",
+                        "area_id": 9,
+                        "playurl": "http://xl.live-play.acgvideo.com/live-xl/862107/live_2084445_6133208.flv?wsSecret=c1407333ea7525881065bd4a16405721&wsTime=1478769661",
+                        "accept_quality": "4",
+                        "broadcast_type": 0,
+                        "is_tv": 0
+                    }, 
+                    {
+                        "owner": {
+                            "face": "http://i0.hdslb.com/bfs/face/effbe54414657ed89b2a48fd822abeed90d67f67.jpg",
+                            "mid": 2084445,
+                            "name": "怒又ir37n"
+                        },
+                        "cover": {
+                            "src": "http://i0.hdslb.com/bfs/live/af6b3f4fbb60f18704267ac044eb7180cf372304.jpg",
+                            "height": 180,
+                            "width": 320
+                        },
+                        "title": "鱼",
+                        "room_id": 95974,
+                        "check_version": 0,
+                        "online": 881,
+                        "area": "绘画专区",
+                        "area_id": 9,
+                        "playurl": "http://xl.live-play.acgvideo.com/live-xl/862107/live_2084445_6133208.flv?wsSecret=c1407333ea7525881065bd4a16405721&wsTime=1478769661",
+                        "accept_quality": "4",
+                        "broadcast_type": 0,
+                        "is_tv": 0
+                    },
+                    {
+                        "owner": {
+                            "face": "http://i0.hdslb.com/bfs/face/effbe54414657ed89b2a48fd822abeed90d67f67.jpg",
+                            "mid": 2084445,
+                            "name": "怒又ir37n"
+                        },
+                        "cover": {
+                            "src": "http://i0.hdslb.com/bfs/live/af6b3f4fbb60f18704267ac044eb7180cf372304.jpg",
+                            "height": 180,
+                            "width": 320
+                        },
+                        "title": "鱼",
+                        "room_id": 95974,
+                        "check_version": 0,
+                        "online": 881,
+                        "area": "绘画专区",
+                        "area_id": 9,
+                        "playurl": "http://xl.live-play.acgvideo.com/live-xl/862107/live_2084445_6133208.flv?wsSecret=c1407333ea7525881065bd4a16405721&wsTime=1478769661",
+                        "accept_quality": "4",
+                        "broadcast_type": 0,
+                        "is_tv": 0
+                    },{
+                        "owner": {
+                            "face": "http://i0.hdslb.com/bfs/face/effbe54414657ed89b2a48fd822abeed90d67f67.jpg",
+                            "mid": 2084445,
+                            "name": "怒又ir37n"
+                        },
+                        "cover": {
+                            "src": "http://i0.hdslb.com/bfs/live/af6b3f4fbb60f18704267ac044eb7180cf372304.jpg",
+                            "height": 180,
+                            "width": 320
+                        },
+                        "title": "鱼",
+                        "room_id": 95974,
+                        "check_version": 0,
+                        "online": 881,
+                        "area": "绘画专区",
+                        "area_id": 9,
+                        "playurl": "http://xl.live-play.acgvideo.com/live-xl/862107/live_2084445_6133208.flv?wsSecret=c1407333ea7525881065bd4a16405721&wsTime=1478769661",
+                        "accept_quality": "4",
+                        "broadcast_type": 0,
+                        "is_tv": 0
+                    },
+                    {
+                        "owner": {
+                            "face": "http://i0.hdslb.com/bfs/face/effbe54414657ed89b2a48fd822abeed90d67f67.jpg",
+                            "mid": 2084445,
+                            "name": "怒又ir37n"
+                        },
+                        "cover": {
+                            "src": "http://i0.hdslb.com/bfs/live/af6b3f4fbb60f18704267ac044eb7180cf372304.jpg",
+                            "height": 180,
+                            "width": 320
+                        },
+                        "title": "鱼",
+                        "room_id": 95974,
+                        "check_version": 0,
+                        "online": 881,
+                        "area": "绘画专区",
+                        "area_id": 9,
+                        "playurl": "http://xl.live-play.acgvideo.com/live-xl/862107/live_2084445_6133208.flv?wsSecret=c1407333ea7525881065bd4a16405721&wsTime=1478769661",
+                        "accept_quality": "4",
+                        "broadcast_type": 0,
+                        "is_tv": 0
+                    }
+                ]
+            }
+        ]
+    }
+}
