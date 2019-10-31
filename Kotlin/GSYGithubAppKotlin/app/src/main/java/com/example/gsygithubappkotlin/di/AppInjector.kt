@@ -19,9 +19,9 @@ object AppInjector {
 
     fun init(githubApp: GSYGithubApplication) {
 
-        //通过builder注入application，然后注入app
-        DaggerAppComponent.builder().application(githubApp)
-            .build().inject(githubApp)
+//        //通过builder注入application，然后注入app
+//        DaggerAppComponent.builder().application(githubApp)
+//            .build().inject(githubApp)
 
         githubApp.registerActivityLifecycleCallbacks(object : Application.ActivityLifecycleCallbacks {
             override fun onActivityCreated(activity: Activity, savedInstanceState: Bundle?) {

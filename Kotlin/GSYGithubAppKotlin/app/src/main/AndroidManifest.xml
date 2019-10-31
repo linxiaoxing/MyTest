@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".module.StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,21 +18,23 @@
             </intent-filter>
         </activity>
 
-        <service
-            android:name=".module.service.LocalService"
-            android:enabled="true"
-            android:exported="true"
-            android:process=":gsy.service"/>
+        <activity android:name=".module.StartNavigationActivity" />
 
-        <service
-            android:name=".module.service.LocalAIDLTransferService"
-            android:enabled="true"
-            android:exported="true"/>
+<!--        <service-->
+<!--            android:name=".module.service.LocalService"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="true"-->
+<!--            android:process=":remote"/>-->
 
-        <service
-            android:name=".module.service.LocalMessengerService"
-            android:enabled="true"
-            android:exported="true"/>
+<!--        <service-->
+<!--            android:name=".module.service.LocalAIDLTransferService"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="true"/>-->
+
+<!--        <service-->
+<!--            android:name=".module.service.LocalMessengerService"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="true"/>-->
     </application>
 
 </manifest>

@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.NavHostFragment
 import com.example.gsygithubappkotlin.BuildConfig
 import com.example.gsygithubappkotlin.R
+//import com.example.gsygithubappkotlin.module.service.LocalService
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.support.HasSupportFragmentInjector
 
@@ -29,7 +30,7 @@ class StartNavigationActivity : AppCompatActivity(), HasSupportFragmentInjector 
 
         if(BuildConfig.DEBUG) {
             //如果是调试版本，启动后台服务测试AIDL
-            startService(Intent(this, LocalService::class.java))
+//            startService(Intent(this, LocalService::class.java))
         }
     }
 
