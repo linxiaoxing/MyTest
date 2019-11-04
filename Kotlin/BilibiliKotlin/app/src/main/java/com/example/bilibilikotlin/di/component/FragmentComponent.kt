@@ -5,6 +5,7 @@ import com.example.bilibilikotlin.di.module.FragmentModule
 import com.example.bilibilikotlin.di.scope.FragmentScope
 import com.example.bilibilikotlin.module.app.video.CommentFragment
 import com.example.bilibilikotlin.module.app.video.SummaryFragment
+import com.example.bilibilikotlin.module.home.ChaseBangumiFragment
 import com.example.bilibilikotlin.module.home.LiveFragment
 import com.example.bilibilikotlin.module.home.RecommendFragment
 import dagger.Component
@@ -21,4 +22,6 @@ interface FragmentComponent {
     fun inject(summaryFragment: SummaryFragment)
 
     fun inject(commentFragment: CommentFragment)
+
+    fun inject(chaseBangumiFragment: ChaseBangumiFragment)
 }

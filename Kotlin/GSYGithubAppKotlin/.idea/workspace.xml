@@ -6,63 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4f58292-e8ea-48b7-891b-29f3cd4c3c0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/androidTest/java/com/example/aidlsample2/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/aidl/com/example/aidlsample2/Book.aidl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/aidl/com/example/aidlsample2/IBookManager.aidl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/aidl/com/example/aidlsample2/IOnNewBookArrivedListener.aidl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/java/com/example/aidlsample2/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/java/com/example/aidlsample2/BookManagerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/java/com/example/aidlsample2/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/app/src/test/java/com/example/aidlsample2/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../android/AidlSample2/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/aidl/com/aidl/gsygithubappkotlin/ILocalMessage.aidl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/aidl/com/aidl/gsygithubappkotlin/ILocalMessageCallBack.aidl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/aidl/com/aidl/gsygithubappkotlin/model/AIDLResultModel.aidl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/gsygithubappkotlin/di/AppInjector.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/gsygithubappkotlin/di/AppInjector.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/gsygithubappkotlin/module/StartNavigationActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/gsygithubappkotlin/module/StartNavigationActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/gsygithubappkotlin/module/service/LocalAIDLTransferService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/gsygithubappkotlin/module/service/LocalAIDLTransferService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/gsygithubappkotlin/module/service/LocalService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/gsygithubappkotlin/module/service/LocalService.kt" afterDir="false" />
-    </list>
+    <list default="true" id="b4f58292-e8ea-48b7-891b-29f3cd4c3c0a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -187,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="18" />
     <option name="y" value="23" />
     <option name="width" value="1228" />
@@ -336,7 +280,7 @@
     <frame x="18" y="23" width="1228" height="724" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" id="Project" order="1" visible="true" weight="0.25969645" />
+      <window_info id="Project" order="1" visible="true" weight="0.25969645" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -351,7 +295,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.39398733" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.39398733" />
       <window_info anchor="bottom" id="Logcat" order="8" />
       <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.32911393" />
