@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -31,6 +32,18 @@ public class MainActivity extends AppCompatActivity{
     Button openBtn2;
 
     final String[] permissions = {Manifest.permission.WRITE_EXTERNAL_STORAGE};
+
+    public class Test {
+        public void test() {
+            Context context = MainActivity.this;
+        }
+
+        public class Test2 {
+            public void test2() {
+                Context context = MainActivity.this;
+            }
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

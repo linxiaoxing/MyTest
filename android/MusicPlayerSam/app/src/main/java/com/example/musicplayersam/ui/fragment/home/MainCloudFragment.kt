@@ -1,0 +1,108 @@
+package com.example.musicplayersam.ui.fragment.home
+
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModel
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.example.musicplayersam.R
+import com.example.musicplayersam.player.MusicPlayerManager
+import com.example.musicplayersam.repository.netease.NeteaseRepository
+import com.example.musicplayersam.ui.adapter.CloudMainAdapter
+import com.example.musicplayersam.ui.fragment.base.BaseFragment
+import com.example.musicplayersam.utils.KItemViewBinder
+import com.example.musicplayersam.utils.annotation.LayoutId
+import com.example.musicplayersam.utils.component.log
+import kotlinx.android.synthetic.main.fragment_main_cloud.*
+import kotlinx.coroutines.launch
+
+@LayoutId(R.layout.fragment_main_cloud)
+class MainCloudFragment : BaseFragment() {
+
+    private lateinit var adapter: CloudMainAdapter
+
+    private val neteaseRepository by lazy { NeteaseRepository() }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        //init adapters
+        adapter = CloudMainAdapter()
+        MusicPlayerManager.playingMusic.observe(this, Observer { music ->
+            adapter.onPlayingMusicChanged(music)
+        })
+    }
+
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        recyclerView.adapter = adapter
+
+        (recyclerView.layoutManager as GridLayoutManager).apply {
+            spanCount = CloudMainAdapter.SPAN_COUNT
+            spanSizeLookup = object : GridLayoutManager.SpanSizeLookup() {
+                override fun getSpanSize(position: Int): Int {
+                    val binder = adapter.typePool.getItemViewBinder(adapter.getItemViewType(position))
+                    binder as KItemViewBinder
+                    return binder.spanSize
+                }
+
+            }
+        }
+
+        setupFastUpArrow()
+        adapter.refresh()
+
+        loadData()
+    }
+
+
+    /**
+     * setup fast up arrow which can fast scroll to top
+     */
+    private fun setupFastUpArrow() {
+        recyclerView.addOnScrollListener(object : RecyclerView.OnScrollListener() {
+            var scrolled = 0
+            override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
+                scrolled += dy
+                if (scrolled > (layoutRoot.height / 2)) {
+                    fabUp.show()
+                } else {
+                    fabUp.hide()
+                }
+            }
+        })
+        fabUp.hide()
+        fabUp.setOnClickListener {
+            (recyclerView.layoutManager as GridLayoutManager)
+                .smoothScrollToPosition(recyclerView, null, 0)
+        }
+    }
+
+    private fun loadData() {
+
+        launch {
+            try {
+                val playlist = neteaseRepository.personalizedPlaylist(limit = 6)
+                adapter.setRecommendPlaylist(playlist)
+            } catch (e: Exception) {
+                log { e.printStackTrace();"出错" }
+            }
+        }
+
+
+        launch {
+            try {
+                val songs = neteaseRepository.personalizedNewSongs()
+                adapter.setRecommendNewSongs(songs)
+            } catch (e: Exception) {
+                log { e.printStackTrace();"出错" }
+            }
+        }
+
+    }
+
+}
