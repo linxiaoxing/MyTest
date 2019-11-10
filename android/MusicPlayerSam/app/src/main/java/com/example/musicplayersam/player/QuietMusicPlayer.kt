@@ -113,8 +113,9 @@ class QuietMusicPlayer {
         MusicPlayerManager.playingMusic.postValue(music)
         LatestPlayingRepository.getInstance().hit(music)
 
-        val uri = music.getPlayUrl()
-        mediaPlayer.prepare(uri, playWhenReady)
+        val url = "http://mp3.9ku.com/m4a/411603.m4a"
+        // val uri = music.getPlayUrl()
+        mediaPlayer.prepare(url, playWhenReady)
     }
 
     init {

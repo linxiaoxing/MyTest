@@ -6,6 +6,7 @@ import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import androidx.annotation.RawRes
 import androidx.recyclerview.widget.RecyclerView
 import com.example.musicplayersam.R
 import com.example.musicplayersam.ui.fragment.base.BaseFragment
@@ -21,14 +22,19 @@ import com.example.musicplayersam.utils.submit
 import com.example.musicplayersam.utils.withBinder
 import com.example.musicplayersam.utils.withEmptyBinder
 import com.example.musicplayersam.utils.withLoadingBinder
+import com.google.gson.Gson
+import com.google.gson.JsonObject
 import kotlinx.android.synthetic.main.content_main_music_user_info.*
 import kotlinx.android.synthetic.main.fragment_main_music.*
 import kotlinx.android.synthetic.main.item_main_navigation.view.*
 import kotlinx.coroutines.launch
 
 import me.drakeet.multitype.MultiTypeAdapter
+import tech.soit.quiet.model.po.NeteasePlayListDetail
 import tech.soit.quiet.model.vo.PlayListDetail
 import tech.soit.quiet.model.vo.User
+import java.io.BufferedReader
+import java.io.InputStreamReader
 
 /**
  * main Fragment of music
@@ -128,19 +134,36 @@ class MainMusicFragment : BaseFragment() {
 
     private fun loadData() {
         launch {
-            val user = neteaseRepository.getLoginUser()
-            checkUser(user)
-            user ?: return@launch
+//            val user = neteaseRepository.getLoginUser()
+//            checkUser(user)
+//            user ?: return@launch
 
             val playLists: List<PlayListDetail>
-            try {
-                playLists = neteaseRepository.getUserPlayerList(user.getId())
-                computePlayListRange(playLists, user.getId())
-            } catch (e: Exception) {
-                Toast.makeText(requireContext(), e.message ?: "error", Toast.LENGTH_SHORT).show()
-                return@launch
-            }
+            playLists = readMarkdown(R.raw.user_playlist)
+//            try {
+//                playLists = neteaseRepository.getUserPlayerList(user.getId())
+//                computePlayListRange(playLists, user.getId())
+//            } catch (e: Exception) {
+//                Toast.makeText(requireContext(), e.message ?: "error", Toast.LENGTH_SHORT).show()
+//                return@launch
+//            }
             adapter.submit(playLists)
+        }
+    }
+
+    private fun readMarkdown(@RawRes rawId: Int): List<PlayListDetail> {
+        val stringBuilder = StringBuilder()
+        BufferedReader(InputStreamReader(resources.openRawResource(rawId))).use {
+            var line = it.readLine()
+            while (line != null) {
+                stringBuilder.append(line).append('\n')
+                line = it.readLine()
+            }
+        }
+        val response = Gson().fromJson(stringBuilder.toString().reader(), JsonObject::class.java)
+        val array = response["playlist"].asJsonArray
+        return array.map {
+            NeteasePlayListDetail(it as JsonObject)
         }
     }
 

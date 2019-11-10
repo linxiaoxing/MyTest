@@ -117,13 +117,13 @@ class MusicPlayerManagerImpl : IMusicPlayerManager {
     init {
         //restore Playlist for MusicPlayer
         GlobalScope.launch Restore@{
-            val token = KeyValue.get<String>(KEY_PLAYLIST_TOKEN)
-            val musics: List<Music>? = KeyValue.objectFromString(KeyValue.get(KEY_PLAYLIST_MUSIC_LIST)
+            val token = KeyValue.get<String>(KEY_PLAYLIST_TOKEN, String::class.java)
+            val musics: List<Music>? = KeyValue.objectFromString(KeyValue.get(KEY_PLAYLIST_MUSIC_LIST, Array<Music>::class.java)
                 ?: return@Restore)
 
             if (token != null && musics != null) {
-                val playMode = KeyValue.get<String>(KEY_PLAYLIST_PLAY_MODE)
-                val current: Music? = KeyValue.objectFromString(KeyValue.get(KEY_PLAYLIST_CURRENT))
+                val playMode = KeyValue.get<String>(KEY_PLAYLIST_PLAY_MODE, String::class.java)
+                val current: Music? = KeyValue.objectFromString(KeyValue.get(KEY_PLAYLIST_CURRENT, Music::class.java))
 
                 val restore = Playlist(token, musics)
                 restore.current = current

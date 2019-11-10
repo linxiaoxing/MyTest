@@ -25,8 +25,8 @@ object LocalScannerSettingRepository {
     init {
         //初始化读取数据
         GlobalScope.launch {
-            isFilterByDuration.postValue(KeyValue.get(KEY_IS_FILTER_BY_DURATION) ?: true)
-            folderFilterData.postValue(KeyValue.get(KEY_FILE_FILTER))
+            isFilterByDuration.postValue(KeyValue.get(KEY_IS_FILTER_BY_DURATION, Boolean::class.java) ?: true)
+            folderFilterData.postValue(KeyValue.get(KEY_FILE_FILTER, Array<SettingScannerFolderFilter>::class.java))
         }
     }
 

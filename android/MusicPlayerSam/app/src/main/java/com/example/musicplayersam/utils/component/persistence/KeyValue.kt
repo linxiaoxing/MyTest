@@ -20,8 +20,8 @@ object KeyValue : KeyValuePersistence {
 
     private val impl: KeyValuePersistence get() = QuietDatabase.instance.keyValueDao()
 
-    override fun <T> get(key: String): T? {
-        return impl.get(key)
+    override fun <T> get(key: String, typeofT: Type): T? {
+        return impl.get(key, typeofT)
     }
 
     override fun put(key: String, any: Any?) {
@@ -66,6 +66,6 @@ object KeyValue : KeyValuePersistence {
 /**
  * @see KeyValuePersistence.get
  */
-inline fun <reified T> KeyValuePersistence.get(key: String): T? {
-    return get(key)
+inline fun <reified T> KeyValuePersistence.get(key: String, typeofT: Type): T? {
+    return get(key, typeofT)
 }

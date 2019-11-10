@@ -4,5 +4,7 @@
         <domain includeSubdomains="true">music.163.com</domain>
         <domain includeSubdomains="true">p1.music.126.net</domain>
         <domain includeSubdomains="true">p2.music.126.net</domain>
+        <domain includeSubdomains="true">mp3.9ku.com</domain>
+
     </domain-config>
 </network-security-config>

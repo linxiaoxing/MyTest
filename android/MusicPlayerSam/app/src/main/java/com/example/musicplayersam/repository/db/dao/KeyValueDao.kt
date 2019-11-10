@@ -26,10 +26,10 @@ abstract class KeyValueDao : KeyValuePersistence {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     protected abstract fun insert(objectWrapperEntity: KeyValueEntity)
 
-    override fun <T> get(key: String): T? {
+    override fun <T> get(key: String, typeofT: Type): T? {
         val entity = findEntity(key) ?: return null
         try {
-            return null
+            return entity.getValue(typeofT)
         } catch (e: Exception) {
             log(LoggerLevel.ERROR) { "parse key($key) failed : ${entity.data} " }
             put(key, null)

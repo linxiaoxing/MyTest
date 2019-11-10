@@ -13,6 +13,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.musicplayersam.R
 import com.example.musicplayersam.player.MusicPlayerManager
 import com.example.musicplayersam.repository.netease.source.NeteaseGlideUrl
+import com.example.musicplayersam.ui.activity.MusicPlayerActivity
+import com.example.musicplayersam.ui.activity.cloud.CloudPlayListDetailActivity
 import com.example.musicplayersam.ui.adapter.viewholder.CloudMainNav2ViewHolder
 import com.example.musicplayersam.ui.item.MusicItemViewBinder
 import com.example.musicplayersam.ui.view.CircleOutlineProvider
@@ -86,7 +88,7 @@ class CloudMainAdapter : MultiTypeAdapter() {
     private fun onNewSongClicked(view: View, music: Music) {
         val pl = MusicPlayerManager.musicPlayer.playlist
         if (pl.token == TOKEN_NEW_SONGS && pl.current == music) {
-            // view.context.startActivity(Intent(view.context, MusicPlayerActivity::class.java))
+            view.context.startActivity(Intent(view.context, MusicPlayerActivity::class.java))
         } else {
             MusicPlayerManager.play(TOKEN_NEW_SONGS, music, newSongs!!/*newSongs can not be null*/)
         }
@@ -237,9 +239,9 @@ class CloudMainAdapter : MultiTypeAdapter() {
             holder.setPlayCount(item.playCount)
             holder.set(item.name, item.picUrl)
             holder.itemView.setOnClickListener {
-                //val intent = Intent(it.context, CloudPlayListDetailActivity::class.java)
-                //intent.putExtra(CloudPlayListDetailActivity.PARAM_ID, item.id)
-                //it.context.startActivity(intent)
+                val intent = Intent(it.context, CloudPlayListDetailActivity::class.java)
+                intent.putExtra(CloudPlayListDetailActivity.PARAM_ID, item.id)
+                it.context.startActivity(intent)
             }
 
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {

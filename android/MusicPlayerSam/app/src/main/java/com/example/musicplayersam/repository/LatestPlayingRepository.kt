@@ -69,7 +69,7 @@ class LatestPlayingRepository(
     init {
         GlobalScope.launch {
             try {
-                val m = KeyValue.objectFromString<LinkedList<Music>>(keyValue.get(KEY_PLAYING))
+                val m = KeyValue.objectFromString<LinkedList<Music>>(keyValue.get(KEY_PLAYING, Music::class.java))
                 if (m != null) {
                     musics.addAll(m)
                 }

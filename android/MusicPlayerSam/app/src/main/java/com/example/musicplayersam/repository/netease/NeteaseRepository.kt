@@ -1,18 +1,21 @@
 package com.example.musicplayersam.repository.netease
 
+import androidx.annotation.RawRes
 import com.example.musicplayersam.utils.component.persistence.KeyValue
 import com.google.gson.JsonArray
 import com.google.gson.JsonObject
 import org.jetbrains.annotations.Contract
 import androidx.lifecycle.ViewModel
-import com.example.musicplayersam.model.po.*
+import com.example.musicplayersam.R
 import com.example.musicplayersam.utils.component.log
-import com.example.musicplayersam.utils.component.persistence.get
 import com.example.musicplayersam.utils.exception.NotLoginException
+import com.google.gson.Gson
 import tech.soit.quiet.model.po.*
 import tech.soit.quiet.model.vo.Music
 import tech.soit.quiet.model.vo.PlayListDetail
 import tech.soit.quiet.model.vo.User
+import java.io.BufferedReader
+import java.io.InputStreamReader
 
 class NeteaseRepository(
     private val service: CloudMusicService = CloudMusicServiceProvider.provideCloudMusicService()
@@ -32,7 +35,7 @@ class NeteaseRepository(
      * @return null when no user login
      */
     fun getLoginUser(): User? {
-        return KeyValue.get<NeteaseUser>(KEY_USER)
+        return KeyValue.get<NeteaseUser>(KEY_USER, NeteaseUser::class.java)
     }
 
     /**
