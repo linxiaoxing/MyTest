@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
 import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
 import com.example.musicplayersam.AppContext
 import com.example.musicplayersam.R
 import com.example.musicplayersam.player.core.IMediaPlayer
@@ -18,6 +19,7 @@ import com.example.musicplayersam.utils.annotation.EnableBottomController
 import com.example.musicplayersam.utils.annotation.LayoutId
 import com.example.musicplayersam.utils.component.ImageLoader
 import com.example.musicplayersam.utils.component.log
+import com.example.musicplayersam.utils.component.support.QuietViewModelProvider
 import com.example.musicplayersam.utils.component.support.attrValue
 import com.example.musicplayersam.utils.component.support.observeNonNull
 import com.example.musicplayersam.utils.component.support.string
@@ -48,6 +50,9 @@ import kotlin.reflect.full.findAnnotation
 abstract class BaseActivity : AppCompatActivity(), CoroutineScope {
 
     private val controllerViewModel by lazy { MusicControllerViewModel() }
+
+    var viewModelFactory: ViewModelProvider.Factory = QuietViewModelProvider()
+
 
     private lateinit var job: Job
 

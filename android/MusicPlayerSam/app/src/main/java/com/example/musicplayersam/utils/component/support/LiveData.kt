@@ -1,9 +1,6 @@
 package com.example.musicplayersam.utils.component.support
 
-import androidx.lifecycle.LifecycleOwner
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.Observer
+import androidx.lifecycle.*
 
 /**
  * create MutableLiveData with initial value
@@ -26,4 +23,21 @@ fun <T> LiveData<T>.observeNonNull(lifecycleOwner: LifecycleOwner, observer: (T)
             observer(it)
         }
     })
+}
+
+/**
+ * @see Transformations.map
+ */
+fun <T, R> LiveData<T>.map(function: (T?) -> R?): LiveData<R> {
+    return Transformations.map(this, function)
+}
+
+/**
+ * the same as [map],but ignore [function] when received a null object
+ */
+fun <T, R> LiveData<T>.mapNonNull(function: (T) -> R): LiveData<R> {
+    return map { t: T? ->
+        t ?: return@map null
+        return@map function(t)
+    }
 }

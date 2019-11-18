@@ -14,7 +14,9 @@ import com.example.musicplayersam.R
 import com.example.musicplayersam.player.MusicPlayerManager
 import com.example.musicplayersam.repository.netease.source.NeteaseGlideUrl
 import com.example.musicplayersam.ui.activity.MusicPlayerActivity
+import com.example.musicplayersam.ui.activity.cloud.CloudDailyRecommendActivity
 import com.example.musicplayersam.ui.activity.cloud.CloudPlayListDetailActivity
+import com.example.musicplayersam.ui.activity.cloud.TopDetailActivity
 import com.example.musicplayersam.ui.adapter.viewholder.CloudMainNav2ViewHolder
 import com.example.musicplayersam.ui.item.MusicItemViewBinder
 import com.example.musicplayersam.ui.view.CircleOutlineProvider
@@ -191,10 +193,10 @@ class CloudMainAdapter : MultiTypeAdapter() {
                             log { "to radio" }
                         }
                         R.string.nav_daily_recommend -> {
-                            //context.startActivity(Intent(context, CloudDailyRecommendActivity::class.java))
+                            context.startActivity(Intent(context, CloudDailyRecommendActivity::class.java))
                         }
                         R.string.nav_tends -> {
-                            //context.startActivity(Intent(context, TopDetailActivity::class.java))
+                            context.startActivity(Intent(context, TopDetailActivity::class.java))
                         }
                     }
                 }

@@ -97,6 +97,10 @@ class EmptyViewBinder : KItemViewBinder<Empty>() {
 
 object Empty
 
+fun MultiTypeAdapter.setEmpty() {
+    items = listOf(Empty)
+}
+
 fun MultiTypeAdapter.submit(items: List<Any>) {
     this.items = items
     notifyDataSetChanged()

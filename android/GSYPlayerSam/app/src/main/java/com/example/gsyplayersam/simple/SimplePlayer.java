@@ -97,4 +97,5 @@ public class SimplePlayer extends AppCompatActivity{
         videoPlayer.setVideoAllCallBack(null);
         super.onBackPressed();
     }
+    
 }

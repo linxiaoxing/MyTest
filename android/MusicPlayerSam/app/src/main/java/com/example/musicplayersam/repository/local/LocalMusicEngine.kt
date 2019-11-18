@@ -7,12 +7,16 @@ import androidx.lifecycle.MutableLiveData
 import com.example.musicplayersam.repository.db.dao.LocalMusicDao
 import com.example.musicplayersam.utils.MusicConverter
 import com.example.musicplayersam.utils.component.log
+import com.example.musicplayersam.utils.component.logError
 import com.example.musicplayersam.utils.component.support.Resource
 import kotlinx.coroutines.isActive
 import java.io.File
 import kotlin.coroutines.coroutineContext
 import com.example.musicplayersam.utils.component.support.Status
 import com.example.musicplayersam.utils.getStoragePath
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 import tech.soit.quiet.model.vo.Music
 
 /**
@@ -43,7 +47,29 @@ class LocalMusicEngine(private val localMusicDao: LocalMusicDao) {
 
     val newMusic = MutableLiveData<Resource<Music>>()
 
-
+    /**
+     * start scan
+     */
+    fun scan() {
+        if (states.value == Status.LOADING) {
+            return
+        }
+        states.postValue(Status.LOADING)
+        //do scan work
+        GlobalScope.launch {
+            disks.forEach {
+                traversalDirectory(File(it))
+            }
+        }.invokeOnCompletion {
+            if (it != null && it !is CancellationException) {
+                logError(it)
+                states.postValue(Status.ERROR)
+            } else {
+                states.postValue(Status.SUCCESS)
+            }
+        }
+        return
+    }
 
     @WorkerThread
     @VisibleForTesting

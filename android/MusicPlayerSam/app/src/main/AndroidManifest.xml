@@ -3,6 +3,9 @@
     package="com.example.musicplayersam">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:name=".AppContext"
         android:allowBackup="true"
@@ -29,6 +32,21 @@
         <activity
             android:name=".ui.activity.cloud.CloudPlayListDetailActivity"
              />
+
+        <activity android:name=".ui.activity.cloud.CloudDailyRecommendActivity" />
+
+        <activity android:name=".ui.activity.cloud.TopDetailActivity" />
+
+        <activity android:name=".ui.activity.user.LoginActivity" />
+
+        <activity android:name=".ui.activity.local.LocalMusicActivity"
+            android:theme="@style/AppTheme.ColoredNavigationBar"/>
+
+        <activity android:name=".ui.activity.local.LocalMusicListActivity" />
+
+        <activity android:name=".ui.activity.local.LocalScannerActivity"
+            android:theme="@style/AppTheme.ColoredNavigationBar"/>
+
     </application>
 
 </manifest>

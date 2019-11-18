@@ -9,6 +9,8 @@ import android.widget.Toast
 import androidx.annotation.RawRes
 import androidx.recyclerview.widget.RecyclerView
 import com.example.musicplayersam.R
+import com.example.musicplayersam.ui.activity.local.LocalMusicActivity
+import com.example.musicplayersam.ui.activity.user.LoginActivity
 import com.example.musicplayersam.ui.fragment.base.BaseFragment
 import com.example.musicplayersam.ui.fragment.home.cloud.PlayListViewBinder
 import com.example.musicplayersam.ui.fragment.home.viewmodel.MainMusicViewModel
@@ -93,7 +95,7 @@ class MainMusicFragment : BaseFragment() {
 
         layoutUserInfo.setOnClickListener {
             if (!isLogin) {
-               // startActivityForResult(Intent(requireContext(), LoginActivity::class.java), REQUEST_LOGIN)
+                startActivityForResult(Intent(requireContext(), LoginActivity::class.java), REQUEST_LOGIN)
             } else {
                 log { "has been login" }
             }
@@ -103,7 +105,7 @@ class MainMusicFragment : BaseFragment() {
             imageIcon.setImageResource(R.drawable.ic_music_note_black_24dp)
             textTitle.setText(R.string.nav_local_music)
             setOnClickListener {
-                // startActivity(Intent(requireActivity(), LocalMusicActivity::class.java))
+                startActivity(Intent(requireActivity(), LocalMusicActivity::class.java))
             }
         }
 
@@ -111,7 +113,7 @@ class MainMusicFragment : BaseFragment() {
             imageIcon.setImageResource(R.drawable.ic_history_black_24dp)
             textTitle.setText(R.string.nav_history)
             setOnClickListener {
-                // startActivity(Intent(requireActivity(), LatestPlayListActivity::class.java))
+                //startActivity(Intent(requireActivity(), LatestPlayListActivity::class.java))
             }
         }
 

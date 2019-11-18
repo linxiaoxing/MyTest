@@ -34,10 +34,6 @@ private class CoroutineOnClickListener(
             isClicked = false
         }
     }
-
-
 }
-
-
 
 private class ContextScope(override val coroutineContext: CoroutineContext) : CoroutineScope
